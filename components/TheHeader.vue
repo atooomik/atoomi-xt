@@ -10,6 +10,7 @@
         <p class="text-lg text-white">atoomik</p>
       </div>
     </nuxt-link>
+    <fa-icon :icon="['fad', 'bars']" />
   </div>
 </template>
 
