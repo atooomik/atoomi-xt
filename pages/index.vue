@@ -2,7 +2,7 @@
   <div class="container max-w-full bg-atoom-gp">
     <div>
       <logo />
-      <h1 class="title my-4 text-yellow-300">
+      <h1 class="text-5xl text-yellow-300">
         atoomi-xt
       </h1>
       <h2 class="subtitle">
