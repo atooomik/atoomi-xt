@@ -1,22 +1,94 @@
 <template>
-  <div>
-    <nuxt-link to="/">
-      <div class="flex items-center py-4 bg-atoom-dk">
+  <div class="the-header bg-atoom-dk py-4">
+    <div class="the-header__brand">
+      <nuxt-link class="flex items-center" to="/">
         <img
           class="h-16"
           src="../assets/images/svgs/atoomik-logo.svg"
           alt="logo"
         />
         <p class="text-lg text-white">atoomik</p>
-      </div>
-    </nuxt-link>
-    <fa-icon :icon="['fad', 'bars']" />
+      </nuxt-link>
+    </div>
+
+    <nav>
+      <ul class="the-header__menu-dk">
+        <li class="font-bold text-lg text-white mx-4">
+          <nuxt-link to="/diseño"><p>Diseño</p></nuxt-link>
+        </li>
+        <li class="font-bold text-lg text-white mx-4">
+          <nuxt-link to="/diseño"><p>¿Cómo vamos a lograrlo?</p></nuxt-link>
+        </li>
+        <li class="font-bold text-lg text-white mx-4">
+          <nuxt-link to="/diseño"><p>Trabajemos juntos</p></nuxt-link>
+        </li>
+        <li class="font-bold text-lg text-white mx-4">
+          <nuxt-link to="/about"><p>About me</p></nuxt-link>
+        </li>
+      </ul>
+    </nav>
+
+    <button @click="openMenu()" class="the-header__menu-mb text-4xl">
+      <fa-icon class="text-white mx-4 z-10 relative" :icon="['fad', 'bars']" />
+      <nav>
+        <ul class="the-header__collapse" :class="{ 'is-expanded': isExpanded }">
+          <li class="my-4">
+            <nuxt-link
+              class="the-header__collapse-el1"
+              :class="{ 'is-expanded': isExpanded }"
+              to="/diseño"
+            >
+              <fa-icon class="mx-4" :icon="['fas', 'pen-nib']" />
+              <p class="text-3xl font-bold">Diseño</p>
+            </nuxt-link>
+          </li>
+          <li class="my-4">
+            <nuxt-link
+              class="the-header__collapse-el2"
+              :class="{ 'is-expanded': isExpanded }"
+              to="/diseño"
+            >
+              <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
+              <p class="text-3xl font-bold">¿Cómo vamos a lograrlo?</p>
+            </nuxt-link>
+          </li>
+          <li class="my-4">
+            <nuxt-link
+              class="the-header__collapse-el3"
+              :class="{ 'is-expanded': isExpanded }"
+              to="/diseño"
+            >
+              <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
+              <p class="text-3xl font-bold">Trabajemos juntos</p>
+            </nuxt-link>
+          </li>
+          <li class="my-4">
+            <nuxt-link
+              class="the-header__collapse-el4"
+              :class="{ 'is-expanded': isExpanded }"
+              to="/diseño"
+            >
+              <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
+              <p class="text-3xl font-bold">About me</p>
+            </nuxt-link>
+          </li>
+        </ul>
+      </nav>
+    </button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "TheHeader"
+  name: "TheHeader",
+  data: () => ({
+    isExpanded: false
+  }),
+  methods: {
+    openMenu() {
+      this.isExpanded = !this.isExpanded;
+    }
+  }
 };
 </script>
 
