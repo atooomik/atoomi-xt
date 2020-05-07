@@ -1,10 +1,10 @@
 <template>
-  <div class="the-header bg-atoom-dk py-4">
+  <div class="the-header h1-10 bg-atoom-dk">
     <div class="the-header__brand">
       <nuxt-link class="flex items-center" to="/">
         <img
           class="h-16"
-          src="../assets/images/svgs/atoomik-logo.svg"
+          src="../assets/images/svg-icons/atoomik-logo.svg"
           alt="logo"
         />
         <p class="text-lg text-white">atoomik</p>
@@ -92,4 +92,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+.h1-10 {
+  height: 10vh;
+}
+</style>
