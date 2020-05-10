@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-atoom-gp">
+  <section class="bg-black">
     <div class="relative overflow-hidden w-full h-64">
       <img
         class="absolute w-full h-full object-cover"
@@ -16,18 +16,25 @@
           src="../assets/images/lateral1.jpg"
           alt="profile picture"
         />
-        <div class="w-full flex my-6 text-2xl text-white">
-          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
-          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
-          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
-          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
+        <div class="w-full flex flex-col items-center my-6 text-3xl text-white">
+          <fa-icon class="my-4" :icon="['fad', 'cat-space']" />
+          <fa-icon class="my-4" :icon="['fas', 'game-console-handheld']" />
+          <fa-icon class="my-4" :icon="['fad', 'mountain']" />
+          <fa-icon class="my-4" :icon="['fad', 'cat-space']" />
         </div>
       </div>
-      <div class="lg:w-3/4 text-white text-left lg:mt-20 lg:pl-20 pl-4 pr-10">
-        <p class="slogan text-6xl">About me</p>
+      <div class="lg:w-3/4 text-white text-left lg:mt-20 lg:pl-20">
+        <p class="slogan text-6xl bg-atoom-ylw">About me</p>
         <p class="text-lg lg:mt-24">
           Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
           de BEDU Tech donde inicie mi formación como desarrollador web.
+        </p>
+        <br />
+        <p class="text-lg">
+          Antes del desarrollo, tuve la oportunidad de trabajar en atención a
+          clientes, lo que me permite entender desde una perspectiva más cercana
+          las necesidades como usuarios / clientes, y esto es algo que siempre
+          tengo en cuenta en cada proyecto en el que me involucro.
         </p>
         <br />
         <p class="text-lg">
