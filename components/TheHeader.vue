@@ -34,7 +34,7 @@
         <ul class="the-header__collapse" :class="{ 'is-expanded': isExpanded }">
           <li class="my-4">
             <nuxt-link
-              class="the-header__collapse-el4"
+              class="the-header__collapse-el1"
               :class="{ 'is-expanded': isExpanded }"
               to="/about"
             >
@@ -44,7 +44,7 @@
           </li>
           <li class="my-4">
             <nuxt-link
-              class="the-header__collapse-el1"
+              class="the-header__collapse-el2"
               :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >
@@ -54,7 +54,7 @@
           </li>
           <li class="my-4">
             <nuxt-link
-              class="the-header__collapse-el2"
+              class="the-header__collapse-el3"
               :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >
@@ -64,7 +64,7 @@
           </li>
           <li class="my-4">
             <nuxt-link
-              class="the-header__collapse-el3"
+              class="the-header__collapse-el4"
               :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >

@@ -40,7 +40,7 @@
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    background: theme("colors.atoom.bl");
+    background: theme("colors.atoom.dk");
     transition: visibility 0.3s linear 0ms, transform 0.8s ease-in-out 0s;
     transform: translateX(-100%);
     transform-origin: left;
@@ -58,7 +58,7 @@
     display: flex;
     align-items: center;
     width: max-content;
-    background: #e4c85e;
+    background: theme("colors.atoom.ylw");
     color: theme("colors.white");
     padding: theme("padding.4");
     border-radius: 5px;
