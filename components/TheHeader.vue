@@ -14,6 +14,9 @@
     <nav>
       <ul class="the-header__menu-dk">
         <li class="font-bold text-lg text-white mx-4">
+          <nuxt-link to="/about"><p>About me</p></nuxt-link>
+        </li>
+        <li class="font-bold text-lg text-white mx-4">
           <nuxt-link to="/diseño"><p>Diseño</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
@@ -22,9 +25,6 @@
         <li class="font-bold text-lg text-white mx-4">
           <nuxt-link to="/diseño"><p>Trabajemos juntos</p></nuxt-link>
         </li>
-        <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/about"><p>About me</p></nuxt-link>
-        </li>
       </ul>
     </nav>
 
@@ -32,6 +32,16 @@
       <fa-icon class="text-white mx-4 z-10 relative" :icon="['fad', 'bars']" />
       <nav>
         <ul class="the-header__collapse" :class="{ 'is-expanded': isExpanded }">
+          <li class="my-4">
+            <nuxt-link
+              class="the-header__collapse-el4"
+              :class="{ 'is-expanded': isExpanded }"
+              to="/about"
+            >
+              <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
+              <p class="text-3xl font-bold">About me</p>
+            </nuxt-link>
+          </li>
           <li class="my-4">
             <nuxt-link
               class="the-header__collapse-el1"
@@ -60,16 +70,6 @@
             >
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
               <p class="text-3xl font-bold">Trabajemos juntos</p>
-            </nuxt-link>
-          </li>
-          <li class="my-4">
-            <nuxt-link
-              class="the-header__collapse-el4"
-              :class="{ 'is-expanded': isExpanded }"
-              to="/diseño"
-            >
-              <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
-              <p class="text-3xl font-bold">About me</p>
             </nuxt-link>
           </li>
         </ul>

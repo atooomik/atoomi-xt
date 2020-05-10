@@ -352,7 +352,8 @@ module.exports = {
     minHeight: {
       "0": "0",
       full: "100%",
-      screen: "100vh"
+      screen: "100vh",
+      adjust: "90vh"
     },
     minWidth: {
       "0": "0",
@@ -737,6 +738,8 @@ module.exports = {
     transitionDuration: ["responsive"],
     transitionDelay: ["responsive"]
   },
-  corePlugins: {},
+  corePlugins: {
+    container: false
+  },
   plugins: []
 };
