@@ -1,25 +1,36 @@
 <template>
   <section class="bg-atoom-gp">
+    <div class="relative overflow-hidden w-full h-64">
+      <img
+        class="absolute w-full h-full object-cover"
+        src="../assets/images/back.jpg"
+        alt=""
+      />
+    </div>
     <div
       class="contain flex flex-col items-start min-h-adjust max-w-4xl lg:flex-row"
     >
-      <div class="mx-auto self-center lg:w-1/4">
-        <div class="mx-auto bg-atoom-ylw left-t"></div>
+      <div class="relative -mt-16 lg:h-full lg:w-1/4">
         <img
-          class="mx-auto circulo"
-          src="../assets/images/profile.jpg"
+          class="border-white border-b-4 border-r-4"
+          src="../assets/images/lateral1.jpg"
           alt="profile picture"
         />
-        <div class="mx-auto bg-atoom-ylw right-t"></div>
+        <div class="w-full flex my-6 text-2xl text-white">
+          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
+          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
+          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
+          <fa-icon class="mx-4" :icon="['fad', 'cat-space']" />
+        </div>
       </div>
       <div class="lg:w-3/4 text-white text-left lg:mt-20 lg:pl-20 pl-4 pr-10">
-        <p class="slogan text-6xl lg:mt-12">About me</p>
-        <p class="text-2xl lg:mt-12">
+        <p class="slogan text-6xl">About me</p>
+        <p class="text-lg lg:mt-24">
           Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
           de BEDU Tech donde inicie mi formación como desarrollador web.
         </p>
         <br />
-        <p class="text-2xl">
+        <p class="text-lg">
           Actualmente trabajo en dinamo Agencia de comunicación y diseño como
           Frontend Developer.
         </p>
@@ -34,20 +45,6 @@ export default {};
 
 <style lang="scss">
 .circulo {
-  width: 250px;
-  height: 250px;
-  clip-path: circle(50% at 50% 50%);
-  overflow: hidden;
-}
-
-.left-t {
-  height: 200px;
-  width: 250px;
-  clip-path: polygon(100% 50%, 0 20%, 0 80%);
-}
-.right-t {
-  height: 200px;
-  width: 250px;
-  clip-path: polygon(100% 80%, 100% 20%, 0 50%);
+  border-radius: 50%;
 }
 </style>

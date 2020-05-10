@@ -3,7 +3,7 @@ import Vue from "vue";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { faBars } from "@fortawesome/pro-duotone-svg-icons";
+import { faBars, faCatSpace } from "@fortawesome/pro-duotone-svg-icons";
 import {
   faCommentDots,
   faHandshake,
@@ -20,7 +20,8 @@ library.add(
   faHandshake,
   faPenNib,
   faUserAstronaut,
-  faLightbulbOn
+  faLightbulbOn,
+  faCatSpace
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);
