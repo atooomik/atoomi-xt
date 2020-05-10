@@ -31,7 +31,7 @@
           alt="responsiveIcon"
         />
         <figcaption>
-          <p class=" text-2xl text-white font-bold">Desarrollo</p>
+          <p class=" text-2xl text-white font-bold">Diseño</p>
         </figcaption>
       </figure>
       <figure class="w-40 text-center">
@@ -41,7 +41,7 @@
           alt="uxIcon"
         />
         <figcaption>
-          <p class=" text-2xl text-white font-bold">Desarrollo</p>
+          <p class=" text-2xl text-white font-bold">UX & UI</p>
         </figcaption>
       </figure>
     </div>

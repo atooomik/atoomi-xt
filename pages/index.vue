@@ -1,23 +1,20 @@
 <template>
-  <div class="">
+  <div>
     <the-hero />
-    <h1 class="text-5xl text-yellow-300">
-      atoomi-xt
-    </h1>
-    <h2 class="subtitle">
-      atoomik website developed with vue and nuxt
-    </h2>
+    <offer />
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
 import TheHero from "../components/TheHero.vue";
+import Offer from "../components/MainOffer.vue";
 
 export default {
   components: {
     Logo,
-    TheHero
+    TheHero,
+    Offer
   }
 };
 </script>

@@ -14,7 +14,7 @@ module.exports = {
     colors: {
       atoom: {
         ylw: "#e4c85e",
-        bl: "#2f2f2f",
+        bl: "#323b6e",
         gp: "#4c3648",
         dk: "#2f2f2f"
       },
