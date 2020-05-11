@@ -1,6 +1,13 @@
 .contain {
   width: 100%;
-  max-width: 56rem;
+  max-width: theme("screens.xl");
   margin-right: auto;
   margin-left: auto;
+}
+
+.only-dsk {
+  display: none;
+  @media (min-width: 1024px) {
+    display: block;
+  }
 }

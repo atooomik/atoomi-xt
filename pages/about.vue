@@ -7,10 +7,8 @@
         alt=""
       />
     </div>
-    <div
-      class="contain flex flex-col items-start min-h-adjust max-w-4xl lg:flex-row"
-    >
-      <div class="relative -mt-16 lg:h-full lg:w-1/4">
+    <div class="contain flex flex-col items-start min-h-adjust lg:flex-row">
+      <div class="only-dsk relative -mt-16 lg:h-full lg:w-1/4">
         <img
           class="border-white border-b-4 border-r-4"
           src="../assets/images/lateral1.jpg"
@@ -23,7 +21,9 @@
           <fa-icon class="my-4" :icon="['fad', 'cat-space']" />
         </div>
       </div>
-      <div class="lg:w-3/4 text-white text-left lg:mt-20 lg:pl-20">
+      <div
+        class="w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20"
+      >
         <p class="slogan text-6xl bg-atoom-ylw">About me</p>
         <p class="text-lg lg:mt-24">
           Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
