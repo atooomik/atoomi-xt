@@ -35,7 +35,7 @@
           <li class="my-4">
             <nuxt-link
               class="the-header__collapse-el1"
-              :class="{ 'is-expanded': isExpanded, 'is-reseting': isReset }"
+              :class="{ 'is-expanded': isExpanded }"
               to="/about"
             >
               <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
@@ -45,7 +45,7 @@
           <li class="my-4">
             <nuxt-link
               class="the-header__collapse-el2"
-              :class="{ 'is-expanded': isExpanded, 'is-reseting': isReset }"
+              :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >
               <fa-icon class="mx-4" :icon="['fas', 'pen-nib']" />
@@ -55,7 +55,7 @@
           <li class="my-4">
             <nuxt-link
               class="the-header__collapse-el3"
-              :class="{ 'is-expanded': isExpanded, 'is-reseting': isReset }"
+              :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >
               <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
@@ -65,7 +65,7 @@
           <li class="my-4">
             <nuxt-link
               class="the-header__collapse-el4"
-              :class="{ 'is-expanded': isExpanded, 'is-reseting': isReset }"
+              :class="{ 'is-expanded': isExpanded }"
               to="/diseño"
             >
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
@@ -87,12 +87,6 @@ export default {
   methods: {
     openMenu() {
       this.isExpanded = !this.isExpanded;
-      if (this.isExpanded) {
-        this.isReset = false;
-      } else {
-        this.isReset = true;
-      }
-      console.log(this.isExpanded, this.isReset);
     }
   }
 };
