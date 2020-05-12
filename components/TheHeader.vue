@@ -14,13 +14,13 @@
     <nav>
       <ul class="the-header__menu-dk">
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/about"><p>About me</p></nuxt-link>
+          <nuxt-link to="/about-me"><p>About me</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/diseño"><p>Diseño</p></nuxt-link>
+          <nuxt-link to="/ux-ui"><p>Servicios</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/diseño"><p>¿Cómo vamos a lograrlo?</p></nuxt-link>
+          <nuxt-link to="/diseño"><p>Planeación</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
           <nuxt-link to="/diseño"><p>Trabajemos juntos</p></nuxt-link>
