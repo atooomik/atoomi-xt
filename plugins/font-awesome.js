@@ -8,13 +8,17 @@ import {
   faCatSpace,
   faMountain
 } from "@fortawesome/pro-duotone-svg-icons";
+
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   faCommentDots,
   faHandshake,
   faPenNib,
   faUserAstronaut,
   faLightbulbOn,
-  faGameConsoleHandheld
+  faGameConsoleHandheld,
+  faEnvelope,
+  faMapMarkerSmile
 } from "@fortawesome/pro-solid-svg-icons";
 
 config.showMissingIcons = true;
@@ -28,7 +32,10 @@ library.add(
   faLightbulbOn,
   faCatSpace,
   faGameConsoleHandheld,
-  faMountain
+  faMountain,
+  faWhatsapp,
+  faEnvelope,
+  faMapMarkerSmile
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

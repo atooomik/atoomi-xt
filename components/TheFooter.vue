@@ -1,38 +1,44 @@
 <template>
-  <section class=" bg-atoom-dk">
+  <section class="bg-atoom-dk">
     <div class="flex flex-col lg:flex-row">
-      <div class="order-2 mx-auto my-6 text-white lg:w-1/3 lg:order-1">
-        <span class="flex mx-auto">
-          <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
+      <div
+        class="order-2 flex flex-wrap justify-center mx-auto my-6 text-white lg:w-1/3 lg:flex-col lg:order-1"
+      >
+        <div class="flex items-center mx-4 my-2">
+          <fa-icon class="mx-4 text-xl" :icon="['fab', 'whatsapp']" />
           <p>55 8735 5234</p>
-        </span>
-        <span class="flex">
-          <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
+        </div>
+        <div class="flex items-center mx-4 my-2">
+          <fa-icon class="mx-4 text-xl" :icon="['fas', 'envelope']" />
           <p>atoomik.dd@hotmail.com</p>
-        </span>
-        <span class="flex">
-          <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
+        </div>
+        <div class="flex items-center mx-4 my-2">
+          <fa-icon class="mx-4 text-xl" :icon="['fas', 'map-marker-smile']" />
           <p>Miguel Hidalgo, CDMX</p>
-        </span>
+        </div>
       </div>
-      <div class="order-3 lg:order-2 mx-auto text-white lg:w-1/3">
-        <span class="flex flex-col text-center">
-          <img
-            class="h-16"
-            src="../assets/images/svg-icons/atoomik-logo.svg"
-            alt="logo brand"
-          />
-          <p>2020 atoomik Consultoria Web</p>
-          <p>Todos los derechos reservados</p>
-        </span>
+      <div
+        class="order-3 flex flex-col text-center my-6 mx-auto text-white lg:order-2 lg:w-1/3 lg:self-center"
+      >
+        <img
+          class="h-16 mx-auto"
+          src="../assets/images/svg-icons/atoomik-logo.svg"
+          alt="logo brand"
+        />
+        <p>2020 atoomik Consultoria Web</p>
+        <p>Todos los derechos reservados</p>
       </div>
-      <div class="order-1 lg:order-3 mx-auto text-white lg:w-1/3">
-        <span class="flex lg:flex-col text-center">
-          <p>Elemnto 1</p>
-          <p>Elemnto 2</p>
-          <p>Elemnto 3</p>
-          <p>Elemnto 4</p>
-        </span>
+      <div
+        class="order-1 flex flex-wrap my-6 mx-auto text-white lg:w-1/3 lg:order-3 lg:flex-col lg:text-right"
+      >
+        <nuxt-link class="mx-8 my-2" to="/about-me"><p>About me</p></nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/diseño"><p>Diseño</p></nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/how-it-works"
+          ><p>Como vamos a lograrlo</p></nuxt-link
+        >
+        <nuxt-link class="mx-8 my-2" to="/lets-work"
+          ><p>Trabajemos juntos</p></nuxt-link
+        >
       </div>
     </div>
   </section>
