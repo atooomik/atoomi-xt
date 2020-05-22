@@ -17,7 +17,7 @@
           <nuxt-link to="/about-me"><p>About me</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/ux-ui"><p>Servicios</p></nuxt-link>
+          <nuxt-link to="/servicios"><p>Servicios</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
           <nuxt-link to="/diseño"><p>Planeación</p></nuxt-link>
