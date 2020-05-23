@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/4 flex flex-col mx-8 items-center">
+  <div class="w-64 mx-4">
     <div class="w-full relative h-64 ">
       <img
         class="scale-img absolute w-full h-full object-contain"
@@ -7,7 +7,11 @@
         alt="props-hover-card"
       />
     </div>
-    <button type="button" class="p-4 bg-atoom-ylw rounded-lg" @click="show">
+    <button
+      type="button"
+      class="p-4 text-center bg-atoom-ylw rounded-lg"
+      @click="show"
+    >
       <p v-text="title" class="text-white font-bold" />
     </button>
   </div>

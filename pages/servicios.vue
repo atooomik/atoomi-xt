@@ -13,27 +13,20 @@
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </div>
-      <div class="my-6">
-        <template v-for="(content, i) in allServices">
-          <div :key="i" class="flex justify-center w-full">
+      <div class="my-6 flex mx-auto">
+        <template v-for="(service, i) in allServices">
+          <div :key="i" class="flex flex-col justify-center">
             <services
-              :imgSrc="content.image"
-              :title="'content.title'"
+              :imgSrc="service.image"
+              :title="service.name"
               @showText="serviceDesc()"
             />
-          </div>
-          <div :key="i" class="w-1/2 mx-auto my-6">
             <div v-if="showDescription">
               <p class="slogan p-4 text-6xl bg-white">
-                {{ content.title }}
+                {{ service.name }}
               </p>
               <p class="text-white">
-                {{ content.description }}
-              </p>
-            </div>
-            <div v-else class=" w-full h-64 bg-atoom-ylw">
-              <p class="text-white text-2xl">
-                Selecciona una imagen para saber mas
+                {{ service.desc }}
               </p>
             </div>
           </div>
@@ -45,9 +38,12 @@
 
 <script>
 import Services from "../components/HoverCards.vue";
+import proyecto from "../assets/images/svg-draws/portfolio.svg";
+import experiencia from "../assets/images/svg-draws/user-flow.svg";
+import mantenimiento from "../assets/images/svg-draws/experience-design.svg";
 export default {
   name: "Servicios",
-  async asyncData() {
+  /*async asyncData() {
     const req = require.context("~/content/", true, /\.md$/, "lazy");
     const exp = /([\w-]+)\.md$/;
 
@@ -59,9 +55,32 @@ export default {
       })
     );
     return { allServices };
-  },
+  },*/
   data: () => ({
-    showDescription: false
+    showDescription: false,
+    allServices: [
+      {
+        image: proyecto,
+        name: "Desarrollo web",
+        desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        show: false
+      },
+      {
+        image: experiencia,
+        name: "User Experience",
+        desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        show: false
+      },
+      {
+        image: mantenimiento,
+        name: "Diseño",
+        desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        show: false
+      }
+    ]
   }),
   components: {
     Services
