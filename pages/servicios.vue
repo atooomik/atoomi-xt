@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="contain">
+    <div class="contain overflow-hidden">
       <div class="flex min-h-partial items-center">
         <div class="w-1/2">
           <p class="entrance slogan text-6xl border-b-4 border-atoom-dk">

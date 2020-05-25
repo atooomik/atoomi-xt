@@ -14,7 +14,7 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "~/assets/favicon.png" }]
   },
   /*
    ** Customize the progress-bar color
@@ -38,7 +38,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ["nuxt-purgecss"],
   /*
    ** Build configuration
    */
