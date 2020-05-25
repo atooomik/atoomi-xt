@@ -1,16 +1,24 @@
 <template>
-  <section class="bg-atoom-bl min-h-partial">
-    <div class="contain flex flex-col">
-      <div class="my-4">
-        <p class="slogan p-4 text-6xl">Servicios</p>
-        <p class="text-white">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+  <section>
+    <div class="contain">
+      <div class="flex min-h-partial items-center">
+        <div class="w-1/2">
+          <p class="slogan text-6xl border-b-4 border-atoom-dk">
+            Servicios
+          </p>
+        </div>
+        <div class="w-1/2">
+          <img
+            src="../assets/images/svg-draws/researching.svg"
+            alt="services asset"
+          />
+        </div>
+      </div>
+      <div>
+        <p>Un desarrollador puede hacer muchas cosas por ti,</p>
+        <p>
+          Abajo, puedes saber más a detalle los servicios en los que me
+          especializo
         </p>
       </div>
       <div class="my-6 flex justify-around">
@@ -25,14 +33,13 @@
         </template>
       </div>
       <div class="mx-auto">
-        <div v-if="showSelectedItem" class=" p-8 bg-atoom-ylw">
-          <p v-text="showSelectedItem.desc"></p>
-          <img :src="showSelectedItem.image" class="h-64" alt="" />
-        </div>
-        <div v-else class=" p-8 bg-atoom-ylw">
-          <p>
-            Selecciona un servicio para saber acerca de el
-          </p>
+        <div v-if="showSelectedItem" class="init-wrapper">
+          <p v-text="showSelectedItem.desc" class="init-el"></p>
+          <img
+            :src="showSelectedItem.image"
+            class="init-el h-64"
+            alt="selected Item Asset"
+          />
         </div>
       </div>
     </div>
@@ -48,6 +55,7 @@ export default {
   name: "Servicios",
   data: () => ({
     selectedItem: null,
+    showWrapper: false,
     allServices: [
       {
         image: proyecto,
@@ -65,7 +73,7 @@ export default {
       },
       {
         image: mantenimiento,
-        name: "Diseño",
+        name: "Mantenimiento",
         desc:
           "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         i: 2
@@ -84,10 +92,48 @@ export default {
   methods: {
     clickedItem(index) {
       this.selectedItem = index;
-      console.log(this.selectedItem);
+      this.showWrapper = true;
+      console.log(this.selectedItem, this.showWrapper);
     }
   }
 };
 </script>
 
-<style></style>
+<style lang="scss">
+@keyframes growWrapper {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    max-height: 600px;
+    opacity: 1;
+  }
+}
+.init-wrapper {
+  background: theme("backgroundColor.atoom.ylw");
+  padding: theme("padding.8");
+  opacity: 0;
+  animation: growWrapper 800ms ease forwards;
+}
+
+@keyframes showElements {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.init-el {
+  opacity: 0;
+  animation: showElements 500ms ease forwards;
+  animation-delay: 1s;
+}
+</style>
