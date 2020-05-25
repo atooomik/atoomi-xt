@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ["./assets/css/tailwind.css"],
   target: "relaxed",
   prefix: "",
   important: false,
