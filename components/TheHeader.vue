@@ -36,7 +36,7 @@
             <nuxt-link
               class="the-header__collapse-el1"
               :class="{ 'is-expanded': isExpanded }"
-              to="/about"
+              to="/about-me"
             >
               <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
               <p class="text-3xl font-bold">About me</p>
@@ -46,10 +46,10 @@
             <nuxt-link
               class="the-header__collapse-el2"
               :class="{ 'is-expanded': isExpanded }"
-              to="/diseño"
+              to="/servicios"
             >
               <fa-icon class="mx-4" :icon="['fas', 'pen-nib']" />
-              <p class="text-3xl font-bold">Diseño</p>
+              <p class="text-3xl font-bold">Servicios</p>
             </nuxt-link>
           </li>
           <li class="my-4">
