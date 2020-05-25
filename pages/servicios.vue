@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-atoom-bl">
+  <section class="bg-atoom-bl min-h-partial">
     <div class="contain flex flex-col">
       <div class="my-4">
         <p class="slogan p-4 text-6xl">Servicios</p>
@@ -13,24 +13,27 @@
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </div>
-      <div class="my-6 flex mx-auto">
+      <div class="my-6 flex justify-around">
         <template v-for="(service, i) in allServices">
-          <div :key="i" class="flex flex-col justify-center">
+          <div :key="i" class="flex">
             <services
               :imgSrc="service.image"
               :title="service.name"
-              @showText="serviceDesc()"
+              @showText="clickedItem(i)"
             />
-            <div v-if="showDescription">
-              <p class="slogan p-4 text-6xl bg-white">
-                {{ service.name }}
-              </p>
-              <p class="text-white">
-                {{ service.desc }}
-              </p>
-            </div>
           </div>
         </template>
+      </div>
+      <div class="mx-auto">
+        <div v-if="showSelectedItem" class=" p-8 bg-atoom-ylw">
+          <p v-text="showSelectedItem.desc"></p>
+          <img :src="showSelectedItem.image" class="h-64" alt="" />
+        </div>
+        <div v-else class=" p-8 bg-atoom-ylw">
+          <p>
+            Selecciona un servicio para saber acerca de el
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -43,52 +46,45 @@ import experiencia from "../assets/images/svg-draws/user-flow.svg";
 import mantenimiento from "../assets/images/svg-draws/experience-design.svg";
 export default {
   name: "Servicios",
-  /*async asyncData() {
-    const req = require.context("~/content/", true, /\.md$/, "lazy");
-    const exp = /([\w-]+)\.md$/;
-
-    const allServices = await Promise.all(
-      req.keys().map(async key => {
-        const [,] = key.match(exp) || [];
-        const { title, description, image } = await req(key);
-        return { title, description, image };
-      })
-    );
-    return { allServices };
-  },*/
   data: () => ({
-    showDescription: false,
+    selectedItem: null,
     allServices: [
       {
         image: proyecto,
         name: "Desarrollo web",
         desc:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        show: false
+          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        i: 0
       },
       {
         image: experiencia,
         name: "User Experience",
         desc:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        show: false
+          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        i: 1
       },
       {
         image: mantenimiento,
         name: "Diseño",
         desc:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        show: false
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        i: 2
       }
     ]
   }),
   components: {
     Services
   },
+  computed: {
+    showSelectedItem() {
+      if (this.selectedItem === null) return null;
+      return this.allServices[this.selectedItem] || null;
+    }
+  },
   methods: {
-    serviceDesc() {
-      this.showDescription = !this.showDescription;
-      console.log("Its working");
+    clickedItem(index) {
+      this.selectedItem = index;
+      console.log(this.selectedItem);
     }
   }
 };

@@ -1,19 +1,21 @@
 <template>
-  <div class="w-64 mx-4">
+  <div class="w-64 flex flex-col mx-4">
     <div class="w-full relative h-64 ">
       <img
-        class="scale-img absolute w-full h-full object-contain"
+        class="absolute w-full h-full object-contain"
         :src="imgSrc"
         alt="props-hover-card"
       />
     </div>
-    <button
-      type="button"
-      class="p-4 text-center bg-atoom-ylw rounded-lg"
-      @click="show"
-    >
-      <p v-text="title" class="text-white font-bold" />
-    </button>
+    <div class="w-full flex">
+      <button
+        type="button"
+        class="mx-auto px-4 py-2 text-center bg-atoom-ylw rounded-lg"
+        @click="show"
+      >
+        <p v-text="title" class="text-white font-bold" />
+      </button>
+    </div>
   </div>
 </template>
 
