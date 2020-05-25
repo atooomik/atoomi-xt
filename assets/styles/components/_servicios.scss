@@ -1,0 +1,53 @@
+@keyframes entranceTitle {
+  from {
+    transform: translateX(-150%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.entrance {
+  animation: entranceTitle 800ms ease forwards;
+}
+
+@keyframes growWrapper {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    max-height: 600px;
+    opacity: 1;
+  }
+}
+.init-wrapper {
+  background: theme("backgroundColor.atoom.ylw");
+  padding-top: theme("padding.0");
+  padding-right: theme("padding.8");
+  padding-bottom: theme("padding.8");
+  padding-left: theme("padding.8");
+  opacity: 0;
+  animation: growWrapper 800ms ease forwards;
+}
+
+@keyframes showElements {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.init-el {
+  opacity: 0;
+  animation: showElements 500ms ease forwards;
+  animation-delay: 1s;
+}

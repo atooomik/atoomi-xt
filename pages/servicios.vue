@@ -3,7 +3,7 @@
     <div class="contain">
       <div class="flex min-h-partial items-center">
         <div class="w-1/2">
-          <p class="slogan text-6xl border-b-4 border-atoom-dk">
+          <p class="entrance slogan text-6xl border-b-4 border-atoom-dk">
             Servicios
           </p>
         </div>
@@ -32,8 +32,14 @@
           </div>
         </template>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto my-6">
         <div v-if="showSelectedItem" class="init-wrapper">
+          <div class="init-el w-1/2 mx-auto bg-atoom-dk">
+            <p
+              v-text="showSelectedItem.name"
+              class="text-5xl text-atoom-ylw text-center"
+            ></p>
+          </div>
           <p v-text="showSelectedItem.desc" class="init-el"></p>
           <img
             :src="showSelectedItem.image"
@@ -98,42 +104,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-@keyframes growWrapper {
-  from {
-    max-height: 0;
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  to {
-    max-height: 600px;
-    opacity: 1;
-  }
-}
-.init-wrapper {
-  background: theme("backgroundColor.atoom.ylw");
-  padding: theme("padding.8");
-  opacity: 0;
-  animation: growWrapper 800ms ease forwards;
-}
-
-@keyframes showElements {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-.init-el {
-  opacity: 0;
-  animation: showElements 500ms ease forwards;
-  animation-delay: 1s;
-}
-</style>
