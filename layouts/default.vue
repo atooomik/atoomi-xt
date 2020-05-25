@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-header />
-    <nuxt class="p1-10" />
+    <nuxt class="pt1-10" />
     <the-footer />
   </div>
 </template>
@@ -18,8 +18,3 @@ export default {
   }
 };
 </script>
-<style>
-.p1-10 {
-  padding-top: 10vh;
-}
-</style>

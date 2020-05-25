@@ -24,7 +24,8 @@ const head = {
 let css = [
   "~assets/styles/base.scss",
   "~assets/styles/components.scss",
-  "~assets/styles/utilities.scss"
+  "~assets/styles/utilities.scss",
+  "~assets/styles/custom-utilities.scss"
 ];
 
 /*

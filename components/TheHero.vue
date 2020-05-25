@@ -1,7 +1,9 @@
 <template>
   <section class="flex flex-col w-full lg:flex-row bg-atoom-gp">
     <div class="introduction lg:w-3/4 h3-4">
-      <div class="flex flex-col justify-center items-center w-full h-full">
+      <div
+        class="opacityIn flex flex-col justify-center items-center w-full h-full"
+      >
         <img
           class="w-40 my-8"
           src="../assets/images/svg-icons/atoomik-logo.svg"

@@ -3,10 +3,8 @@
   max-width: theme("screens.xl");
   margin-right: auto;
   margin-left: auto;
-  @media (min-width: 1024px) {
-    padding-right: theme("padding.8");
-    padding-left: theme("padding.8");
-  }
+  padding-left: theme("padding.8");
+  padding-right: theme("padding.8");
 }
 
 .only-dsk {
