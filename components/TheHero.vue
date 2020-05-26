@@ -17,31 +17,19 @@
       class="aside flex justify-around items-center h1-4 w-full lg:w-1/4 lg:flex-col bg-atoom-ylw"
     >
       <figure class="w-40 text-center">
-        <img
-          class="h-20 m-auto"
-          src="../assets/images/svg-icons/desarrollo.svg"
-          alt="developIcon"
-        />
+        <svg-icon class="h-20 w-20 m-auto" name="desarrollo" />
         <figcaption>
           <p class="text-2xl text-white font-bold">Desarrollo</p>
         </figcaption>
       </figure>
       <figure class="w-40 text-center">
-        <img
-          class="h-20 m-auto"
-          src="../assets/images/svg-icons/diseño-web.svg"
-          alt="responsiveIcon"
-        />
+        <svg-icon class="h-20 w-20 m-auto" name="diseno-web" />
         <figcaption>
           <p class=" text-2xl text-white font-bold">Diseño</p>
         </figcaption>
       </figure>
       <figure class="w-40 text-center">
-        <img
-          class="h-20 m-auto"
-          src="../assets/images/svg-icons/ux-ui.svg"
-          alt="uxIcon"
-        />
+        <svg-icon class="h-20 w-20 m-auto" name="ux-ui" />
         <figcaption>
           <p class=" text-2xl text-white font-bold">UX & UI</p>
         </figcaption>

@@ -80,7 +80,8 @@ const nuxtConfig = {
     scss: ["~/assets/styles/_variables.scss"]
   },
   svgSprite: {
-    input: "./assets/icons/svg/"
+    input: "~/assets/sprite/svg",
+    output: "~/assets/sprite/gen"
   },
   purgeCSS: {
     mode: "webpack",
