@@ -42,7 +42,7 @@
         </template>
       </div>
       <div class="mx-auto my-6">
-        <div v-if="showSelectedItem" class="init-wrapper">
+        <div v-if="openWrapper" class="init-wrapper">
           <div class="init-el w-1/2 mx-auto bg-atoom-dk">
             <p
               v-text="showSelectedItem.name"
@@ -70,6 +70,7 @@ export default {
   name: "Servicios",
   data: () => ({
     selectedItem: null,
+    openWrapper: false,
     allServices: [
       {
         image: proyecto,
@@ -103,6 +104,7 @@ export default {
   methods: {
     clickedItem(index) {
       this.selectedItem = index;
+      this.openWrapper = !this.openWrapper;
       console.log(this.selectedItem, this.showWrapper);
     }
   }
