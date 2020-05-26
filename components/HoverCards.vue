@@ -1,12 +1,13 @@
 <template>
-  <div id="parent" class="main-card flex flex-col mx-4">
-    <!--<div class="parent-scale w-full relative h-64">
+  <div id="parent" class="main-card flex flex-col mx-auto">
+    <div class="parent-scale w-full lg:w-68 lg:h-64">
       <img
-        class="absolute w-full h-full object-contain"
+        class=" max-w-xl w-full h-full object-contain"
         :src="imgSrc"
         alt="props-hover-card"
       />
-    </div>-->
+    </div>
+    -
     <button
       type="button"
       class="parent-shadow mx-auto px-4 py-2 text-center rounded-lg bg-atoom-ylw"

@@ -1,4 +1,4 @@
-@keyframes entranceTitle {
+@keyframes leftEntrance {
   from {
     transform: translateX(-150%);
   }
@@ -8,8 +8,26 @@
   }
 }
 
+@keyframes upEntrance {
+  from {
+    transform: translateY(-150%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
 .entrance {
-  animation: entranceTitle 800ms ease forwards;
+  transform: translateY(-150%);
+  animation: upEntrance 800ms ease forwards;
+  animation-delay: 1s;
+
+  @media (min-width: 1024px) {
+    transform: translateX(-150%);
+    animation: leftEntrance 800ms ease forwards;
+    animation-delay: 1s;
+  }
 }
 
 @keyframes growWrapper {

@@ -1,29 +1,38 @@
 <template>
   <section>
-    <div class="contain overflow-hidden">
-      <div class="flex min-h-partial items-center">
-        <div class="w-1/2">
+    <div class="contain">
+      <div
+        class="flex flex-col justify-around min-h-adjust lg:flex-row lg:items-center"
+      >
+        <div class="my-8  overflow-hidden lg:w-1/2">
           <p class="entrance slogan text-6xl border-b-4 border-atoom-dk">
             Servicios
           </p>
         </div>
-        <div class="w-1/2">
+        <div class="my-8 lg:w-1/2">
           <img
+            class="max-w-xl w-full mx-auto"
             src="../assets/images/svg-draws/researching.svg"
             alt="services asset"
           />
         </div>
       </div>
       <div>
-        <p>Un desarrollador puede hacer muchas cosas por ti,</p>
         <p>
-          Abajo, puedes saber más a detalle los servicios en los que me
-          especializo
+          Un desarrollador puedo hacer muchas cosas por ti, si ya tienes una
+          idea en mente podemos hacerla realidad, si aun no la tienes, pero
+          sabes lo que quieres lograr, tambien podemos hacer grandes cosas,
+          sumando tús ideas con mi experiencia, lograremos grandes cosas.
+        </p>
+        <br />
+        <p>
+          Abajo, puedes conocer más a detalle de las caracterizticas y objetivos
+          que establezco en cada proyecto que dejan en mis manos.
         </p>
       </div>
-      <div class="my-6 flex justify-around">
+      <div class="my-6 flex flex-col lg:justify-around lg:flex-row">
         <template v-for="(service, i) in allServices">
-          <div :key="i" class="flex">
+          <div :key="i" class="w-flex m-8 md:m-12 lg:my-0 lg:mx-8">
             <services
               :imgSrc="service.image"
               :title="service.name"
@@ -61,28 +70,24 @@ export default {
   name: "Servicios",
   data: () => ({
     selectedItem: null,
-    showWrapper: false,
     allServices: [
       {
         image: proyecto,
         name: "Desarrollo web",
         desc:
-          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        i: 0
+          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
         image: experiencia,
         name: "User Experience",
         desc:
-          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        i: 1
+          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
         image: mantenimiento,
         name: "Mantenimiento",
         desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        i: 2
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }
     ]
   }),
@@ -98,7 +103,6 @@ export default {
   methods: {
     clickedItem(index) {
       this.selectedItem = index;
-      this.showWrapper = true;
       console.log(this.selectedItem, this.showWrapper);
     }
   }
