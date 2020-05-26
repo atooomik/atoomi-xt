@@ -69,6 +69,7 @@ const nuxtConfig = {
   plugins: ["~/plugins/font-awesome.js"],
   watch: ["./tailwind.config.js"],
   build: {
+    transpile: ["vue-carousel"],
     postcss: postCSSConfig,
     parallel: !isProd,
     cache: !isProd,

@@ -22,7 +22,8 @@
     "@nuxtjs/svg-sprite": "^0.4.10",
     "markdown-it": "^11.0.0",
     "markdown-it-container": "^2.0.0",
-    "nuxt": "^2.12.2"
+    "nuxt": "^2.12.2",
+    "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.0.0",

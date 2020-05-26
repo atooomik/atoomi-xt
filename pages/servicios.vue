@@ -31,7 +31,27 @@
         </p>
       </div>
       <div class="my-6 flex flex-col lg:justify-around lg:flex-row">
-        <template v-for="(service, i) in allServices">
+        <vue-carousel
+          :per-page-custom="[
+            [0, 1],
+            [640, 2],
+            [1024, 3]
+          ]"
+          autoplay
+        >
+          <vue-slide
+            v-for="(service, i) in allServices"
+            :key="i"
+            class="w-flex m-8 md:m-12 lg:my-0 lg:mx-8"
+          >
+            <services
+              :imgSrc="service.image"
+              :title="service.name"
+              @showText="clickedItem(i)"
+            />
+          </vue-slide>
+        </vue-carousel>
+        <!--<template v-for="(service, i) in allServices">
           <div :key="i" class="w-flex m-8 md:m-12 lg:my-0 lg:mx-8">
             <services
               :imgSrc="service.image"
@@ -39,10 +59,10 @@
               @showText="clickedItem(i)"
             />
           </div>
-        </template>
+        </template>-->
       </div>
       <div class="mx-auto my-6">
-        <div v-if="openWrapper" class="init-wrapper">
+        <div v-if="showSelectedItem" class="init-wrapper">
           <div class="init-el w-1/2 mx-auto bg-atoom-dk">
             <p
               v-text="showSelectedItem.name"
@@ -62,6 +82,9 @@
 </template>
 
 <script>
+import VueCarousel from "vue-carousel/src/Carousel.vue";
+import VueSlide from "vue-carousel/src/Slide.vue";
+
 import Services from "../components/HoverCards.vue";
 import proyecto from "../assets/images/svg-draws/portfolio.svg";
 import experiencia from "../assets/images/svg-draws/user-flow.svg";
@@ -93,7 +116,9 @@ export default {
     ]
   }),
   components: {
-    Services
+    Services,
+    VueCarousel,
+    VueSlide
   },
   computed: {
     showSelectedItem() {
