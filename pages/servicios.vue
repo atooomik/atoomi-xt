@@ -45,26 +45,10 @@
             <services
               :imgSrc="service.image"
               :title="service.name"
-              @showText="clickedItem(i)"
+              :description="service.desc"
             />
           </vue-slide>
         </vue-carousel>
-      </div>
-      <div class="mx-auto my-6">
-        <div v-if="showSelectedItem" class="init-wrapper">
-          <div class="init-el w-1/2 mx-auto bg-atoom-dk">
-            <p
-              v-text="showSelectedItem.name"
-              class="text-5xl text-atoom-ylw text-center"
-            ></p>
-          </div>
-          <p v-text="showSelectedItem.desc" class="init-el"></p>
-          <img
-            :src="showSelectedItem.image"
-            class="init-el h-64"
-            alt="selected Item Asset"
-          />
-        </div>
       </div>
     </div>
   </section>
@@ -78,6 +62,7 @@ import Services from "../components/HoverCards.vue";
 import proyecto from "../assets/images/svg-draws/portfolio.svg";
 import experiencia from "../assets/images/svg-draws/user-flow.svg";
 import mantenimiento from "../assets/images/svg-draws/experience-design.svg";
+import responsive from "../assets/images/svg-draws/responsive-devices.svg";
 export default {
   name: "Servicios",
   data: () => ({
@@ -86,7 +71,7 @@ export default {
     allServices: [
       {
         image: proyecto,
-        name: "Desarrollo web",
+        name: "Diseño web",
         desc:
           "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
@@ -98,7 +83,13 @@ export default {
       },
       {
         image: mantenimiento,
-        name: "Mantenimiento",
+        name: "Escalabilidad",
+        desc:
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        image: responsive,
+        name: "Responsividad",
         desc:
           "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }

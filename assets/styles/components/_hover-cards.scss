@@ -1,0 +1,41 @@
+#parent {
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+#parent:hover .parent-scale {
+  transform: scale(1.08);
+}
+
+#parent:hover .parent-color {
+  color: theme("colors.white");
+  z-index: 5;
+}
+#parent,
+.parent-scale,
+.parent-color {
+  transition: 0.4s ease-out;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  width: theme("width.full");
+  height: theme("height.full");
+}
+
+@keyframes showOpacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#parent:hover .overlay {
+  animation: showOpacity 500ms ease-out forwards;
+}
