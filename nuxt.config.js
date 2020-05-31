@@ -54,6 +54,7 @@ let modules = ["@nuxtjs/svg-sprite"];
 
 if (isProd) {
   modules = modules.concat(productionModules);
+  css = css.concat(developmentModules);
 } else {
   css = css.concat(developmentModules);
   modules = modules.concat(developmentModules);
