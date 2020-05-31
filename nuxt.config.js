@@ -46,7 +46,7 @@ const postCSSConfig = {
   }
 };
 
-const productionModules = ["nuxt-purgecss"];
+const productionModules = [];
 
 const developmentModules = [];
 
@@ -83,8 +83,8 @@ const nuxtConfig = {
   svgSprite: {
     input: "~/assets/sprite/svg",
     output: "~/assets/sprite/gen"
-  },
-  purgeCSS: {
+  }
+  /*purgeCSS: {
     mode: "webpack",
     whitelist: ["svg-inline--fa"],
     whitelistPatterns: [
@@ -93,7 +93,7 @@ const nuxtConfig = {
       /-fa$/
     ],
     whitelistPatternsChildren: []
-  }
+  }*/
 };
 
 export default nuxtConfig;
