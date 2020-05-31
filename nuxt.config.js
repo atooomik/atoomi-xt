@@ -33,6 +33,7 @@ let css = [
  */
 const postCSSConfig = {
   plugins: {
+    "postcss-import": {},
     tailwindcss: {},
     cssnano: {
       preset: "default",
