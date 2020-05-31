@@ -1,6 +1,6 @@
 <template>
   <div id="parent" class="main-card flex flex-col mx-auto">
-    <div class="parent-scale w-full lg:w-68 lg:h-64">
+    <div class="parent-scale h-64 lg:w-68 lg:h-68">
       <img
         class=" max-w-xl w-full h-full object-contain"
         :src="imgSrc"

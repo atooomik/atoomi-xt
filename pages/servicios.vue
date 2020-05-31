@@ -37,13 +37,11 @@
             [640, 2],
             [1024, 3]
           ]"
-          autoplay
+          :autoplay="false"
+          :navigationEnabled="true"
+          :loop="true"
         >
-          <vue-slide
-            v-for="(service, i) in allServices"
-            :key="i"
-            class="w-flex m-8 md:m-12 lg:my-0 lg:mx-8"
-          >
+          <vue-slide v-for="(service, i) in allServices" :key="i" class="p-4">
             <services
               :imgSrc="service.image"
               :title="service.name"
@@ -51,15 +49,6 @@
             />
           </vue-slide>
         </vue-carousel>
-        <!--<template v-for="(service, i) in allServices">
-          <div :key="i" class="w-flex m-8 md:m-12 lg:my-0 lg:mx-8">
-            <services
-              :imgSrc="service.image"
-              :title="service.name"
-              @showText="clickedItem(i)"
-            />
-          </div>
-        </template>-->
       </div>
       <div class="mx-auto my-6">
         <div v-if="showSelectedItem" class="init-wrapper">
