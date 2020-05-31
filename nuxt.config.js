@@ -46,7 +46,7 @@ const postCSSConfig = {
   }
 };
 
-const productionModules = [];
+const productionModules = ["tailwindcss"];
 
 const developmentModules = [];
 
