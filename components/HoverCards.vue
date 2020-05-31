@@ -1,7 +1,7 @@
 <template>
   <div
     id="parent"
-    class="relative flex flex-col mx-auto border-2 rounded-lg overflow-hidden lg:w-68 hover:shadow-lgz"
+    class="relative flex flex-col mx-auto border-2 rounded-lg overflow-hidden hover:shadow-lg"
   >
     <div class="parent-scale h-64 lg:h-68">
       <img

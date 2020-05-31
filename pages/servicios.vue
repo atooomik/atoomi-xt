@@ -35,7 +35,7 @@
           :per-page-custom="[
             [0, 1],
             [640, 2],
-            [1024, 3]
+            [1280, 4]
           ]"
           :autoplay="false"
           :navigationEnabled="true"
