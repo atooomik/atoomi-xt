@@ -45,7 +45,7 @@ const postCSSConfig = {
   }
 };
 
-let modules = ["@nuxtjs/svg-sprite", "tailwindcss"];
+let modules = ["@nuxtjs/svg-sprite"];
 
 const nuxtConfig = {
   mode: "universal",
