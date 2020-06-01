@@ -1,6 +1,6 @@
 <template>
   <section class="bg-atoom-bl">
-    <div class="contain min-h-partial flex flex-col items-center lg:flex-row">
+    <div class="contain min-h-adjust flex flex-col items-center lg:flex-row">
       <div class="w-3/4 lg:w-1/2 text-white text-center px-4 lg:text-left">
         <p class="slogan my-8 text-4xl lg:text-6xl leading-tight">
           ¿Y
