@@ -4,15 +4,21 @@
       <div
         class="flex flex-col justify-around min-h-adjust lg:flex-row lg:items-center"
       >
-        <div class="my-8  overflow-hidden lg:w-1/2">
-          <p class="entrance slogan text-6xl border-b-4 border-atoom-dk">
+        <div class="w-full my-8 overflow-hidden lg:w-1/2">
+          <p class="entrance slogan text-6xl">
             Servicios
           </p>
+          <p class="entrance">
+            Todo lo que hay detras de un gran sitio.
+          </p>
+          <span class="flex">
+            <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
+          </span>
         </div>
         <div class="my-8 lg:w-1/2">
           <img
             class="max-w-xl w-full mx-auto"
-            src="../assets/images/svg-draws/researching.svg"
+            src="../assets/images/svg-draws/feeling-proud.svg"
             alt="services asset"
           />
         </div>
@@ -37,7 +43,8 @@
             [640, 2],
             [1280, 4]
           ]"
-          :autoplay="false"
+          paginationColor="#e4c85e"
+          paginationActiveColor="#2f2f2f"
           :navigationEnabled="true"
           :loop="true"
         >
@@ -84,6 +91,12 @@ export default {
       {
         image: mantenimiento,
         name: "Escalabilidad",
+        desc:
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        image: responsive,
+        name: "Responsividad",
         desc:
           "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },

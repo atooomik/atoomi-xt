@@ -29,6 +29,32 @@
     animation-delay: 1s;
   }
 }
+@keyframes downloadingArrow {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+}
+
+.down-arrow {
+  display: none;
+  position: absolute;
+  color: theme("colors.atoom.ylw");
+  font-size: theme("fontSize.4xl");
+  margin-top: theme("margin.10");
+  margin-left: theme("margin.32");
+  animation: downloadingArrow 3s linear infinite;
+  z-index: 5;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
 
 @keyframes growWrapper {
   from {
