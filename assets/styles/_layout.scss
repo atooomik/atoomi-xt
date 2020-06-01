@@ -1,3 +1,15 @@
+// Cursores
+
+$arrow: url(../images/svg-icons/arrow.svg);
+$click: url(../images/svg-icons/arrow-click.svg);
+
+html {
+  cursor: $arrow, default;
+}
+a {
+  cursor: $click, default;
+}
+
 .contain {
   width: 100%;
   max-width: theme("screens.xl");
