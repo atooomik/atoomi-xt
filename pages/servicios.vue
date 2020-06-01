@@ -5,13 +5,15 @@
         class="flex flex-col justify-around min-h-adjust lg:flex-row lg:items-center"
       >
         <div class="w-full my-8 overflow-hidden lg:w-1/2">
-          <p class="entrance slogan text-6xl">
-            Servicios
-          </p>
-          <p class="entrance">
-            Todo lo que hay detras de un gran sitio.
-          </p>
-          <span class="flex">
+          <span class="entrance">
+            <p class="slogan text-xxl">
+              Servicios
+            </p>
+            <p class="text-lg">
+              Más que el desarrollo de un sitio web.
+            </p>
+          </span>
+          <span class="flex justify-center">
             <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
           </span>
         </div>
@@ -25,15 +27,17 @@
       </div>
       <div>
         <p>
-          Un desarrollador puedo hacer muchas cosas por ti, si ya tienes una
-          idea en mente podemos hacerla realidad, si aun no la tienes, pero
-          sabes lo que quieres lograr, tambien podemos hacer grandes cosas,
-          sumando tús ideas con mi experiencia, lograremos grandes cosas.
+          ¿Mis servicios? Desarrollar páginas web, sin embargo el verdadero
+          valor de un desarrollo que queda en mis manos, son los pequeños
+          detalles que pueden convertirlo en una de las mejores inversiones que
+          realices, que tengan lo necesario para satisfacer tus necesidades
+          actuales, pero sin que esto signifique que tu sitio no pueda crecer
+          contigo en el futuro y que puedas contar con él en todo momento.
         </p>
         <br />
         <p>
-          Abajo, puedes conocer más a detalle de las caracterizticas y objetivos
-          que establezco en cada proyecto que dejan en mis manos.
+          Aquí puedo explicarte más específicamente de aquello que le da valor a
+          mis proyectos.
         </p>
       </div>
       <div class="my-6 flex flex-col lg:justify-around lg:flex-row">
@@ -56,6 +60,13 @@
             />
           </vue-slide>
         </vue-carousel>
+      </div>
+      <div class="flex">
+        <button
+          class="mx-auto my-8 px-4 py-2 text-2xl text-atoom-gp border-4 border-atoom-gp rounded-lg transition-all duration-300 hover:text-white hover:bg-atoom-gp"
+        >
+          Comencemos
+        </button>
       </div>
     </div>
   </section>

@@ -27,7 +27,7 @@
         class="w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20"
       >
         <p
-          class="slogan text-6xl text-black -mx-8  bg-atoom-ylw lg:pl-4 lg:mx-0
+          class="slogan text-xxl text-black -mx-8  bg-atoom-ylw lg:pl-4 lg:mx-0
         "
         >
           About me
