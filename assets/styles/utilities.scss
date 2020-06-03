@@ -1,1 +1,15 @@
 @tailwind utilities;
+
+.h3-4 {
+  height: 70vh;
+  @media (min-width: 1024px) {
+    height: 90vh;
+  }
+}
+
+.h1-4 {
+  height: 20vh;
+  @media (min-width: 1024px) {
+    height: 90vh;
+  }
+}
