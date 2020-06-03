@@ -54,11 +54,7 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "About me"
+};
 </script>
-
-<style lang="scss">
-.circulo {
-  border-radius: 50%;
-}
-</style>
