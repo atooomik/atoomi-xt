@@ -35,8 +35,8 @@
         <nuxt-link class="mx-8 my-2" to="/servicios"
           ><p>Servicios</p></nuxt-link
         >
-        <nuxt-link class="mx-8 my-2" to="/how-it-works"
-          ><p>Como vamos a lograrlo</p></nuxt-link
+        <nuxt-link class="mx-8 my-2" to="/estrategia"
+          ><p>Estrategía</p></nuxt-link
         >
         <nuxt-link class="mx-8 my-2" to="/lets-work"
           ><p>Trabajemos juntos</p></nuxt-link

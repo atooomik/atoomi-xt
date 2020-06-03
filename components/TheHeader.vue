@@ -16,7 +16,7 @@
           <nuxt-link to="/servicios"><p>Servicios</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/diseño"><p>Planeación</p></nuxt-link>
+          <nuxt-link to="/estrategía"><p>Estrategía</p></nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
           <nuxt-link to="/diseño"><p>Trabajemos juntos</p></nuxt-link>
@@ -52,10 +52,10 @@
             <nuxt-link
               class="the-header__collapse-el3"
               :class="{ 'is-expanded': isExpanded }"
-              to="/diseño"
+              to="/estrategía"
             >
               <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
-              <p class="text-3xl font-bold">¿Cómo vamos a lograrlo?</p>
+              <p class="text-3xl font-bold">Estrategía</p>
             </nuxt-link>
           </li>
           <li class="my-4">
