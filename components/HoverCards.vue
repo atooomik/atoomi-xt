@@ -18,7 +18,7 @@
     </button> -->
     <p
       v-text="title"
-      class="parent-color my-4 text-xl text-black font-bold text-center"
+      class="py-4 text-center text-xl text-white font-bold border-2 border-atoom-gp bg-atoom-gp"
     />
     <div class="overlay">
       <p class="text-black p-4" v-text="description"></p>
