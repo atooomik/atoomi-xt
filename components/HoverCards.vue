@@ -1,7 +1,7 @@
 <template>
   <div
     id="parent"
-    class="relative flex flex-col mx-auto border-2 rounded-lg overflow-hidden hover:shadow-lg"
+    class="relative flex flex-col mx-auto rounded-lg overflow-hidden shadow-lg"
   >
     <div class="parent-scale h-64 lg:h-68">
       <img
@@ -21,7 +21,7 @@
       class="parent-color my-4 text-xl text-black font-bold text-center"
     />
     <div class="overlay">
-      <p class="text-white p-4" v-text="description"></p>
+      <p class="text-black p-4" v-text="description"></p>
     </div>
   </div>
 </template>

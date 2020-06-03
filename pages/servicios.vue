@@ -6,7 +6,7 @@
       >
         <div class="w-full my-8 overflow-hidden lg:w-1/2">
           <span class="entrance">
-            <p class="slogan text-xxl">
+            <p class="slogan text-4xl lg:text-xxl">
               Servicios
             </p>
             <p class="text-lg">

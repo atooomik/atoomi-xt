@@ -1,41 +1,38 @@
 #parent {
+  border-top: 4px solid #4c3648;
+  border-bottom: 4px solid #4c3648;
+  transition: all 0.2s ease-in-out;
+
   &:hover {
+    border-right: 4px solid #4c3648;
+    border-left: 4px solid #4c3648;
     transform: scale(1.05);
   }
 }
 
-#parent:hover .parent-scale {
-  transform: scale(1.08);
-}
-
-#parent:hover .parent-color {
-  color: theme("colors.white");
+.parent-scale {
+  padding: 0.5rem;
   z-index: 5;
+  transform: translateY(0);
+  transition: all 0.4s ease-in-out;
 }
-#parent,
-.parent-scale,
-.parent-color {
-  transition: 0.4s ease-out;
+#parent:hover .parent-scale {
+  transform: translateY(-20%);
+  padding: 4rem;
 }
 
 .overlay {
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
+  padding-top: theme("padding.36");
   width: theme("width.full");
   height: theme("height.full");
-}
-
-@keyframes showOpacity {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
+  transition: all 0.1s ease-in-out 0.2s;
+  @media (min-width: 1024px) {
+    padding-top: theme("padding.40");
   }
 }
 
 #parent:hover .overlay {
-  animation: showOpacity 500ms ease-out forwards;
+  opacity: 1;
 }
