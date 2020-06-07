@@ -2,10 +2,10 @@
   <section class="bg-atoom-bl">
     <div class="w-full">
       <div
-        class="flex flex-col justify-between min-h-adjust lg:flex-row lg:items-center"
+        class="flex flex-col justify-between min-h-adjust lg:flex-row-reverse lg:items-center"
       >
         <div class="w-full my-8 overflow-hidden lg:w-1/2">
-          <div class="entrance px-8 text-center lg:text-right text-white">
+          <div class="entrance px-8 text-center lg:text-left text-white">
             <p class="slogan text-4xl lg:text-xxl">
               Estrategia
             </p>
