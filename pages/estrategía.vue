@@ -36,7 +36,7 @@
             <p class="slogan mt-8 mb-16º text-3xl text-center">¿Cual es el proceso?</p>
           </div>
           <div class="relative flex flex-col lg:flex-row lg:min-h-partial">
-            <div class="w-1/2 flex flex-col justify-center py-4 px-8">
+            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
               <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
                 <p
                   class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
@@ -51,12 +51,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-1/2 py-4 px-8 self-center">
+            <div class="lg:w-1/2 py-4 px-8 self-center">
               <img src="../assets/images/svg-draws/meeting.svg" alt="people on a meeting" />
             </div>
           </div>
           <div class="relative flex flex-col lg:flex-row-reverse lg:min-h-partial">
-            <div class="w-1/2 flex flex-col justify-center py-4 px-8">
+            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
               <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
                 <p
                   class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-ylw rounded-full lg:w-16 lg:h-16 lg:mx-0"
@@ -71,12 +71,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-1/2 py-4 px-8">
+            <div class="lg:w-1/2 py-4 px-8">
               <img src="../assets/images/svg-draws/making-a-deal.svg" alt="people closing deal" />
             </div>
           </div>
           <div class="flex flex-col my-8 lg:flex-row lg:min-h-partial">
-            <div class="w-1/2 flex flex-col justify-center py-4 px-8">
+            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
               <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
                 <p
                   class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
@@ -91,12 +91,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-1/2 py-4 px-8">
+            <div class="lg:w-1/2 py-4 px-8">
               <img src="../assets/images/svg-draws/prototyping.svg" alt="people on a meeting" />
             </div>
           </div>
           <div class="flex flex-col my-8 lg:flex-row-reverse lg:min-h-partial">
-            <div class="w-1/2 flex flex-col justify-center py-4 px-8">
+            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
               <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
                 <p
                   class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-ylw rounded-full lg:w-16 lg:h-16 lg:mx-0"
@@ -111,12 +111,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-1/2 py-4 px-8">
+            <div class="lg:w-1/2 py-4 px-8">
               <img src="../assets/images/svg-draws/programming.svg" alt="people closing deal" />
             </div>
           </div>
           <div class="flex flex-col my-8 lg:flex-row lg:min-h-partial">
-            <div class="w-1/2 flex flex-col justify-center py-4 px-8">
+            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
               <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
                 <p
                   class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
@@ -131,7 +131,7 @@
                 </p>
               </div>
             </div>
-            <div class="w-1/2 py-4 px-8">
+            <div class="lg:w-1/2 py-4 px-8">
               <img src="../assets/images/svg-draws/done.svg" alt="people on a meeting" />
             </div>
           </div>
