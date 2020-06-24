@@ -33,108 +33,40 @@
               todo momento.
             </p>
             <br />
-            <p class="slogan mt-8 mb-16º text-3xl text-center">¿Cual es el proceso?</p>
+            <p class="slogan mt-8 mb-16º text-5xl text-center">¿Cual es el proceso?</p>
           </div>
-          <div class="relative flex flex-col lg:flex-row lg:min-h-partial">
-            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-              <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
-                <p
-                  class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
-                >1</p>
-                <p class="pt-4 pb-2 px-6 text-atoom-bl text-3xl font-bold">Meeting</p>
+          <vue-carousel
+            :per-page-custom="[
+                [0, 1]
+              ]"
+            paginationActiveColor="#2f2f2f"
+            :navigationEnabled="true"
+            :loop="true"
+          >
+            <vue-slide v-for="(item, i) in process" :key="i">
+              <div class="relative flex flex-col lg:flex-row lg:min-h-partial">
+                <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
+                  <div class="slogan flex items-center mx-auto mb-6 rounded-lg bg-white lg:ml-0">
+                    <p
+                      :class="`mx-auto pr-4 text-5xl font-bold text-atoom-${item.theme} border-r-8 border-atoom-${item.theme} lg:mx-0`"
+                    >{{item.step}}</p>
+                    <p class="pl-6 text-atoom-dk text-5xl font-bold">
+                      {{item.title}}
+                      <span
+                        :class="`text-atoom-${item.theme} text-5xl font-bold`"
+                      >{{item.name}}</span>
+                    </p>
+                  </div>
+                  <div class="p-4">
+                    <p>{{item.desc}}</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/2 py-4 px-8 self-center">
+                  <img :src="`images/svg-draws/${item.img}`" alt="people on a meeting" />
+                </div>
               </div>
-              <div class="p-4 rounded-lg">
-                <p>
-                  Aquí puedo explicarte más específicamente de aquello que le da
-                  valor a mis proyectos. Aquí puedo explicarte más
-                  específicamente de aquello que le da valor a mis proyectos.
-                </p>
-              </div>
-            </div>
-            <div class="lg:w-1/2 py-4 px-8 self-center">
-              <img src="../assets/images/svg-draws/meeting.svg" alt="people on a meeting" />
-            </div>
-          </div>
-          <div class="relative flex flex-col lg:flex-row-reverse lg:min-h-partial">
-            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-              <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
-                <p
-                  class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-ylw rounded-full lg:w-16 lg:h-16 lg:mx-0"
-                >2</p>
-                <p class="pt-4 pb-2 px-6 text-atoom-ylw text-3xl font-bold">Propuesta</p>
-              </div>
-              <div class="p-4 rounded-lg">
-                <p>
-                  Aquí puedo explicarte más específicamente de aquello que le da
-                  valor a mis proyectos. Aquí puedo explicarte más
-                  específicamente de aquello que le da valor a mis proyectos.
-                </p>
-              </div>
-            </div>
-            <div class="lg:w-1/2 py-4 px-8">
-              <img src="../assets/images/svg-draws/making-a-deal.svg" alt="people closing deal" />
-            </div>
-          </div>
-          <div class="flex flex-col my-8 lg:flex-row lg:min-h-partial">
-            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-              <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
-                <p
-                  class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
-                >3</p>
-                <p class="pt-4 pb-2 px-6 text-atoom-bl text-3xl font-bold">Diseño</p>
-              </div>
-              <div class="p-4 rounded-lg">
-                <p>
-                  Aquí puedo explicarte más específicamente de aquello que le da
-                  valor a mis proyectos. Aquí puedo explicarte más
-                  específicamente de aquello que le da valor a mis proyectos.
-                </p>
-              </div>
-            </div>
-            <div class="lg:w-1/2 py-4 px-8">
-              <img src="../assets/images/svg-draws/prototyping.svg" alt="people on a meeting" />
-            </div>
-          </div>
-          <div class="flex flex-col my-8 lg:flex-row-reverse lg:min-h-partial">
-            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-              <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
-                <p
-                  class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-ylw rounded-full lg:w-16 lg:h-16 lg:mx-0"
-                >4</p>
-                <p class="pt-4 pb-2 px-6 text-atoom-ylw text-3xl font-bold">Desarrollo y testing</p>
-              </div>
-              <div class="p-4 rounded-lg">
-                <p>
-                  Aquí puedo explicarte más específicamente de aquello que le da
-                  valor a mis proyectos. Aquí puedo explicarte más
-                  específicamente de aquello que le da valor a mis proyectos.
-                </p>
-              </div>
-            </div>
-            <div class="lg:w-1/2 py-4 px-8">
-              <img src="../assets/images/svg-draws/programming.svg" alt="people closing deal" />
-            </div>
-          </div>
-          <div class="flex flex-col my-8 lg:flex-row lg:min-h-partial">
-            <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-              <div class="relative flex items-center mx-auto mb-6 rounded-lg bg-white">
-                <p
-                  class="absolute top-w-50 left-w-50 w-12 h-12 flex justify-center items-center mx-auto text-2xl text-white font-bold bg-atoom-bl rounded-full lg:w-16 lg:h-16 lg:mx-0"
-                >5</p>
-                <p class="pt-4 pb-2 px-6 text-atoom-bl text-3xl font-bold">Launch</p>
-              </div>
-              <div class="p-4 rounded-lg">
-                <p>
-                  Aquí puedo explicarte más específicamente de aquello que le da
-                  valor a mis proyectos. Aquí puedo explicarte más
-                  específicamente de aquello que le da valor a mis proyectos.
-                </p>
-              </div>
-            </div>
-            <div class="lg:w-1/2 py-4 px-8">
-              <img src="../assets/images/svg-draws/done.svg" alt="people on a meeting" />
-            </div>
-          </div>
+            </vue-slide>
+          </vue-carousel>
           <div class="flex">
             <button
               class="mx-auto my-8 px-4 py-2 text-2xl text-atoom-gp border-4 border-atoom-gp rounded-lg transition-all duration-300 hover:text-white hover:bg-atoom-gp"
@@ -147,9 +79,25 @@
 </template>
 
 <script>
+import VueCarousel from "vue-carousel/src/Carousel.vue";
+import VueSlide from "vue-carousel/src/Slide.vue";
+import { process } from "../assets/data/proceso.json";
+
 export default {
-  name: "Estrategia"
+  name: "Estrategia",
+  asyncData() {
+    return {
+      process
+    };
+  },
+  data() {
+    return {
+      process: []
+    };
+  },
+  components: {
+    VueCarousel,
+    VueSlide
+  }
 };
 </script>
-
-<style></style>

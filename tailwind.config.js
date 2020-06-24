@@ -15,6 +15,7 @@ module.exports = {
       atoom: {
         ylw: "#e4c85e",
         bl: "#323b6e",
+        blSoft: "#5c67ac",
         gp: "#4c3648",
         dk: "#2f2f2f"
       },

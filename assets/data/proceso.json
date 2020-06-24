@@ -1,0 +1,44 @@
+{
+  "process": [
+    {
+      "step": 1,
+      "title": "La primera ",
+      "name": "Reunion",
+      "desc": "Nos reuniremos para discutir las necesidades de tu proyecto, lo más importante para mi saber lo que quieres hacer con tu idea, asi podre pensar como ejecutarla mejor.",
+      "img": "meeting.svg",
+      "theme": "ylw"
+    },
+    {
+      "step": 2,
+      "title": "Te entregare la primera ",
+      "name": "Propuesta",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "making-a-deal.svg",
+      "theme": "blSoft"
+    },
+    {
+      "step": 3,
+      "title": "Comienzo con el ",
+      "name": "Diseño",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "prototyping.svg",
+      "theme": "gp"
+    },
+    {
+      "step": 4,
+      "title": "Hora de darle vida con el",
+      "name": "Desarrollo",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "programming.svg",
+      "theme": "ylw"
+    },
+    {
+      "step": 5,
+      "title": "¡Estamos listos! ",
+      "name": "Lanzamiento",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "done.svg",
+      "theme": "blSoft"
+    }
+  ]
+}
