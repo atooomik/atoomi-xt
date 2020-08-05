@@ -17,10 +17,12 @@ module.exports = {
         bl: "#323b6e",
         blSoft: "#5c67ac",
         gp: "#4c3648",
-        dk: "#2f2f2f"
+        dk: "#2f2f2f",
+        semiGray: "#f7f8fa"
       },
       black: "#000",
       white: "#fff",
+      transparent: "transparent",
 
       gray: {
         100: "#f7fafc",
@@ -294,6 +296,9 @@ module.exports = {
     height: theme => ({
       auto: "auto",
       ...theme("spacing"),
+      "1/10": "10vh",
+      "1/5": "20vh",
+      "4/5": "80vh",
       full: "100%",
       screen: "100vh"
     }),
@@ -598,6 +603,7 @@ module.exports = {
       "-full": "-100%",
       "-1/2": "-50%",
       "1/2": "50%",
+      "2/3": "75%",
       full: "100%"
     }),
     skew: {

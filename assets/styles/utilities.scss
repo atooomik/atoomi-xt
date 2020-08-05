@@ -1,27 +1,14 @@
 @tailwind utilities;
 
-.h3-4 {
-  height: 70vh;
-  @media (min-width: 1024px) {
-    height: 90vh;
-  }
-}
+//Gradientes
 
-.h1-4 {
-  height: 20vh;
-  @media (min-width: 1024px) {
-    height: 90vh;
-  }
-}
-
-.top-w-50 {
-  top: -2rem;
-}
-
-.left-w-50 {
-  left: 0;
-  right: 0;
-  @media (min-width: 1024px) {
-    left: -2rem;
-  }
+.gp-grad {
+  background-image: linear-gradient(
+    to left top,
+    #e4c85e,
+    #e89d62,
+    #d37c70,
+    #ab6579,
+    #795672
+  );
 }

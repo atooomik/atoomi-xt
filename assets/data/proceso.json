@@ -4,15 +4,15 @@
       "step": 1,
       "title": "La primera ",
       "name": "Reunion",
-      "desc": "Nos reuniremos para discutir las necesidades de tu proyecto, lo más importante para mi saber lo que quieres hacer con tu idea, asi podre pensar como ejecutarla mejor.",
+      "desc": "Nos reuniremos para discutir las necesidades de tu proyecto, lo más importante para mi es saber lo que quieres hacer con tu idea, asi podre pensar como ejecutarla mejor.",
       "img": "meeting.svg",
       "theme": "ylw"
     },
     {
       "step": 2,
-      "title": "Te entregare la primera ",
+      "title": "Presentación formal de la ",
       "name": "Propuesta",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "desc": "Vamos a definir presupuesto, costo de servicios y metodologia de trabajo, todas las cosas necesarias para que tu proyecto sea como lo habias pensado, a partir de este momento somos un equipo.",
       "img": "making-a-deal.svg",
       "theme": "blSoft"
     },
@@ -20,7 +20,7 @@
       "step": 3,
       "title": "Comienzo con el ",
       "name": "Diseño",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "desc": "Vamos a diseñar juntos, tu me dices como esperas que se vea y yo lo transformare en algo estetico y funcional. Lo revisaremos y haremos los ajustes que sean necesarios para que quedes satisfecho y lo podamos volver realidad.",
       "img": "prototyping.svg",
       "theme": "gp"
     },
@@ -28,7 +28,7 @@
       "step": 4,
       "title": "Hora de darle vida con el",
       "name": "Desarrollo",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "desc": "Llegó el momento de programar y darle vida al proyecto en el que hemos estado trabajando, yo me encargo de que funcione a la perfección, hare todas las pruebas necesarias para estar seguro de que tu sitio sea genial en cualquier dispositivo",
       "img": "programming.svg",
       "theme": "ylw"
     },
@@ -37,7 +37,7 @@
       "title": "¡Estamos listos! ",
       "name": "Lanzamiento",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "img": "done.svg",
+      "img": "completed.svg",
       "theme": "blSoft"
     }
   ]
