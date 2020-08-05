@@ -2,26 +2,17 @@
   <section class="bg-atoom-ylw">
     <div>
       <div class="w-full">
-        <div
-          class="flex flex-col justify-between min-h-adjust lg:flex-row lg:items-center"
-        >
+        <div class="h-screen flex flex-col justify-between lg:flex-row lg:items-center">
           <div class="w-full my-8 overflow-hidden lg:w-1/2">
             <div class="entrance px-8 text-center lg:text-right">
-              <p class="slogan text-4xl lg:text-xxl">
-                Servicios
-              </p>
-              <p class="text-lg">
-                Más que el desarrollo de un sitio web.
-              </p>
+              <p class="text-4xl font-thin lg:text-xxl">Servicios</p>
+              <p class="text-lg">Más que el desarrollo de un sitio web.</p>
             </div>
             <span class="flex justify-center">
-              <fa-icon
-                class="down-arrow"
-                :icon="['fad', 'angle-double-down']"
-              />
+              <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
             </span>
           </div>
-          <div class="flex p-8 bg-white min-h-partial lg:w-1/2 lg:min-h-adjust">
+          <div class="flex p-8 min-h-partial lg:w-1/2 lg:min-h-adjust">
             <img
               class="max-w-xl w-full mx-auto"
               src="../assets/images/svg-draws/feeling-proud.svg"
@@ -61,11 +52,7 @@
               :navigationEnabled="true"
               :loop="true"
             >
-              <vue-slide
-                v-for="(service, i) in allServices"
-                :key="i"
-                class="p-4"
-              >
+              <vue-slide v-for="(service, i) in allServices" :key="i" class="p-4">
                 <services
                   :imgSrc="service.image"
                   :title="service.name"
@@ -77,9 +64,7 @@
           <div class="flex">
             <button
               class="mx-auto my-8 px-4 py-2 text-2xl text-atoom-gp border-4 border-atoom-gp rounded-lg transition-all duration-300 hover:text-white hover:bg-atoom-gp"
-            >
-              Comencemos
-            </button>
+            >Comencemos</button>
           </div>
         </div>
       </div>
@@ -106,51 +91,51 @@ export default {
         image: proyecto,
         name: "Diseño web",
         desc:
-          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         image: experiencia,
         name: "User Experience",
         desc:
-          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         image: mantenimiento,
         name: "Escalabilidad",
         desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         image: responsive,
         name: "Responsividad",
         desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         image: responsive,
         name: "Responsividad",
         desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      }
-    ]
+          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+    ],
   }),
   components: {
     Services,
     VueCarousel,
-    VueSlide
+    VueSlide,
   },
   computed: {
     showSelectedItem() {
       if (this.selectedItem === null) return null;
       return this.allServices[this.selectedItem] || null;
-    }
+    },
   },
   methods: {
     clickedItem(index) {
       this.selectedItem = index;
       this.openWrapper = !this.openWrapper;
       console.log(this.selectedItem, this.showWrapper);
-    }
-  }
+    },
+  },
 };
 </script>

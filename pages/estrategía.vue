@@ -1,17 +1,17 @@
 <template>
   <section class="bg-atoom-bl">
     <div class="w-full">
-      <div class="flex flex-col justify-between min-h-adjust lg:flex-row-reverse lg:items-center">
+      <div class="h-screen flex flex-col justify-between lg:flex-row-reverse lg:items-center">
         <div class="w-full my-8 overflow-hidden lg:w-1/2">
           <div class="entrance px-8 text-center lg:text-left text-white">
-            <p class="slogan text-4xl lg:text-xxl">Estrategia</p>
+            <p class="font-thin text-4xl lg:text-xxl">Estrategia</p>
             <p class="text-lg">O sobre como vamos a crear un proyecto ganador.</p>
           </div>
           <span class="flex justify-center">
             <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
           </span>
         </div>
-        <div class="flex p-8 bg-white min-h-partial lg:w-1/2 lg:min-h-adjust">
+        <div class="flex p-8 min-h-partial lg:w-1/2 lg:min-h-adjust">
           <img
             class="max-w-xl w-full mx-auto"
             src="../assets/images/svg-draws/product-plan.svg"
@@ -33,7 +33,7 @@
               todo momento.
             </p>
             <br />
-            <p class="slogan mt-8 mb-16º text-5xl text-center">¿Cual es el proceso?</p>
+            <p class="my-8 text-6xl font-thin text-center">¿Cual es el proceso?</p>
           </div>
           <vue-carousel
             :per-page-custom="[
@@ -42,15 +42,16 @@
             paginationActiveColor="#2f2f2f"
             :navigationEnabled="true"
             :loop="true"
+            class="bg-atoom-semiGray rounded-lg"
           >
             <vue-slide v-for="(item, i) in process" :key="i">
-              <div class="relative flex flex-col lg:flex-row lg:min-h-partial">
-                <div class="lg:w-1/2 flex flex-col justify-center py-4 px-8">
-                  <div class="slogan flex items-center mx-auto mb-6 rounded-lg bg-white lg:ml-0">
-                    <p
-                      :class="`mx-auto pr-4 text-5xl font-bold text-atoom-${item.theme} border-r-8 border-atoom-${item.theme} lg:mx-0`"
-                    >{{item.step}}</p>
-                    <p class="pl-6 text-atoom-dk text-5xl font-bold">
+              <div class="flex flex-col p-4 lg:flex-row">
+                <div class="lg:w-1/2 flex flex-col py-4 pr-8">
+                  <div class="flex flex-col">
+                    <figure :class="`flex w-16 h-16 bg-atoom-${item.theme} rounded-full`">
+                      <p class="mx-auto text-5xl font-bold text-white">{{item.step}}</p>
+                    </figure>
+                    <p class="text-atoom-dk text-5xl">
                       {{item.title}}
                       <span
                         :class="`text-atoom-${item.theme} text-5xl font-bold`"
@@ -87,17 +88,17 @@ export default {
   name: "Estrategia",
   asyncData() {
     return {
-      process
+      process,
     };
   },
   data() {
     return {
-      process: []
+      process: [],
     };
   },
   components: {
     VueCarousel,
-    VueSlide
-  }
+    VueSlide,
+  },
 };
 </script>

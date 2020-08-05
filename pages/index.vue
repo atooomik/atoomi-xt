@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="gp-grad">
     <the-hero />
     <offer />
   </div>
@@ -14,7 +14,7 @@ export default {
   components: {
     Logo,
     TheHero,
-    Offer
-  }
+    Offer,
+  },
 };
 </script>
