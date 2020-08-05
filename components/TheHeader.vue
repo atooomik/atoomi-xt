@@ -1,5 +1,12 @@
 <template>
-  <div class="the-header h1-10 bg-atoom-dk">
+  <div
+    id="header"
+    class="the-header h-1/10"
+    :class="{
+      'bg-transparent': scrollState === 'isInTop',
+      'bg-atoom-dk': scrollState === 'isFarFromTop',
+      }"
+  >
     <div class="the-header__brand z-15">
       <nuxt-link class="flex items-center" to="/">
         <svg-icon class="h-16 w-16" name="atoomik-logo" />
@@ -10,16 +17,24 @@
     <nav>
       <ul class="the-header__menu-dk">
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/about-me"><p>About me</p></nuxt-link>
+          <nuxt-link to="/about-me">
+            <p>About me</p>
+          </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/servicios"><p>Servicios</p></nuxt-link>
+          <nuxt-link to="/servicios">
+            <p>Servicios</p>
+          </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/estrategía"><p>Estrategía</p></nuxt-link>
+          <nuxt-link to="/estrategía">
+            <p>Estrategía</p>
+          </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/diseño"><p>Trabajemos juntos</p></nuxt-link>
+          <nuxt-link to="/diseño">
+            <p>Trabajemos juntos</p>
+          </nuxt-link>
         </li>
       </ul>
     </nav>
@@ -78,18 +93,25 @@
 export default {
   name: "TheHeader",
   data: () => ({
-    isExpanded: false
+    isExpanded: false,
+    scrollState: "idle",
   }),
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  },
   methods: {
+    updateScroll() {
+      if (window.scrollY < 100) {
+        this.scrollState = "isInTop";
+        console.log(this.scrollState);
+      } else if (window.scrollY > 100) {
+        this.scrollState = "isFarFromTop";
+        console.log(this.scrollState);
+      }
+    },
     openMenu() {
       this.isExpanded = !this.isExpanded;
-    }
-  }
+    },
+  },
 };
 </script>
-
-<style lang="scss">
-.h1-10 {
-  height: 10vh;
-}
-</style>
