@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-header />
-    <nuxt class="pt1-10" />
+    <nuxt />
     <the-footer />
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   name: "DefaultLayout",
   components: {
     TheHeader,
-    TheFooter
-  }
+    TheFooter,
+  },
 };
 </script>
