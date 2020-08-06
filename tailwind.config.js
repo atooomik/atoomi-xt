@@ -18,7 +18,10 @@ module.exports = {
         blSoft: "#5c67ac",
         gp: "#4c3648",
         dk: "#2f2f2f",
-        semiGray: "#f7f8fa"
+        dkOverlay: "rgba(0, 0, 0, 0.5)",
+        semiGray: "#f7f8fa",
+        salmn: "#ff6b81",
+        salmnSoft: "rgba(255,107,129,0.2)"
       },
       black: "#000",
       white: "#fff",
@@ -156,7 +159,10 @@ module.exports = {
       "48": "12rem",
       "56": "14rem",
       "64": "16rem",
-      "68": "20rem"
+      "68": "20rem",
+      "72": "24rem",
+      "76": "28rem",
+      "80": "32rem"
     },
     backgroundColor: theme => theme("colors"),
     backgroundOpacity: theme => theme("opacity"),

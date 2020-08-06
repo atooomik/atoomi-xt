@@ -7,7 +7,9 @@ import {
   faBars,
   faCatSpace,
   faMountain,
-  faAngleDoubleDown
+  faAngleDoubleDown,
+  faChevronDoubleRight,
+  faChevronDoubleLeft
 } from "@fortawesome/pro-duotone-svg-icons";
 
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -37,7 +39,9 @@ library.add(
   faWhatsapp,
   faEnvelope,
   faMapMarkerSmile,
-  faAngleDoubleDown
+  faAngleDoubleDown,
+  faChevronDoubleRight,
+  faChevronDoubleLeft
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);
