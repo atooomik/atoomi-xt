@@ -10,6 +10,10 @@
   }
 }
 
+#parent {
+  background: theme("colors.atoom.semiGray");
+}
+
 .parent-scale {
   padding: 0.5rem;
   z-index: 5;

@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-atoom-ylw">
+  <section class="ylw-bl-grad">
     <div>
       <div class="w-full">
         <div class="h-screen flex flex-col justify-between lg:flex-row lg:items-center">
           <div class="w-full my-8 overflow-hidden lg:w-1/2">
             <div class="entrance px-8 text-center lg:text-right">
               <p class="text-4xl font-thin lg:text-xxl">Servicios</p>
-              <p class="text-lg">Más que el desarrollo de un sitio web.</p>
+              <p class="text-lg text-white">Más que el desarrollo de un sitio web.</p>
             </div>
             <span class="flex justify-center">
               <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
@@ -22,10 +22,10 @@
         </div>
       </div>
       <!--Page content-->
-      <div class="w-full p-8 bg-white">
+      <div class="w-full p-8">
         <div class="contain">
           <div>
-            <p>
+            <p class="text-white">
               ¿Mis servicios? Desarrollar páginas web, sin embargo el verdadero
               valor de un desarrollo que queda en mis manos, son los pequeños
               detalles que pueden convertirlo en una de las mejores inversiones

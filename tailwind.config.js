@@ -19,7 +19,7 @@ module.exports = {
         gp: "#4c3648",
         dk: "#2f2f2f",
         dkOverlay: "rgba(0, 0, 0, 0.5)",
-        semiGray: "#f7f8fa",
+        semiGray: "rgba(226,232,240,0.5)",
         salmn: "#ff6b81",
         salmnSoft: "rgba(255,107,129,0.2)"
       },
@@ -217,6 +217,7 @@ module.exports = {
       full: "5px 5px 25px 0 rgba(46,61,73,.2)",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
+      transp: "10px 10px 1px 1px rgba(226,232,240,.5)",
       none: "none"
     },
     container: {},
