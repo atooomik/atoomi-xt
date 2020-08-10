@@ -1,5 +1,5 @@
 <template>
-  <div class="gp-grad">
+  <div class="ylw-gp-grad">
     <the-hero />
     <offer />
   </div>

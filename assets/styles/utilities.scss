@@ -2,7 +2,7 @@
 
 //Gradientes
 
-.gp-grad {
+.ylw-gp-grad {
   background-image: linear-gradient(
     to left top,
     #e4c85e,
@@ -13,7 +13,7 @@
   );
 }
 
-.bl-grad {
+.bl-gp-grad {
   background-image: linear-gradient(
     to left bottom,
     #323b6e,
@@ -21,5 +21,27 @@
     #493659,
     #4c3650,
     #4c3648
+  );
+}
+
+.ylw-bl-grad {
+  background-image: linear-gradient(
+    to left top,
+    #e4c85e,
+    #e98d5e,
+    #c86072,
+    #87497d,
+    #323b6e
+  );
+}
+
+.sln-gp-grad {
+  background-image: linear-gradient(
+    to left top,
+    #4c3648,
+    #744460,
+    #a15072,
+    #d05c7d,
+    #ff6b81
   );
 }
