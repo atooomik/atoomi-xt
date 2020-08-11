@@ -35,12 +35,10 @@
         <nuxt-link class="mx-8 my-2" to="/servicios"
           ><p>Servicios</p></nuxt-link
         >
-        <nuxt-link class="mx-8 my-2" to="/estrategia"
+        <nuxt-link class="mx-8 my-2" to="/estrategía"
           ><p>Estrategía</p></nuxt-link
         >
-        <nuxt-link class="mx-8 my-2" to="/lets-work"
-          ><p>Trabajemos juntos</p></nuxt-link
-        >
+        <nuxt-link class="mx-8 my-2" to="/"><p>Trabajemos juntos</p></nuxt-link>
       </div>
     </div>
   </section>

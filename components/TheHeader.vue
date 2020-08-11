@@ -4,8 +4,8 @@
     class="the-header h-1/10"
     :class="{
       'bg-transparent': scrollState === 'isInTop',
-      'bg-atoom-dk': scrollState === 'isFarFromTop',
-      }"
+      'bg-atoom-dk': scrollState === 'isFarFromTop'
+    }"
   >
     <div class="the-header__brand z-15">
       <nuxt-link class="flex items-center" to="/">
@@ -32,7 +32,7 @@
           </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/diseño">
+          <nuxt-link to="/">
             <p>Trabajemos juntos</p>
           </nuxt-link>
         </li>
@@ -94,7 +94,7 @@ export default {
   name: "TheHeader",
   data: () => ({
     isExpanded: false,
-    scrollState: "idle",
+    scrollState: "idle"
   }),
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
@@ -111,7 +111,7 @@ export default {
     },
     openMenu() {
       this.isExpanded = !this.isExpanded;
-    },
-  },
+    }
+  }
 };
 </script>
