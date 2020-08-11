@@ -11,19 +11,19 @@
       <figure class="w-40 text-center">
         <svg-icon class="h-20 w-20 m-auto" name="desarrollo" />
         <figcaption>
-          <p class="text-2xl text-white font-bold">Desarrollo</p>
+          <p class="text-2xl text-white font-normal">Desarrollo</p>
         </figcaption>
       </figure>
       <figure class="w-40 text-center">
         <svg-icon class="h-20 w-20 m-auto" name="diseno-web" />
         <figcaption>
-          <p class="text-2xl text-white font-bold">Diseño</p>
+          <p class="text-2xl text-white font-normal">Diseño</p>
         </figcaption>
       </figure>
       <figure class="w-40 text-center">
         <svg-icon class="h-20 w-20 m-auto" name="ux-ui" />
         <figcaption>
-          <p class="text-2xl text-white font-bold">UX & UI</p>
+          <p class="text-2xl text-white font-normal">UX & UI</p>
         </figcaption>
       </figure>
     </div>
