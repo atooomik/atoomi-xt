@@ -31,14 +31,18 @@
       <div
         class="order-1 flex flex-wrap justify-center my-6 mx-auto text-white lg:w-1/3 lg:order-3 lg:flex-col lg:text-right"
       >
-        <nuxt-link class="mx-8 my-2" to="/about-me"><p>About me</p></nuxt-link>
-        <nuxt-link class="mx-8 my-2" to="/servicios"
-          ><p>Servicios</p></nuxt-link
-        >
-        <nuxt-link class="mx-8 my-2" to="/estrategía"
-          ><p>Estrategía</p></nuxt-link
-        >
-        <nuxt-link class="mx-8 my-2" to="/"><p>Trabajemos juntos</p></nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/about-me">
+          <p>About me</p>
+        </nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/servicios">
+          <p>Servicios</p>
+        </nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/estrategía">
+          <p>Estrategía</p>
+        </nuxt-link>
+        <nuxt-link class="mx-8 my-2" to="/">
+          <p>Trabajemos juntos</p>
+        </nuxt-link>
       </div>
     </div>
   </section>
@@ -46,7 +50,7 @@
 
 <script>
 export default {
-  name: "TheFooter"
+  name: "TheFooter",
 };
 </script>
 

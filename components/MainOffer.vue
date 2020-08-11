@@ -2,7 +2,7 @@
   <section>
     <div class="contain min-h-adjust flex flex-col items-center lg:flex-row">
       <div class="w-full lg:w-1/2 text-white text-center px-4 lg:text-left">
-        <p class="my-8 text-4xl font-thin lg:text-6xl leading-tight">
+        <p class="my-8 text-4xl md:font-light md::text-6xl leading-tight">
           ¿Y
           <br />nosotros
           <br />qué hacemos?
