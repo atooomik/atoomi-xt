@@ -44,7 +44,6 @@ const nuxtConfig = {
   watch: ["./tailwind.config.js"],
   build: {
     transpile: ["vue-carousel"],
-    tailwindcss: {},
     parallel: !isProd,
     cache: !isProd,
     extractCSS: isProd,
@@ -57,17 +56,10 @@ const nuxtConfig = {
   svgSprite: {
     input: "~/assets/sprite/svg",
     output: "~/assets/sprite/gen"
+  },
+  purgeCSS: {
+    enabled: false
   }
-  /*purgeCSS: {
-    mode: "webpack",
-    whitelist: ["svg-inline--fa"],
-    whitelistPatterns: [
-      /[\w|-]+-(enter|leave|move)-?(active|to)?/,
-      /^fa-/,
-      /-fa$/
-    ],
-    whitelistPatternsChildren: []
-  }*/
 };
 
 export default nuxtConfig;
