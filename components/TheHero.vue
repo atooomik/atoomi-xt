@@ -1,7 +1,7 @@
 <template>
   <section class="w-full h-screen">
     <div class="contain">
-      <div class="introduction h-4/5">
+      <div class="opacity-entrance h-4/5">
         <div
           class="flex flex-col p-4 justify-center items-center w-full h-full"
         >
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="h-1/5 w-full flex justify-between items-center p-4">
-        <figure class="w-40 text-center">
+        <figure class="w-40 text-center opacity-icon-entrance--home">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="../assets/images/svg-icons/webDevelopment.svg"
@@ -27,7 +27,7 @@
             <p class="md:text-2xl text-white font-normal">Desarrollo</p>
           </figcaption>
         </figure>
-        <figure class="w-40 text-center">
+        <figure class="w-40 text-center opacity-icon-entrance--home">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="../assets/images/svg-icons/webDesign.svg"
@@ -37,7 +37,7 @@
             <p class="md:text-2xl text-white font-normal">Diseño</p>
           </figcaption>
         </figure>
-        <figure class="w-40 text-center">
+        <figure class="w-40 text-center opacity-icon-entrance--home">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="../assets/images/svg-icons/userXperience.svg"

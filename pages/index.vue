@@ -14,7 +14,7 @@ export default {
   components: {
     Logo,
     TheHero,
-    Offer,
-  },
+    Offer
+  }
 };
 </script>
