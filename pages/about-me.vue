@@ -1,26 +1,18 @@
 <template>
-  <section class="sln-gp-grad">
-    <!--<div class="relative overflow-hidden w-full h-64">
-      <img
-        class="absolute w-full h-full object-cover"
-        src="../assets/images/back.jpg"
-        alt="persona de espaldas"
-      />
-    </div>-->
+  <section class="sln-gp-grad lg:h-screen">
     <div class="contain flex flex-col items-start min-h-adjust lg:flex-row">
       <div class="hidden lg:block lg:h-full lg:w-1/4">
-        <div class="relative overflow-hidden h-80 lg:mt-20 rounded-lg shadow-transp">
+        <div class="relative overflow-hidden h-80 lg:mt-40 rounded-lg shadow-transp">
           <img
             class="object-cover rounded-lg shadow-lg"
             src="../assets/images/lateral1.jpg"
             alt="profile picture"
           />
         </div>
-        <div class="w-full flex flex-col items-center my-6 text-3xl text-white">
-          <fa-icon class="my-4" :icon="['fad', 'cat-space']" />
-          <fa-icon class="my-4" :icon="['fas', 'game-console-handheld']" />
-          <fa-icon class="my-4" :icon="['fad', 'mountain']" />
-          <fa-icon class="my-4" :icon="['fad', 'cat-space']" />
+        <div class="w-full flex justify-center my-6 text-3xl text-white">
+          <fa-icon class="m-4" :icon="['fad', 'cat-space']" />
+          <fa-icon class="m-4" :icon="['fas', 'game-console-handheld']" />
+          <fa-icon class="m-4" :icon="['fad', 'mountain']" />
         </div>
       </div>
       <div class="w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20">
