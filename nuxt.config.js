@@ -30,21 +30,8 @@ let css = [
 /*
  ** Plugins to load before mounting the App
  */
-const postCSSConfig = {
-  plugins: {
-    "postcss-import": {},
-    tailwindcss: {},
-    cssnano: {
-      preset: "default",
-      discardComments: {
-        removeAll: true
-      },
-      zindex: 100
-    }
-  }
-};
 
-let modules = ["@nuxtjs/svg-sprite"];
+let modules = ["@nuxtjs/svg-sprite", "@nuxtjs/tailwindcss"];
 
 const nuxtConfig = {
   mode: "universal",
@@ -57,7 +44,7 @@ const nuxtConfig = {
   watch: ["./tailwind.config.js"],
   build: {
     transpile: ["vue-carousel"],
-    postcss: postCSSConfig,
+    tailwindcss: {},
     parallel: !isProd,
     cache: !isProd,
     extractCSS: isProd,
