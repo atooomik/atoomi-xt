@@ -2,7 +2,9 @@
   <section class="sln-gp-grad lg:h-screen">
     <div class="contain flex flex-col items-start min-h-adjust lg:flex-row">
       <div class="hidden lg:block lg:h-full lg:w-1/4">
-        <div class="relative overflow-hidden h-80 lg:mt-40 rounded-lg shadow-transp">
+        <div
+          class="traslate-shadow-entrance overflow-hidden h-80 lg:mt-40 rounded-lg"
+        >
           <img
             class="object-cover rounded-lg shadow-lg"
             src="../assets/images/lateral1.jpg"
@@ -10,13 +12,26 @@
           />
         </div>
         <div class="w-full flex justify-center my-6 text-3xl text-white">
-          <fa-icon class="m-4" :icon="['fad', 'cat-space']" />
-          <fa-icon class="m-4" :icon="['fas', 'game-console-handheld']" />
-          <fa-icon class="m-4" :icon="['fad', 'mountain']" />
+          <fa-icon
+            class="m-4 opacity-icon-entrance"
+            :icon="['fad', 'cat-space']"
+          />
+          <fa-icon
+            class="m-4 opacity-icon-entrance"
+            :icon="['fas', 'game-console-handheld']"
+          />
+          <fa-icon
+            class="m-4 opacity-icon-entrance"
+            :icon="['fad', 'mountain']"
+          />
         </div>
       </div>
-      <div class="w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20">
-        <p class="text-xxl font-thin text-atoom-semiGray -mx-8 lg:pl-4 lg:mx-0">About me</p>
+      <div
+        class="opacity-entrance w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20"
+      >
+        <p class="text-xxl font-thin text-atoom-semiGray -mx-8 lg:pl-4 lg:mx-0">
+          About me
+        </p>
         <p class="mt-8 px-8 lg:mt-24 lg:pl-16">
           Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
           de BEDU Tech donde inicie mi formación como desarrollador web.
@@ -40,6 +55,6 @@
 
 <script>
 export default {
-  name: "AboutMe",
+  name: "AboutMe"
 };
 </script>
