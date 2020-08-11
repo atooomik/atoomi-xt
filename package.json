@@ -27,7 +27,7 @@
     "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.1.1",
+    "@nuxtjs/tailwindcss": "^3.0.0",
     "cssnano": "^4.1.10",
     "nuxt-purgecss": "^1.0.0",
     "sass": "^1.26.10",
