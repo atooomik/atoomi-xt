@@ -23,15 +23,15 @@ const head = {
 
 let css = [
   "~assets/styles/base.scss",
-  "~assets/styles/components.scss",
-  "~assets/styles/utilities.scss"
+  "~assets/styles/utilities.scss",
+  "~assets/styles/components.scss"
 ];
 
 /*
  ** Plugins to load before mounting the App
  */
 
-let modules = ["@nuxtjs/svg-sprite", "@nuxtjs/tailwindcss"];
+let modules = ["@nuxtjs/tailwindcss"];
 
 const nuxtConfig = {
   mode: "universal",
@@ -52,10 +52,6 @@ const nuxtConfig = {
   modules,
   styleResources: {
     scss: ["~/assets/styles/_variables.scss"]
-  },
-  svgSprite: {
-    input: "~/assets/sprite/svg",
-    output: "~/assets/sprite/gen"
   },
   purgeCSS: {
     enabled: false

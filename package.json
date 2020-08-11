@@ -19,7 +19,6 @@
     "@fortawesome/pro-regular-svg-icons": "^5.14.0",
     "@fortawesome/pro-solid-svg-icons": "^5.14.0",
     "@fortawesome/vue-fontawesome": "^0.1.10",
-    "@nuxtjs/svg-sprite": "^0.4.11",
     "markdown-it": "^11.0.0",
     "markdown-it-container": "^2.0.0",
     "nuxt": "^2.14.1",

@@ -17,7 +17,7 @@ module.exports = {
         bl: "#323b6e",
         blSoft: "#5c67ac",
         gp: "#4c3648",
-        dk: "#2f2f2f",
+        dk: "#191919",
         dkOverlay: "rgba(0, 0, 0, 0.5)",
         semiGray: "rgba(226,232,240,0.5)",
         salmn: "#ff6b81",
