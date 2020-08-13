@@ -10,7 +10,7 @@
     },
     {
       "step": 2,
-      "title": "Presentación formal de la ",
+      "title": "Presentación de la ",
       "name": "Propuesta",
       "desc": "Vamos a definir presupuesto, costo de servicios y metodologia de trabajo, todas las cosas necesarias para que tu proyecto sea como lo habias pensado, a partir de este momento somos un equipo.",
       "img": "making-a-deal.svg",
@@ -18,7 +18,7 @@
     },
     {
       "step": 3,
-      "title": "Comienzo con el ",
+      "title": "Creando la identidad: ",
       "name": "Diseño",
       "desc": "Vamos a diseñar juntos, tu me dices como esperas que se vea y yo lo transformare en algo estetico y funcional. Lo revisaremos y haremos los ajustes que sean necesarios para que quedes satisfecho y lo podamos volver realidad.",
       "img": "prototyping.svg",
