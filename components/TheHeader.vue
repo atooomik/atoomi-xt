@@ -32,7 +32,7 @@
           </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/">
+          <nuxt-link to="/contacto">
             <p>Trabajemos juntos</p>
           </nuxt-link>
         </li>
@@ -77,7 +77,7 @@
             <nuxt-link
               class="the-header__collapse-el4"
               :class="{ 'is-expanded': isExpanded }"
-              to="/diseño"
+              to="/contacto"
             >
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
               <p class="text-3xl font-bold">Trabajemos juntos</p>
@@ -94,7 +94,7 @@ export default {
   name: "TheHeader",
   data: () => ({
     isExpanded: false,
-    scrollState: "idle"
+    scrollState: "idle",
   }),
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
@@ -111,7 +111,7 @@ export default {
     },
     openMenu() {
       this.isExpanded = !this.isExpanded;
-    }
-  }
+    },
+  },
 };
 </script>

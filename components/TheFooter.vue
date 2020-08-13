@@ -40,7 +40,7 @@
         <nuxt-link class="mx-8 my-2" to="/estrategía">
           <p>Estrategía</p>
         </nuxt-link>
-        <nuxt-link class="mx-8 my-2" to="/">
+        <nuxt-link class="mx-8 my-2" to="/contacto">
           <p>Trabajemos juntos</p>
         </nuxt-link>
       </div>
