@@ -1,19 +1,11 @@
 <template>
-  <section class="w-full h-screen">
-    <div class="contain">
+  <section class="w-full">
+    <div class="contain h-screen">
       <div class="opacity-entrance h-4/5">
-        <div
-          class="flex flex-col p-4 justify-center items-center w-full h-full"
-        >
-          <img
-            class="w-40 my-8"
-            src="../assets/images/svg-icons/atoomik-logo.svg"
-            alt="brand logo"
-          />
+        <div class="flex flex-col p-4 justify-center items-center w-full h-full">
+          <img class="w-40 my-8" src="../assets/images/svg-icons/atoomik-logo.svg" alt="brand logo" />
           <p class="text-5xl text-white">atoomik</p>
-          <p class="text-3xl text-white text-center leading-tight">
-            Consultoria web independiente
-          </p>
+          <p class="text-3xl text-white text-center leading-tight">Consultoria web independiente</p>
         </div>
       </div>
       <div class="h-1/5 w-full flex justify-between items-center p-4">
@@ -54,6 +46,6 @@
 
 <script>
 export default {
-  name: "TheHero"
+  name: "TheHero",
 };
 </script>

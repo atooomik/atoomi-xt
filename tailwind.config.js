@@ -306,6 +306,7 @@ module.exports = {
       ...theme("spacing"),
       "1/10": "10vh",
       "1/5": "20vh",
+      "7/10": "70vh",
       "4/5": "80vh",
       full: "100%",
       screen: "100vh"
