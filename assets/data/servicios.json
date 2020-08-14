@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "image": "portfolio.svg",
+      "name": "Diseño web",
+      "desc": "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "user-flow.svg",
+      "name": "User Experience",
+      "desc": "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "experience-design.svg",
+      "name": "Escalabilidad",
+      "desc": "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "responsive-devices.svg",
+      "name": "Responsividad",
+      "desc": "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "portfolio.svg",
+      "name": "Algo más",
+      "desc": "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}

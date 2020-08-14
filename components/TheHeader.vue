@@ -9,7 +9,7 @@
   >
     <div class="the-header__brand z-15">
       <nuxt-link class="flex items-center" to="/">
-        <svg-icon class="h-16 w-16" name="atoomik-logo" />
+        <img class="w-12 h-12 lg:w-16 lg:h-16" src="../assets/images/svg-icons/atoomik-logo.svg" alt="">
         <p class="text-lg text-white">atoomik</p>
       </nuxt-link>
     </div>

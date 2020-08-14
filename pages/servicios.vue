@@ -3,12 +3,12 @@
     <div>
       <div class="w-full">
         <div class="h-screen flex flex-col justify-between lg:flex-row lg:items-center">
-          <div class="w-full my-8 overflow-hidden lg:w-1/2">
+          <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
             <div class="entrance px-8 text-center lg:text-right">
-              <p class="text-4xl font-thin lg:text-xxl">Servicios</p>
+              <p class="text-4xl text-white font-thin lg:text-xxl">Servicios</p>
               <p class="text-lg text-white">Más que el desarrollo de un sitio web.</p>
             </div>
-            <span class="flex justify-center">
+            <span class="flex justify-end mr-40">
               <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
             </span>
           </div>
@@ -22,10 +22,10 @@
         </div>
       </div>
       <!--Page content-->
-      <div class="w-full p-8">
+      <div class="w-full py-8">
         <div class="contain">
           <div>
-            <p class="text-white">
+            <p class="text-white mb-4">
               ¿Mis servicios? Desarrollar páginas web, sin embargo el verdadero
               valor de un desarrollo que queda en mis manos, son los pequeños
               detalles que pueden convertirlo en una de las mejores inversiones
@@ -34,36 +34,31 @@
               pueda crecer contigo en el futuro y que puedas contar con él en
               todo momento.
             </p>
-            <br />
-            <p>
+            <p class="text-white">
               Aquí puedo explicarte más específicamente de aquello que le da
               valor a mis proyectos.
             </p>
           </div>
-          <div class="my-6 flex flex-col lg:justify-around lg:flex-row">
+          <div v-if="isMobile" class="my-6 flex flex-col lg:justify-around lg:flex-row">
             <vue-carousel
               :per-page-custom="[
                 [0, 1],
                 [640, 2],
-                [1280, 4]
               ]"
               paginationColor="#e4c85e"
-              paginationActiveColor="#2f2f2f"
+              paginationActiveColor="#ffffff"
               :navigationEnabled="true"
               :loop="true"
+              autoplay="true"
             >
-              <vue-slide v-for="(service, i) in allServices" :key="i" class="p-4">
-                <services
-                  :imgSrc="service.image"
-                  :title="service.name"
-                  :description="service.desc"
-                />
+              <vue-slide v-for="(item, i) in services" :key="i" class="p-4">
+                <services :imgSrc="`images/svg-draws/${item.image}`" :title="item.name" :description="item.desc" />
               </vue-slide>
             </vue-carousel>
           </div>
           <div class="flex">
             <button
-              class="mx-auto my-8 px-4 py-2 text-2xl text-atoom-gp border-4 border-atoom-gp rounded-lg transition-all duration-300 hover:text-white hover:bg-atoom-gp"
+              class="mx-auto my-8 px-4 py-2 text-2xl text-white rounded-pill bg-atoom-ylw shadow-lg"
             >Comencemos</button>
           </div>
         </div>
@@ -77,64 +72,32 @@ import VueCarousel from "vue-carousel/src/Carousel.vue";
 import VueSlide from "vue-carousel/src/Slide.vue";
 
 import Services from "../components/HoverCards.vue";
-import proyecto from "../assets/images/svg-draws/portfolio.svg";
-import experiencia from "../assets/images/svg-draws/user-flow.svg";
-import mantenimiento from "../assets/images/svg-draws/experience-design.svg";
-import responsive from "../assets/images/svg-draws/responsive-devices.svg";
+import { services } from "../assets/data/servicios.json";
+
 export default {
   name: "Servicios",
+  asyncData() {
+    return {
+      services,
+    };
+  },
   data: () => ({
-    selectedItem: null,
-    openWrapper: false,
-    allServices: [
-      {
-        image: proyecto,
-        name: "Diseño web",
-        desc:
-          "Lorem ipsum dolor 1 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        image: experiencia,
-        name: "User Experience",
-        desc:
-          "Lorem ipsum dolor 2 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        image: mantenimiento,
-        name: "Escalabilidad",
-        desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        image: responsive,
-        name: "Responsividad",
-        desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        image: responsive,
-        name: "Responsividad",
-        desc:
-          "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-    ],
+    services: [],
+    isMobile: false,
   }),
   components: {
     Services,
     VueCarousel,
     VueSlide,
   },
-  computed: {
-    showSelectedItem() {
-      if (this.selectedItem === null) return null;
-      return this.allServices[this.selectedItem] || null;
-    },
+  mounted() {
+    this.mobileScreen();
+    window.addEventListener("resize", this.mobileScreen);
   },
   methods: {
-    clickedItem(index) {
-      this.selectedItem = index;
-      this.openWrapper = !this.openWrapper;
-      console.log(this.selectedItem, this.showWrapper);
+    mobileScreen() {
+      this.isMobile = window.innerWidth < 1024;
+      console.log(this.isMobile);
     },
   },
 };
