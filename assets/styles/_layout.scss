@@ -1,7 +1,7 @@
 // Cursores
 
-$arrow: url(../images/svg-icons/customized-arrow.svg);
-$click: url(../images/svg-icons/arrow-click.svg);
+$arrow: url(../images/svg-icons/simple-white.svg);
+$click: url(../images/svg-icons/simple-click-white.svg);
 
 html {
   cursor: $arrow, default;
@@ -20,11 +20,4 @@ button {
   margin-left: auto;
   padding-left: theme("padding.8");
   padding-right: theme("padding.8");
-}
-
-.only-dsk {
-  display: none;
-  @media (min-width: 1024px) {
-    display: block;
-  }
 }
