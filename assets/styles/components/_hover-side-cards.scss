@@ -1,0 +1,17 @@
+.main-traslate-r {
+  transform: translateX(80%);
+  transition: all 1s ease-in-out;
+}
+
+#main:hover .main-traslate-r {
+  transform: translateX(0);
+}
+
+.main-traslate-l {
+  transform: translateX(150%);
+  transition: all 1s ease-in-out;
+}
+
+#main:hover .main-traslate-l {
+  transform: translateX(0);
+}

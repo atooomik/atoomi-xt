@@ -24,6 +24,11 @@
       "image": "portfolio.svg",
       "name": "Algo más",
       "desc": "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "image": "portfolio.svg",
+      "name": "Otro algo más",
+      "desc": "Lorem ipsum dolor 3 sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 }
