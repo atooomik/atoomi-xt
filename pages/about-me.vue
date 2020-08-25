@@ -12,70 +12,41 @@
           />
         </div>
       </div>
-      <div class="px-8 opacity-entrance">
-        <p class="pb-8 text-4xl text-center text-atoom-semiGray">About me</p>
+      <div class="opacity-entrance px-8 text-atoom-semiGray">
+        <p class="pb-8 text-4xl text-center">About me</p>
         <p class="mb-4">
-          Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
-          de BEDU Tech donde inicie mi formación como desarrollador web.
+          Isacc Núñez, apasionado por la tecnología y el diseño web, egresado de
+          BEDU Tech donde inicie mi formación como desarrollador Frontend & UX.
         </p>
         <p class="mb-4">
-          Antes del desarrollo, tuve la oportunidad de trabajar en atención a
-          clientes, lo que me permite entender desde una perspectiva más cercana
-          las necesidades como usuarios / clientes, y esto es algo que siempre
-          tengo en cuenta en cada proyecto en el que me involucro.
+          Antes de comenzar como desarrollador, tuve la oportunidad de trabajar
+          en atención a clientes, lo que me ha permitido entender desde una
+          perspectiva más cercana las necesidades de usuarios / clientes, y esto
+          es algo que siempre tengo en cuenta en cada proyecto en el que me
+          involucro.
         </p>
         <p class="mb-4">
           Actualmente trabajo en dinamo Agencia de comunicación y diseño como
-          Frontend Developer.
+          Frontend Developer y mi meta es especializarme como animador web.
         </p>
       </div>
       <div class="px-8 pb-4">
         <p class="pb-8 text-2xl text-center text-atoom-semiGray">
-          Tecnologias:
+          Mi stack de tecnologias:
         </p>
         <div
           class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
         >
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'html5']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'css3-alt']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'sass']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'js-square']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'node']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'vuejs']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'react']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about"
-            :icon="['fab', 'php']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about col-start-2"
-            :icon="['fab', 'wordpress']"
-          />
-          <fa-icon
-            class="m-4 opacity-icon-entrance opacity-icon-entrance--about col-start-3"
-            :icon="['fab', 'git-alt']"
-          />
+          <fa-icon class="m-4" :icon="['fab', 'html5']" />
+          <fa-icon class="m-4" :icon="['fab', 'css3-alt']" />
+          <fa-icon class="m-4" :icon="['fab', 'sass']" />
+          <fa-icon class="m-4" :icon="['fab', 'js-square']" />
+          <fa-icon class="m-4" :icon="['fab', 'node']" />
+          <fa-icon class="m-4" :icon="['fab', 'vuejs']" />
+          <fa-icon class="m-4" :icon="['fab', 'react']" />
+          <fa-icon class="m-4" :icon="['fab', 'php']" />
+          <fa-icon class="m-4  col-start-2" :icon="['fab', 'wordpress']" />
+          <fa-icon class="m-4  col-start-3" :icon="['fab', 'git-alt']" />
         </div>
       </div>
     </div>
@@ -91,20 +62,6 @@
               alt="profile picture"
             />
           </div>
-          <div class="w-full flex justify-center my-6 text-3xl text-white">
-            <fa-icon
-              class="m-4 opacity-icon-entrance"
-              :icon="['fad', 'cat-space']"
-            />
-            <fa-icon
-              class="m-4 opacity-icon-entrance"
-              :icon="['fas', 'game-console-handheld']"
-            />
-            <fa-icon
-              class="m-4 opacity-icon-entrance"
-              :icon="['fad', 'mountain']"
-            />
-          </div>
         </div>
         <div
           class="opacity-entrance w-full lg:w-3/4 text-white text-center lg:text-left lg:mt-20 lg:pl-20"
@@ -114,22 +71,69 @@
           >
             About me
           </p>
-          <p class="mt-8 px-8 lg:mt-24 lg:pl-16">
-            Isacc Núñez, apasionado de las tecnologias y el diseño web, egresado
-            de BEDU Tech donde inicie mi formación como desarrollador web.
-          </p>
-          <br />
-          <p class="px-8 lg:pl-16">
-            Antes del desarrollo, tuve la oportunidad de trabajar en atención a
-            clientes, lo que me permite entender desde una perspectiva más
-            cercana las necesidades como usuarios / clientes, y esto es algo que
-            siempre tengo en cuenta en cada proyecto en el que me involucro.
-          </p>
-          <br />
-          <p class="px-8 lg:pl-16">
-            Actualmente trabajo en dinamo Agencia de comunicación y diseño como
-            Frontend Developer.
-          </p>
+          <div class="px-8 mt-20 pl-16">
+            <p class="mb-4">
+              Isacc Núñez, apasionado por la tecnología y el diseño web,
+              egresado de BEDU Tech donde inicie mi formación como desarrollador
+              Frontend & UX.
+            </p>
+            <p class="mb-4">
+              Antes de comenzar como desarrollador, tuve la oportunidad de
+              trabajar en atención a clientes, lo que me ha permitido entender
+              desde una perspectiva más cercana las necesidades de usuarios /
+              clientes, y esto es algo que siempre tengo en cuenta en cada
+              proyecto en el que me involucro.
+            </p>
+            <p class="mb-4">
+              Actualmente trabajo en dinamo Agencia de comunicación y diseño
+              como Frontend Developer y mi meta es especializarme como animador
+              web.
+            </p>
+            <p class="mb-4 text-3xl font-thin">
+              Mi stack de tecnologias:
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-5 justify-items-center px-8 text-3xl text-atoom-semiGray"
+          >
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'html5']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'css3-alt']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'sass']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'js-square']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'node']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'vuejs']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'react']"
+            />
+            <fa-icon class="m-4 opacity-icon-entrance" :icon="['fab', 'php']" />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'wordpress']"
+            />
+            <fa-icon
+              class="m-4 opacity-icon-entrance"
+              :icon="['fab', 'git-alt']"
+            />
+          </div>
         </div>
       </div>
     </div>
