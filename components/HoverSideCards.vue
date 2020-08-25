@@ -4,7 +4,9 @@
       <img class="w-48 self-center" :src="imgAsset" alt="" />
       <p v-text="title" class="text-white"></p>
     </div>
-    <div class="main-traslate-l p-1 bg-atoom-semiGray rounded-lg">
+    <div
+      class="main-traslate-l flex items-center p-1 bg-atoom-semiGray rounded-lg"
+    >
       <p v-text="resume" class="text-white"></p>
     </div>
   </div>
