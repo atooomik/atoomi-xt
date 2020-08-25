@@ -2,28 +2,31 @@
   <section>
     <div class="contain min-h-adjust flex flex-col items-center lg:flex-row">
       <div class="w-full lg:w-1/2 text-white text-center px-4 lg:text-left">
-        <p class="my-8 text-4xl md:font-light md::text-6xl leading-tight">
-          ¿Y
-          <br />nosotros
-          <br />qué hacemos?
+        <div class="my-8 text-4xl md:font-light md:text-5xl leading-tight">
+          <p class="mb-4">Desarrollo</p>
+          <p class="mb-4">estratégico</p>
+          <p class="mb-4">para tu proyecto.</p>
+        </div>
+        <p class="mt-2 mb-4">
+          En la actualidad, contar con un sitio web, ya no es solo un gusto, es
+          indispensable para seguir conectado con el mundo en días en que la
+          tecnología nos brinda nuevas formas de interacción personal y los
+          usuarios cada vez buscan mejores alternativas digitales para comprar o
+          adquirir sus servicios.
         </p>
         <p class="my-2">
-          En&nbsp;
-          <span>
-            <b>atoomik</b>
-          </span>
-          &nbsp;somos apasionados por los retos de diseño, pero tenemos muy
-          claro cuál es el rol de una página web en la actualidad:
-        </p>
-        <p class="my-4 text-2xl">¡Respaldar y hacer crecer tu marca!</p>
-        <p class="my-2">
-          Por ello, queremos sumar lo mejor de nuestras habilidades a tu
-          proyecto, y crear juntos un mejor sitio del que habías estado
-          pensando.
+          Por eso, ofrezco soluciones en diseño y experiencia de usuario
+          orientadas al consumidor, buscando que cada proyecto y sitio web no
+          solo ayude a tener una presencia en línea, si no además sea tu mejor
+          herramienta para hacer crecer tu proyecto y negocio.
         </p>
       </div>
-      <div class="w-3/4 lg:w-1/2 my-8">
-        <img src="../assets/images/svg-draws/invest.svg" alt="benefits" />
+      <div class="w-3/4 lg:w-1/2 p-8 my-8">
+        <img
+          class="mx-auto"
+          src="../assets/images/svg-draws/invest.svg"
+          alt="benefits"
+        />
       </div>
     </div>
   </section>
@@ -31,6 +34,6 @@
 
 <script>
 export default {
-  name: "MainOffer",
+  name: "MainOffer"
 };
 </script>
