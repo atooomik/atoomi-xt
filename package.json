@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.0.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
     "cssnano": "^4.1.10",
     "nuxt-purgecss": "^1.0.0",
     "sass": "^1.26.10",
