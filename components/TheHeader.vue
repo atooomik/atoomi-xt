@@ -9,7 +9,11 @@
   >
     <div class="the-header__brand z-15">
       <nuxt-link class="flex items-center" to="/">
-        <img class="w-12 h-12 lg:w-16 lg:h-16" src="../assets/images/svg-icons/atoomik-logo.svg" alt="">
+        <img
+          class="w-12 h-12 lg:w-16 lg:h-16"
+          src="../assets/images/svg-icons/atoomik-logo.svg"
+          alt=""
+        />
         <p class="text-lg text-white">atoomik</p>
       </nuxt-link>
     </div>
@@ -50,7 +54,7 @@
               to="/about-me"
             >
               <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
-              <p class="text-3xl font-bold">About me</p>
+              <p class="text-3xl">About me</p>
             </nuxt-link>
           </li>
           <li class="my-4">
@@ -60,7 +64,7 @@
               to="/servicios"
             >
               <fa-icon class="mx-4" :icon="['fas', 'pen-nib']" />
-              <p class="text-3xl font-bold">Servicios</p>
+              <p class="text-3xl">Servicios</p>
             </nuxt-link>
           </li>
           <li class="my-4">
@@ -70,7 +74,7 @@
               to="/estrategía"
             >
               <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
-              <p class="text-3xl font-bold">Estrategía</p>
+              <p class="text-3xl">Estrategía</p>
             </nuxt-link>
           </li>
           <li class="my-4">
@@ -80,7 +84,7 @@
               to="/contacto"
             >
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
-              <p class="text-3xl font-bold">Trabajemos juntos</p>
+              <p class="text-3xl">Trabajemos juntos</p>
             </nuxt-link>
           </li>
         </ul>
@@ -94,7 +98,7 @@ export default {
   name: "TheHeader",
   data: () => ({
     isExpanded: false,
-    scrollState: "idle",
+    scrollState: "idle"
   }),
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
@@ -111,7 +115,7 @@ export default {
     },
     openMenu() {
       this.isExpanded = !this.isExpanded;
-    },
-  },
+    }
+  }
 };
 </script>
