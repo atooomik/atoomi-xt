@@ -12,7 +12,7 @@
           />
         </div>
       </div>
-      <div class="opacity-entrance px-8 text-atoom-semiGray">
+      <div class="opacity-entrance px-8 text-white">
         <p class="pb-8 text-4xl text-center">About me</p>
         <p class="mb-4">
           Isacc Núñez, apasionado por la tecnología y el diseño web, egresado de
