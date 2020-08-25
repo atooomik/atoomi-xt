@@ -12,7 +12,19 @@ import {
   faChevronDoubleLeft
 } from "@fortawesome/pro-duotone-svg-icons";
 
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faWhatsapp,
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faJsSquare,
+  faNode,
+  faVuejs,
+  faReact,
+  faPhp,
+  faWordpress,
+  faGitAlt
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faCommentDots,
   faHandshake,
@@ -41,7 +53,17 @@ library.add(
   faMapMarkerSmile,
   faAngleDoubleDown,
   faChevronDoubleRight,
-  faChevronDoubleLeft
+  faChevronDoubleLeft,
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faJsSquare,
+  faNode,
+  faVuejs,
+  faReact,
+  faPhp,
+  faWordpress,
+  faGitAlt
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);
