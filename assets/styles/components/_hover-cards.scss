@@ -19,6 +19,9 @@
   z-index: 5;
   transform: translateY(0);
   transition: all 0.4s ease-in-out;
+  @media (min-width: 768px) {
+    padding: theme("padding.6");
+  }
 }
 #parent:hover .parent-scale {
   transform: translateY(-20%);
@@ -32,7 +35,7 @@
   width: theme("width.full");
   height: theme("height.full");
   transition: all 0.1s ease-in-out 0.2s;
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     padding-top: theme("padding.40");
   }
 }

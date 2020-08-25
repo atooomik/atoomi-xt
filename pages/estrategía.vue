@@ -88,7 +88,7 @@
           </vue-carousel>
           <div class="flex">
             <button
-              class="mx-auto my-8 px-4 py-2 text-2xl text-white rounded-pill bg-atoom-salmn shadow-lg"
+              class="mx-auto my-8 px-4 py-2 text-2xl text-white rounded-lg bg-atoom-salmn shadow-lg"
             >
               Comencemos
             </button>

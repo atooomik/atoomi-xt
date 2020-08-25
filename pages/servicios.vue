@@ -47,10 +47,7 @@
               implementadas en tu sitio web:
             </p>
           </div>
-          <div
-            v-if="isMobile"
-            class="my-6 flex flex-col lg:justify-around lg:flex-row"
-          >
+          <div v-if="isMobile" class="flex flex-col mt-16 mb-6 px-4">
             <vue-carousel
               :per-page-custom="[
                 [0, 1],
@@ -60,7 +57,6 @@
               paginationActiveColor="#ffffff"
               :navigationEnabled="true"
               :loop="true"
-              autoplay="true"
             >
               <vue-slide v-for="(item, i) in services" :key="i" class="p-4">
                 <services
@@ -72,7 +68,7 @@
             </vue-carousel>
           </div>
           <div v-else>
-            <div class="grid grid-cols-2 gap-8 py-8">
+            <div class="grid grid-cols-2 py-8">
               <hover-sides
                 v-for="(card, i) in services"
                 :key="i"
@@ -84,7 +80,7 @@
           </div>
           <div class="flex">
             <button
-              class="mx-auto my-8 px-4 py-2 text-2xl text-white rounded-pill bg-atoom-ylw shadow-lg"
+              class="mx-auto my-8 px-4 py-2 text-2xl text-white rounded-lg bg-atoom-ylw shadow-lg"
             >
               Comencemos
             </button>
