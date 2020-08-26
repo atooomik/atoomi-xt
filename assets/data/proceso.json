@@ -2,43 +2,33 @@
   "process": [
     {
       "step": 1,
-      "title": "La primera ",
-      "name": "Reunion",
-      "desc": "Nos reuniremos para discutir las necesidades de tu proyecto, lo más importante para mi es saber lo que quieres hacer con tu idea, asi podre definir cual es la mejor forma de ejecutarla .",
-      "img": "meeting.svg",
-      "theme": "ylw"
+      "name": "Meeting",
+      "desc": "Nos reuniremos para discutir el presupuesto, necesidades, alcance y objetivo del proyecto, tener estos puntos claros me ayudara a decidir cuales seran los recursos que necesitare y podre entregarte una buena propuesta.",
+      "img": "meeting.svg"
     },
     {
       "step": 2,
-      "title": "Presentación de la ",
       "name": "Propuesta",
-      "desc": "Vamos a definir presupuesto, tecnologias y metodologia de trabajo, todas las cosas necesarias para que tu proyecto sea como lo habias pensado, a partir de este momento somos un equipo.",
-      "img": "making-a-deal.svg",
-      "theme": "blSoft"
+      "desc": "Después de analizar el proyecto con detenimiento, te entregare una propuesta formal, con un desglose de las horas de trabajo, recursos necesarios y el costo final del desarrollo.",
+      "img": "making-a-deal.svg"
     },
     {
       "step": 3,
-      "title": "Creando la identidad: ",
       "name": "Diseño",
       "desc": "Vamos a diseñar juntos, tu me dices como esperas que se vea y yo lo transformare en algo estetico y funcional. Lo revisaremos y haremos los ajustes que sean necesarios para que quedes satisfecho y lo podamos volver realidad.",
-      "img": "prototyping.svg",
-      "theme": "gp"
+      "img": "prototyping.svg"
     },
     {
       "step": 4,
-      "title": "Hora de darle vida con el",
       "name": "Desarrollo",
       "desc": "Llegó el momento de pasarlo a código y darle vida al proyecto en el que hemos estado trabajando, yo me encargare de que funcione a la perfección haciendo todas las pruebas necesarias para estar seguro de que tu sitio funcione a la perfección.",
-      "img": "programming.svg",
-      "theme": "ylw"
+      "img": "programming.svg"
     },
     {
       "step": 5,
-      "title": "¡Estamos listos! ",
       "name": "Lanzamiento",
       "desc": "Una vez hechas todas las pruebas necesarias, es momento de montar el sitio en el servidor, establecer el dominio que hayas seleccionado y listo, estamos en línea.",
-      "img": "completed.svg",
-      "theme": "blSoft"
+      "img": "completed.svg"
     }
   ]
 }

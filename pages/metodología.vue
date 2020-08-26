@@ -41,7 +41,7 @@
               estabas esperando.
             </p>
           </div>
-          <div>
+          <div class="px-4">
             <p
               class="mt-16 mb-4 mx-auto text-4xl lg:text-6xl font-thin text-center text-atoom-salmn lg:my-8"
             >
@@ -55,7 +55,7 @@
               :autoplayhover="true"
             >
               <vue-slide v-for="(item, i) in process" :key="i">
-                <div class="flex flex-col p-4 lg:flex-row">
+                <div class="flex flex-col lg:flex-row">
                   <div class="lg:w-3/5">
                     <div class="lg:flex lg:items-baseline">
                       <p
@@ -69,7 +69,7 @@
                         {{ item.name }}
                       </p>
                     </div>
-                    <p class="my-4 -mx-4 text-white lg:mx-0">{{ item.desc }}</p>
+                    <p class="my-4 text-white lg:mx-0">{{ item.desc }}</p>
                   </div>
                   <div
                     class="relative h-48 md:h-64 p-4 overflow-hidden lg:w-2/5 lg:h-72"
