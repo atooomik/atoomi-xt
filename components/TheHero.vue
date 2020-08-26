@@ -4,7 +4,7 @@
       <div class="opacity-entrance lg:h-4/5">
         <div class="flex flex-col justify-center items-center w-full h-full">
           <img
-            class="w-40 mt-40 mb-8 lg:my-8"
+            class="w-40 mt-40 mb-8 md:mt-48 md:mb-16 lg:my-8"
             src="../assets/images/svg-icons/atoomik-logo.svg"
             alt="brand logo"
           />
@@ -14,7 +14,9 @@
           </p>
         </div>
       </div>
-      <div class="w-full flex justify-between mt-16 mb-8 lg:h-1/5">
+      <div
+        class="w-full flex justify-between mt-16 mb-8 md:mt-20 md:mb-12 lg:h-1/5 lg:items-center lg:my-0"
+      >
         <figure class="w-40 text-center opacity-icon-entrance--home">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
