@@ -1,33 +1,29 @@
 <template>
   <section class="ylw-bl-grad">
     <div>
-      <div class="w-full">
-        <div
-          class="h-screen flex flex-col justify-between lg:flex-row lg:items-center"
-        >
-          <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
-            <div class="entrance px-8 text-center lg:text-right">
-              <p class="text-4xl text-white font-thin lg:text-xxl">Servicios</p>
-              <p class="text-lg text-white">
-                Más que el desarrollo de un sitio web.
-              </p>
-            </div>
-            <span class="flex justify-end mr-40">
-              <fa-icon
-                class="down-arrow"
-                :icon="['fad', 'angle-double-down']"
-              />
-            </span>
+      <div
+        class="flex flex-col justify-between lg:flex-row lg:items-center lg:min-h-screen"
+      >
+        <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
+          <div class="entrance px-8 text-center lg:text-right">
+            <p class="text-4xl text-white font-thin lg:text-xxl">Servicios</p>
+            <p class="text-lg text-white">
+              Más que el desarrollo de un sitio web.
+            </p>
           </div>
-          <div class="flex p-8 min-h-partial lg:w-1/2 lg:min-h-adjust">
-            <img
-              class="max-w-xl w-full mx-auto"
-              src="../assets/images/svg-draws/feeling-proud.svg"
-              alt="services asset"
-            />
-          </div>
+          <span class="hidden lg:flex lg:justify-end lg:mr-40">
+            <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
+          </span>
+        </div>
+        <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">
+          <img
+            class="max-w-xl w-full mx-auto"
+            src="../assets/images/svg-draws/feeling-proud.svg"
+            alt="services asset"
+          />
         </div>
       </div>
+
       <!--Page content-->
       <div class="w-full py-8">
         <div class="contain">
