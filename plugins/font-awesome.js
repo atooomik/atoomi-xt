@@ -33,7 +33,8 @@ import {
   faLightbulbOn,
   faGameConsoleHandheld,
   faEnvelope,
-  faMapMarkerSmile
+  faMapMarkerSmile,
+  faLaptopCode
 } from "@fortawesome/pro-solid-svg-icons";
 
 config.showMissingIcons = true;
@@ -63,7 +64,8 @@ library.add(
   faReact,
   faPhp,
   faWordpress,
-  faGitAlt
+  faGitAlt,
+  faLaptopCode
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

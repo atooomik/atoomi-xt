@@ -5,11 +5,11 @@
         <p class="pt-8 text-4xl text-atoom-semiGray lg:text-6xl text-center">
           ¡Hagamos equipo!
         </p>
-        <p class="text-atoom-semiGray text-center text-3xl">
+        <p class="text-lg text-atoom-semiGray text-center  lg:text-3xl">
           Y llevemos tu proyecto al siguiente nivel.
         </p>
         <div
-          class="max-w-xs flex flex-col mx-auto mt-8 p-4 bg-atoom-semiGray rounded-lg lg:flex-row lg:max-w-2xl"
+          class="max-w-xs flex flex-col mx-auto mt-8 p-4 bg-atoom-semiGray rounded-lg md:max-w-md lg:flex-row lg:max-w-2xl"
         >
           <div class="w-48 mx-auto lg:w-64 lg:flex lg:items-center">
             <img src="../assets/images/svg-draws/email-me.svg" alt />

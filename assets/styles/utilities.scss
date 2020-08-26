@@ -56,3 +56,9 @@
     #323b6e
   );
 }
+
+.VueCarousel-pagination {
+  @media (min-width: 1024px) {
+    margin-top: -2rem !important;
+  }
+}

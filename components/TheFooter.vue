@@ -37,8 +37,8 @@
         <nuxt-link class="mx-8 my-2" to="/servicios">
           <p>Servicios</p>
         </nuxt-link>
-        <nuxt-link class="mx-8 my-2" to="/estrategía">
-          <p>Estrategía</p>
+        <nuxt-link class="mx-8 my-2" to="/metodología">
+          <p>Metodología</p>
         </nuxt-link>
         <nuxt-link class="mx-8 my-2" to="/contacto">
           <p>Trabajemos juntos</p>
@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: "TheFooter",
+  name: "TheFooter"
 };
 </script>
 

@@ -31,8 +31,8 @@
           </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/estrategía">
-            <p>Estrategía</p>
+          <nuxt-link to="/metodología">
+            <p>Metodología</p>
           </nuxt-link>
         </li>
         <li class="font-bold text-lg text-white mx-4">
@@ -63,7 +63,7 @@
               :class="{ 'is-expanded': isExpanded }"
               to="/servicios"
             >
-              <fa-icon class="mx-4" :icon="['fas', 'pen-nib']" />
+              <fa-icon class="mx-4" :icon="['fas', 'laptop-code']" />
               <p class="text-3xl">Servicios</p>
             </nuxt-link>
           </li>
@@ -71,10 +71,10 @@
             <nuxt-link
               class="the-header__collapse-el3"
               :class="{ 'is-expanded': isExpanded }"
-              to="/estrategía"
+              to="/metodología"
             >
               <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
-              <p class="text-3xl">Estrategía</p>
+              <p class="text-3xl">Metodología</p>
             </nuxt-link>
           </li>
           <li class="my-4">
