@@ -5,7 +5,7 @@
         <p class="pt-8 text-4xl text-white lg:text-6xl text-center">
           ¡Hagamos equipo!
         </p>
-        <p class="text-lg text-white text-center  lg:text-3xl">
+        <p class="text-lg text-white text-center lg:text-3xl">
           Y llevemos tu proyecto al siguiente nivel.
         </p>
         <div
