@@ -3,17 +3,17 @@
     {
       "image": "portfolio.svg",
       "name": "Diseño web",
-      "desc": "El diseño es la cara con la que te presentas ante tus futuros consumidores, vamos a crear un diseño que refleje correctamente la identidad de tu proyecto."
+      "desc": "El diseño es la cara con la que te presentas ante tus futuros consumidores, creare un diseño que refleje correctamente la identidad de tu proyecto."
     },
     {
       "image": "user-flow.svg",
       "name": "User Experience",
-      "desc": "Un punto clave es la experiencia que se llevan los usuarios al visitarte, crearemos un sitio intuitivo, amigable y fácil de navegar."
+      "desc": "Un punto clave es la experiencia que se llevan los usuarios al visitarte la página, diseñare un sitio intuitivo, amigable y fácil de navegar."
     },
     {
       "image": "experience-design.svg",
       "name": "Escalabilidad",
-      "desc": "Una ventaja de un desarrollo personalizado, es que no hay limites de diseño o estructura por culpa de plantillas genéricas, tu sitio siempre podra crecer contigo."
+      "desc": "Sin limitaciones en diseño o características por el uso de plantillas genéricas, desarrollare código original que pueda recibir mantenimiento futuro."
     },
     {
       "image": "responsive-devices.svg",
@@ -23,12 +23,12 @@
     {
       "image": "marketing.svg",
       "name": "SEO Optimization",
-      "desc": "El código de tu sitio web estará optimizado para lograr tus metas de marketing y posicionamiento en buscadores de internet."
+      "desc": "El código de tu sitio web estará optimizado para integrarlo con diferentes herramientas de medición de analíticas e indexación (SEO)."
     },
     {
       "image": "support.svg",
       "name": "Soporte",
-      "desc": "Seguridad y tranquilidad de que estaré siempre disponible, en caso de fallas técnicas o inconvenientes en el servicio."
+      "desc": "Quieres rediseñar, agregar nuevas características o, ¿necesitas asesoría? Puedes contar conmigo para darle continuidad al desarrollo de tu proyecto."
     }
   ]
 }

@@ -1,8 +1,8 @@
 <template>
   <section class="bl-gp-grad">
-    <div class="w-full">
+    <div>
       <div
-        class="h-screen flex flex-col justify-center lg:flex-row-reverse lg:items-center"
+        class="flex flex-col justify-center lg:flex-row-reverse lg:items-center lg:min-h-screen"
       >
         <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
           <div class="entrance px-8 text-center lg:text-left text-white">
@@ -13,11 +13,11 @@
               O sobre como vamos a crear un proyecto ganador.
             </p>
           </div>
-          <span class="flex justify-center">
+          <span class="hidden lg:flex lg:justify-center">
             <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
           </span>
         </div>
-        <div class="flex p-8 min-h-partial lg:w-1/2 lg:min-h-adjust">
+        <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">
           <img
             class="max-w-xl w-full mx-auto"
             src="../assets/images/svg-draws/product-plan.svg"

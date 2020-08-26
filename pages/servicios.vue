@@ -6,7 +6,7 @@
       >
         <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
           <div class="entrance px-8 text-center lg:text-right">
-            <p class="text-4xl text-white font-thin lg:text-xxl">Servicios</p>
+            <p class="font-thin text-4xl text-white lg:text-xxl">Servicios</p>
             <p class="text-lg text-white">
               Más que el desarrollo de un sitio web.
             </p>
@@ -23,22 +23,21 @@
           />
         </div>
       </div>
-
       <!--Page content-->
       <div class="w-full py-8">
         <div class="contain">
-          <div>
-            <p class="text-white mb-4">
+          <div class="text-white">
+            <p class="mb-4">
               ¿Mis servicios? Desarrollar páginas web, sin embargo el verdadero
               valor de un desarrollo que queda en mis manos, son los pequeños
               detalles que pueden convertirlo en una de las mejores inversiones
-              que realices, que tengan lo necesario para satisfacer tus
+              que realices, que tenga lo necesario para satisfacer tus
               necesidades actuales, pero sin que esto signifique que tu sitio no
               pueda crecer contigo en el futuro y que puedas contar con él en
               todo momento.
             </p>
-            <p class="text-white">
-              Cuando me contratas para la creación de tu sitio web, este es el
+            <p>
+              Cuando me contratas para la creación de tu sitio, este es el
               conjunto real de servicios y caracteristicas que estaran
               implementadas en tu sitio web:
             </p>
