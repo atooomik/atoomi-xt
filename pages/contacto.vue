@@ -2,10 +2,10 @@
   <section class="bl-sln-grad">
     <div>
       <div class="py-24">
-        <p class="pt-8 text-4xl text-atoom-semiGray lg:text-6xl text-center">
+        <p class="pt-8 text-4xl text-white lg:text-6xl text-center">
           ¡Hagamos equipo!
         </p>
-        <p class="text-lg text-atoom-semiGray text-center  lg:text-3xl">
+        <p class="text-lg text-white text-center  lg:text-3xl">
           Y llevemos tu proyecto al siguiente nivel.
         </p>
         <div
@@ -22,7 +22,7 @@
               data-netlify="true"
             >
               <label class="block mb-4">
-                <span class="text-gray-700">Nombre:</span>
+                <span class="text-white">Nombre:</span>
                 <input
                   type="name"
                   class="form-input mt-1 block w-full"
@@ -31,7 +31,7 @@
                 />
               </label>
               <label class="block mb-4">
-                <span class="text-gray-700">Teléfono:</span>
+                <span class="text-white">Teléfono:</span>
                 <input
                   type="phone"
                   class="form-input mt-1 block w-full"
@@ -40,7 +40,7 @@
                 />
               </label>
               <label class="block mb-4">
-                <span class="text-gray-700">Correo electrónico:</span>
+                <span class="text-white">Correo electrónico:</span>
                 <input
                   type="email"
                   class="form-input mt-1 block w-full"
@@ -50,14 +50,14 @@
               </label>
               <label class="inline-flex items-center">
                 <input type="checkbox" class="form-checkbox" required />
-                <span class="ml-2"
+                <span class="ml-2 text-white"
                   >Acepto el
                   <a href="/aviso-de-privacidad">Aviso de privacidad</a>
                 </span>
               </label>
               <div class="flex">
                 <button
-                  class="mx-auto my-4 p-2 text-white bg-atoom-gp rounded-lg"
+                  class="mx-auto my-4 px-4 py-2 text-white bg-atoom-gp rounded-lg"
                 >
                   Enviar
                 </button>
