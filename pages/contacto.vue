@@ -15,13 +15,19 @@
             <img src="../assets/images/svg-draws/email-me.svg" alt />
           </div>
           <div>
-            <form class="px-8" action>
+            <form
+              class="px-8"
+              action="/gracias"
+              name="contacto"
+              data-netlify="true"
+            >
               <label class="block mb-4">
                 <span class="text-gray-700">Nombre:</span>
                 <input
                   type="name"
                   class="form-input mt-1 block w-full"
                   placeholder="Cosme Fulanito"
+                  required
                 />
               </label>
               <label class="block mb-4">
@@ -30,6 +36,7 @@
                   type="phone"
                   class="form-input mt-1 block w-full"
                   placeholder="55 1234 5678"
+                  required
                 />
               </label>
               <label class="block mb-4">
@@ -38,10 +45,11 @@
                   type="email"
                   class="form-input mt-1 block w-full"
                   placeholder="cosme@example.com"
+                  required
                 />
               </label>
               <label class="inline-flex items-center">
-                <input type="checkbox" class="form-checkbox" />
+                <input type="checkbox" class="form-checkbox" required />
                 <span class="ml-2"
                   >Acepto el
                   <a href="/aviso-de-privacidad">Aviso de privacidad</a>
