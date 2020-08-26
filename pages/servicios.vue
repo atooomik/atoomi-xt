@@ -5,13 +5,13 @@
         class="flex flex-col justify-between lg:flex-row lg:items-center lg:min-h-screen"
       >
         <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
-          <div class="entrance px-8 text-center lg:text-right">
-            <p class="font-thin text-4xl text-white lg:text-xxl">Servicios</p>
+          <div class="entrance px-8 text-center">
+            <p class="font-thin text-4xl text-white lg:text-7xl">Servicios</p>
             <p class="text-lg text-white">
               Más que el desarrollo de un sitio web.
             </p>
           </div>
-          <span class="hidden lg:flex lg:justify-end lg:mr-40">
+          <span class="hidden lg:flex lg:justify-center">
             <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
           </span>
         </div>

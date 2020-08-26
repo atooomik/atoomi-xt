@@ -6,7 +6,7 @@
       >
         <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
           <div class="entrance px-8 text-center lg:text-left text-white">
-            <p class="font-thin text-4xl text-atoom-salmn lg:text-xxl">
+            <p class="font-thin text-4xl text-atoom-salmn lg:text-7xl">
               Metodología
             </p>
             <p class="text-lg">
