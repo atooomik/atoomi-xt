@@ -33,12 +33,12 @@ const head = {
       hid: "og:description",
       property: "og:description",
       content:
-        "Desarrollador web independiente, orientado a la creación de sitios web visualmente atractivos, funcionales y que provean una gran experiencia de usuario."
+        "Desarrollador web independiente especializado en la creación de sitios web que brinden una gran experiencia de usuario."
     },
     {
       hid: "og:image:url",
       property: "og:image:url",
-      content: "https://www.atoomikdev.com/files/images/og-image.png"
+      content: "https://www.atoomikdev.com/files/images/facebook-banner.png"
     },
     {
       hid: "og:image:type",
@@ -58,7 +58,7 @@ const head = {
     {
       hid: "og:image:alt",
       property: "og:image:alt",
-      content: "Portada de prueba del sitio web."
+      content: "Ilustración de un joven trabajando con una computadora y texto."
     }
   ],
   link: [],
