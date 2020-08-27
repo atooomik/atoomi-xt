@@ -59,7 +59,11 @@ const head = {
       content: "Portada de prueba del sitio web."
     }
   ],
-  link: []
+  link: [],
+  titleTemplate: (titleChunk = "") =>
+    titleChunk
+      ? `${titleChunk} - atoomik Consultoría web independiente`
+      : "atoomik Consultoría web independiente"
 };
 
 /*
