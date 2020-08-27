@@ -25,7 +25,7 @@ const head = {
     {
       hid: "og:url",
       property: "og:url",
-      content: "https://atoomikdev.com/"
+      content: "https://www.atoomikdev.com/"
     },
     {
       hid: "og:description",
@@ -36,7 +36,7 @@ const head = {
     {
       hid: "og:image:url",
       property: "og:image:url",
-      content: "https://atoomikdev.com/files/images/og-image.jpg"
+      content: "https://www.atoomikdev.com/files/images/og-image.png"
     },
     {
       hid: "og:image:type",
