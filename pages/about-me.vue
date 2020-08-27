@@ -8,7 +8,7 @@
           <img
             class="absolute w-full h-full object-cover"
             src="../assets/images/selfie.jpg"
-            alt=""
+            alt
           />
         </div>
       </div>
@@ -19,11 +19,11 @@
           BEDU Tech donde inicie mi formación como desarrollador Frontend & UX.
         </p>
         <p class="mb-4">
-          Antes de comenzar como desarrollador, tuve la oportunidad de trabajar
-          en atención a clientes, lo que me ha permitido entender desde una
-          perspectiva más cercana las necesidades de usuarios / clientes, y esto
-          es algo que siempre tengo en cuenta en cada proyecto en el que me
-          involucro.
+          Antes de comenzar como desarrollador, tuve la oportunidad de
+          desempeñarme en el área de atención al cliente, por lo que hoy
+          entiendo la necesidad de crear productos digitales pensados para el
+          usuario final. Esto es algo que tengo presente cada proyecto en el que
+          me involucro.
         </p>
         <p class="mb-4">
           Actualmente trabajo como Frontend Developer en "dinamo Agencia de
@@ -47,16 +47,13 @@
           <fa-icon class="m-4" :icon="['fab', 'vuejs']" />
           <fa-icon class="m-4" :icon="['fab', 'react']" />
           <fa-icon class="m-4" :icon="['fab', 'php']" />
-          <fa-icon class="m-4  col-start-2" :icon="['fab', 'wordpress']" />
-          <fa-icon class="m-4  col-start-3" :icon="['fab', 'git-alt']" />
+          <fa-icon class="m-4 col-start-2" :icon="['fab', 'wordpress']" />
+          <fa-icon class="m-4 col-start-3" :icon="['fab', 'git-alt']" />
         </div>
       </div>
     </div>
     <div v-else>
-      <div
-        class="min-h-screen
-      "
-      >
+      <div class="min-h-screen">
         <div class="contain flex flex-col items-start lg:flex-row">
           <div class="hidden lg:block lg:h-full lg:w-1/4">
             <div
@@ -97,9 +94,7 @@
               </p>
             </div>
             <div class="px-8 pl-16">
-              <p class="mb-4 text-3xl font-thin">
-                Mi stack de tecnologias:
-              </p>
+              <p class="mb-4 text-3xl font-thin">Mi stack de tecnologias:</p>
               <div
                 class="grid grid-cols-5 justify-items-center text-3xl text-atoom-semiGray"
               >

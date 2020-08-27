@@ -2,32 +2,32 @@
   "process": [
     {
       "step": 1,
-      "name": "Meeting",
-      "desc": "Nos reuniremos para discutir el presupuesto, necesidades, alcance y objetivo del proyecto, tener estos puntos claros me ayudara a decidir cuales seran los recursos que necesitare y podre entregarte una buena propuesta.",
+      "name": "Presentación",
+      "desc": "Nos reuniremos para que pueda conocer el presupuesto, necesidades, alcance y objetivo del proyecto, tener estos puntos claros me ayudara a definir cuales serán los recursos necesarios para cumplir con el objetivo y poder entregarte una buena propuesta.",
       "img": "meeting.svg"
     },
     {
       "step": 2,
       "name": "Propuesta",
-      "desc": "Después de analizar el proyecto con detenimiento, te entregare una propuesta formal, con un desglose de las horas de trabajo, recursos necesarios y el costo final del desarrollo.",
+      "desc": "Después de analizar el proyecto con detenimiento, te entregare una propuesta formal con un desglose de las horas de trabajo, los recursos necesarios y el costo final del desarrollo, si ambos estamos de acuerdo, a partir de este momento tu proyecto está en mis manos.",
       "img": "making-a-deal.svg"
     },
     {
       "step": 3,
       "name": "Diseño",
-      "desc": "Vamos a diseñar juntos, tu me dices como esperas que se vea y yo lo transformare en algo estetico y funcional. Lo revisaremos y haremos los ajustes que sean necesarios para que quedes satisfecho y lo podamos volver realidad.",
+      "desc": "A través de investigación y casos de usuario, obtendré la información necesaria para crear el diseño del nuevo sitio y comenzare a trabajar en el maquetado visual que te presentare y revisaremos hasta que estes satisfecho y me des luz verde para empezar a programar.",
       "img": "prototyping.svg"
     },
     {
       "step": 4,
       "name": "Desarrollo",
-      "desc": "Llegó el momento de pasarlo a código y darle vida al proyecto en el que hemos estado trabajando, yo me encargare de que funcione a la perfección haciendo todas las pruebas necesarias para estar seguro de que tu sitio funcione a la perfección.",
+      "desc": "Comienzo con la construcción a nivel código: estructura, vistas, estilos e interacciones. Lo montare en un servidor de pruebas para hacer todo el testing necesario y comprobar que el sitio funciona perfectamente en diferentes dispositivos y navegadores.",
       "img": "programming.svg"
     },
     {
       "step": 5,
       "name": "Lanzamiento",
-      "desc": "Una vez hechas todas las pruebas necesarias, es momento de montar el sitio en el servidor, establecer el dominio que hayas seleccionado y listo, estamos en línea.",
+      "desc": "Si en este punto todo está funcionando a la perfección, es momento de subirlo a producción, se asigna el dominio o dirección del sitio y a partir de este momento ya cuentas con tu propio sitio web en internet. ¡Es momento de presumirlo con todos!",
       "img": "completed.svg"
     }
   ]
