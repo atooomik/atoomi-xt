@@ -23,7 +23,8 @@
     "markdown-it-container": "^2.0.0",
     "nuxt": "^2.14.1",
     "postcss-import": "^12.0.1",
-    "vue-carousel": "^0.18.0"
+    "vue-carousel": "^0.18.0",
+    "vue-gtag": "^1.8.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.0.0",

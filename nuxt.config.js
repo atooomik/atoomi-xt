@@ -91,7 +91,7 @@ const nuxtConfig = {
   loading: {
     color: "3B8070"
   },
-  plugins: ["~/plugins/font-awesome.js"],
+  plugins: ["~/plugins/font-awesome.js", "~/plugins/vue-gtag.js"],
   watch: ["./tailwind.config.js"],
   build: {
     transpile: ["vue-carousel"],
