@@ -10,7 +10,7 @@
           />
           <p class="text-5xl text-white">atoomik</p>
           <p class="text-3xl text-white text-center leading-tight">
-            Consultoria web independiente
+            Consultoría web independiente
           </p>
         </div>
       </div>
