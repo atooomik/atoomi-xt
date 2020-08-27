@@ -39,16 +39,46 @@
         <div
           class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
         >
-          <fa-icon class="m-4" :icon="['fab', 'html5']" />
-          <fa-icon class="m-4" :icon="['fab', 'css3-alt']" />
-          <fa-icon class="m-4" :icon="['fab', 'sass']" />
-          <fa-icon class="m-4" :icon="['fab', 'js-square']" />
-          <fa-icon class="m-4" :icon="['fab', 'node']" />
-          <fa-icon class="m-4" :icon="['fab', 'vuejs']" />
-          <fa-icon class="m-4" :icon="['fab', 'react']" />
-          <fa-icon class="m-4" :icon="['fab', 'php']" />
-          <fa-icon class="m-4 col-start-2" :icon="['fab', 'wordpress']" />
-          <fa-icon class="m-4 col-start-3" :icon="['fab', 'git-alt']" />
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'html5']" />
+            <p class="text-xs text-center">html 5</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'css3-alt']" />
+            <p class="text-xs text-center">CSS3</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'sass']" />
+            <p class="text-xs text-center">Sass</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'js-square']" />
+            <p class="text-xs text-center">javaScript</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'node']" />
+            <p class="text-xs text-center">node.js</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'vuejs']" />
+            <p class="text-xs text-center">vue.js</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'react']" />
+            <p class="text-xs text-center">react.js</p>
+          </div>
+          <div>
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'php']" />
+            <p class="text-xs text-center">php</p>
+          </div>
+          <div class="col-start-2">
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'wordpress']" />
+            <p class="text-xs text-center">Wordpress</p>
+          </div>
+          <div class="col-start-3">
+            <fa-icon class="m-4 mb-2" :icon="['fab', 'git-alt']" />
+            <p class="text-xs text-center">Git</p>
+          </div>
         </div>
       </div>
     </div>
@@ -93,51 +123,53 @@
                 animador web.
               </p>
             </div>
-            <div class="px-8 pl-16">
-              <p class="mb-4 text-3xl font-thin">Mi stack de tecnologias:</p>
+            <div class="px-8 pb-8 pl-16">
+              <p class="mb-4 text-3xl font-thin">
+                Mi stack de tecnologias:
+              </p>
               <div
                 class="grid grid-cols-5 justify-items-center text-3xl text-atoom-semiGray"
               >
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'html5']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'css3-alt']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'sass']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'js-square']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'node']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'vuejs']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'react']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'php']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'wordpress']"
-                />
-                <fa-icon
-                  class="m-4 opacity-icon-entrance"
-                  :icon="['fab', 'git-alt']"
-                />
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'html5']" />
+                  <p class="text-xs text-center">html 5</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'css3-alt']" />
+                  <p class="text-xs text-center">CSS3</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'sass']" />
+                  <p class="text-xs text-center">Sass</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'js-square']" />
+                  <p class="text-xs text-center">javaScript</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'node']" />
+                  <p class="text-xs text-center">node.js</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'vuejs']" />
+                  <p class="text-xs text-center">vue.js</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'react']" />
+                  <p class="text-xs text-center">react.js</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'php']" />
+                  <p class="text-xs text-center">php</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'wordpress']" />
+                  <p class="text-xs text-center">Wordpress</p>
+                </div>
+                <div class="opacity-icon-entrance">
+                  <fa-icon class="m-4 mb-2" :icon="['fab', 'git-alt']" />
+                  <p class="text-xs text-center">Git</p>
+                </div>
               </div>
             </div>
           </div>
