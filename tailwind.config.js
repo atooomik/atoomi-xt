@@ -219,6 +219,8 @@ module.exports = {
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
       transp: "10px 10px 1px 1px rgba(226,232,240,.5)",
+      "slmn-left": "-5px 5px 2px 2px rgba(255, 107, 129, 0.5)",
+      "ylw-left": "-5px 5px 2px 2px rgba(228, 200, 94, 0.5)",
       none: "none"
     },
     container: {},
