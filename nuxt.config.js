@@ -17,7 +17,7 @@ const head = {
       hid: "description",
       name: "description",
       content:
-        "Desarrollador web independiente, orientado a la creación de sitios web visualmente atractivos, funcionales y que provean una gran experiencia de usuario."
+        "Desarrollador web independiente especializado en la creación de sitios web que brinden una gran experiencia de usuario."
     },
     {
       hid: "og:title",
