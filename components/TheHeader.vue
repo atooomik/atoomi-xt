@@ -17,7 +17,6 @@
         <p class="text-lg text-white">atoomik</p>
       </nuxt-link>
     </div>
-
     <nav>
       <ul class="the-header__menu-dk">
         <li class="font-bold text-lg text-white mx-4">
@@ -102,17 +101,22 @@ export default {
   }),
   mounted() {
     window.addEventListener("scroll", this.updateScroll);
+    this.navigationHasStarted();
   },
   methods: {
     updateScroll() {
       if (window.scrollY < 100) {
         this.scrollState = "isInTop";
-        console.log(this.scrollState);
+        //console.log(this.scrollState);
       } else if (window.scrollY > 100) {
         this.scrollState = "isFarFromTop";
-        console.log(this.scrollState);
-      } else if (window.scrollTo > 150) {
+        //console.log(this.scrollState);
+      }
+    },
+    navigationHasStarted() {
+      if (window.scrollY > 200) {
         this.scrollState = "isFarFromTop";
+        console.log("It's working");
       }
     },
     openMenu() {
