@@ -15,13 +15,7 @@
             <img src="../assets/images/svg-draws/email-me.svg" alt />
           </div>
           <div>
-            <form
-              class="px-8"
-              name="contacto"
-              method="POST"
-              action="/gracias"
-              data-netlify="true"
-            >
+            <form class="px-8" name="contact" method="POST" data-netlify="true">
               <label class="block mb-4">
                 <span class="text-white">Nombre:</span>
                 <input
