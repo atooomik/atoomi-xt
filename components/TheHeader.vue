@@ -111,6 +111,8 @@ export default {
       } else if (window.scrollY > 100) {
         this.scrollState = "isFarFromTop";
         console.log(this.scrollState);
+      } else if (window.scrollTo > 150) {
+        this.scrollState = "isFarFromTop";
       }
     },
     openMenu() {
