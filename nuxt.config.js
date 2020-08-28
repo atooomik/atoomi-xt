@@ -82,10 +82,19 @@ let css = [
  ** Plugins to load before mounting the App
  */
 
-let modules = ["@nuxtjs/tailwindcss"];
+let modules = [
+  "@nuxtjs/tailwindcss",
+  [
+    "@nuxtjs/google-analytics",
+    {
+      id: "UA-176717133-1"
+    }
+  ]
+];
 
 const nuxtConfig = {
   mode: "universal",
+  buildModules: modules,
   head,
   css,
   loading: {
@@ -100,7 +109,6 @@ const nuxtConfig = {
     extractCSS: isProd,
     extend(config) {}
   },
-  modules,
   styleResources: {
     scss: ["~/assets/styles/_variables.scss"]
   },
