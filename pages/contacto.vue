@@ -17,14 +17,17 @@
           <div>
             <form
               class="px-8"
-              action="/gracias"
               name="contacto"
+              method="POST"
+              action="/gracias"
               data-netlify="true"
             >
               <label class="block mb-4">
                 <span class="text-white">Nombre:</span>
                 <input
-                  type="name"
+                  type="text"
+                  name="lead-name"
+                  id="lead-name"
                   class="form-input mt-1 block w-full"
                   placeholder="Cosme Fulanito"
                   required
@@ -33,7 +36,9 @@
               <label class="block mb-4">
                 <span class="text-white">Teléfono:</span>
                 <input
-                  type="phone"
+                  type="text"
+                  name="lead-phone"
+                  id="lead-phone"
                   class="form-input mt-1 block w-full"
                   placeholder="55 1234 5678"
                   required
@@ -43,6 +48,8 @@
                 <span class="text-white">Correo electrónico:</span>
                 <input
                   type="email"
+                  name="lead-email"
+                  id="lead-email"
                   class="form-input mt-1 block w-full"
                   placeholder="cosme@example.com"
                   required
@@ -57,6 +64,7 @@
               </label>
               <div class="flex">
                 <button
+                  type="submit"
                   class="mx-auto my-4 px-4 py-2 text-white bg-atoom-gp rounded-lg"
                 >
                   Enviar
