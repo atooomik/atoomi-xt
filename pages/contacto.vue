@@ -19,6 +19,7 @@
               class="px-8"
               name="contact-form"
               method="POST"
+              action="/gracias"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
