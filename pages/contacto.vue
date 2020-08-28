@@ -16,8 +16,8 @@
           </div>
           <div>
             <form class="px-8" name="contact" method="POST" data-netlify="true">
-              <label class="block mb-4">
-                <span class="text-white">Nombre:</span>
+              <div class="mb-4 block w-full">
+                <label for="lead-name" class="block text-white">Nombre:</label>
                 <input
                   type="text"
                   name="lead-name"
@@ -26,9 +26,11 @@
                   placeholder="Cosme Fulanito"
                   required
                 />
-              </label>
-              <label class="block mb-4">
-                <span class="text-white">Teléfono:</span>
+              </div>
+              <div class="mb-4 block w-full">
+                <label for="lead-phone" class="block text-white">
+                  Télefono:
+                </label>
                 <input
                   type="text"
                   name="lead-phone"
@@ -37,9 +39,11 @@
                   placeholder="55 1234 5678"
                   required
                 />
-              </label>
-              <label class="block mb-4">
-                <span class="text-white">Correo electrónico:</span>
+              </div>
+              <div class="mb-4 block w-full">
+                <label for="lead-email" class="block mb-4 text-white">
+                  Correo electrónico:
+                </label>
                 <input
                   type="email"
                   name="lead-email"
@@ -48,14 +52,16 @@
                   placeholder="cosme@example.com"
                   required
                 />
-              </label>
-              <label class="inline-flex items-center">
-                <input type="checkbox" class="form-checkbox" required />
-                <span class="ml-2 text-white"
-                  >Acepto el
-                  <a href="/aviso-de-privacidad">Aviso de privacidad</a>
-                </span>
-              </label>
+              </div>
+              <div class="mb-2 block w-full">
+                <label class="inline-flex items-center">
+                  <input type="checkbox" class="form-checkbox" required />
+                  <span class="ml-2 text-white"
+                    >Acepto el
+                    <a href="/aviso-de-privacidad">Aviso de privacidad</a>
+                  </span>
+                </label>
+              </div>
               <div class="flex">
                 <button
                   type="submit"
