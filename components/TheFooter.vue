@@ -37,7 +37,7 @@
         <nuxt-link class="mx-8 my-2" to="/servicios">
           <p>Servicios</p>
         </nuxt-link>
-        <nuxt-link class="mx-8 my-2" to="/metodología">
+        <nuxt-link class="mx-8 my-2" to="/metodologia">
           <p>Metodología</p>
         </nuxt-link>
         <nuxt-link class="mx-8 my-2" to="/contacto">

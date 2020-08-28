@@ -11,10 +11,38 @@
     margin-right: theme("margin.auto");
   }
 
+  &__btn-ghost {
+    padding: theme("padding.2");
+    font-size: theme("fontSize.lg");
+    color: theme("colors.white");
+    background-color: transparent;
+    border-radius: theme("borderRadius.lg");
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: rgba(226, 232, 240, 0.4);
+      box-shadow: -5px 5px 2px 2px rgba(226, 232, 240, 0.2);
+    }
+  }
+  &__btn-solid {
+    padding: theme("padding.2");
+    font-size: theme("fontSize.lg");
+    color: theme("colors.white");
+    background-color: transparent;
+    border-radius: theme("borderRadius.lg");
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background-color: rgba(47, 47, 47, 0.8);
+      box-shadow: -5px 5px 2px 2px rgba(47, 47, 47, 0.3);
+    }
+  }
+
   &__menu-dk {
     display: none;
     @media (min-width: 1024px) {
       display: flex;
+      align-items: center;
     }
   }
 

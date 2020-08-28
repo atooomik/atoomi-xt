@@ -19,25 +19,53 @@
     </div>
     <nav>
       <ul class="the-header__menu-dk">
-        <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/about-me">
-            <p>About me</p>
-          </nuxt-link>
+        <li class="mx-2">
+          <button
+            class="the-header__btn-ghost"
+            :class="{
+              'the-header__btn-solid': scrollState === 'isFarFromTop'
+            }"
+          >
+            <nuxt-link class="font-light" to="/about-me">
+              About me
+            </nuxt-link>
+          </button>
         </li>
-        <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/servicios">
-            <p>Servicios</p>
-          </nuxt-link>
+        <li class="font-bold text-lg text-white mx-2 p-4">
+          <button
+            class="the-header__btn-ghost"
+            :class="{
+              'the-header__btn-solid': scrollState === 'isFarFromTop'
+            }"
+          >
+            <nuxt-link class="font-light" to="/servicios">
+              Servicios
+            </nuxt-link>
+          </button>
         </li>
-        <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/metodología">
-            <p>Metodología</p>
-          </nuxt-link>
+        <li class="font-bold text-lg text-white mx-2 p-4">
+          <button
+            class="the-header__btn-ghost"
+            :class="{
+              'the-header__btn-solid': scrollState === 'isFarFromTop'
+            }"
+          >
+            <nuxt-link class="font-light" to="/metodologia">
+              Metodología
+            </nuxt-link>
+          </button>
         </li>
-        <li class="font-bold text-lg text-white mx-4">
-          <nuxt-link to="/contacto">
-            <p>Trabajemos juntos</p>
-          </nuxt-link>
+        <li class="font-bold text-lg text-white mx-2 p-4">
+          <button
+            class="the-header__btn-ghost"
+            :class="{
+              'the-header__btn-solid': scrollState === 'isFarFromTop'
+            }"
+          >
+            <nuxt-link class="font-light" to="/contacto">
+              Contáctame
+            </nuxt-link>
+          </button>
         </li>
       </ul>
     </nav>
@@ -70,7 +98,7 @@
             <nuxt-link
               class="the-header__collapse-el3"
               :class="{ 'is-expanded': isExpanded }"
-              to="/metodología"
+              to="/metodologia"
             >
               <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
               <p class="text-3xl">Metodología</p>
@@ -83,7 +111,7 @@
               to="/contacto"
             >
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
-              <p class="text-3xl">Trabajemos juntos</p>
+              <p class="text-3xl">Contáctame</p>
             </nuxt-link>
           </li>
         </ul>
