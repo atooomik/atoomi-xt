@@ -4,16 +4,20 @@
       <div
         class="order-2 flex flex-wrap justify-center mx-auto my-6 text-white lg:w-1/3 lg:flex-col lg:order-1"
       >
-        <div class="flex items-center mx-4 my-2">
-          <fa-icon class="mx-4 text-xl" :icon="['fab', 'whatsapp']" />
-          <p>55 8735 5234</p>
+        <div class="mx-4 my-2">
+          <button class="the-header__btn-solid">
+            <a class="flex items-center" href="https://wa.me/525587355234">
+              <fa-icon class="mr-4 text-xl" :icon="['fab', 'whatsapp']" />
+              <p>55 8735 5234</p></a
+            >
+          </button>
         </div>
-        <div class="flex items-center mx-4 my-2">
-          <fa-icon class="mx-4 text-xl" :icon="['fas', 'envelope']" />
+        <div class="flex items-center mx-4 my-2 px-2">
+          <fa-icon class="mr-4 text-xl" :icon="['fas', 'envelope']" />
           <p>atoomik.dd@hotmail.com</p>
         </div>
-        <div class="flex items-center mx-4 my-2">
-          <fa-icon class="mx-4 text-xl" :icon="['fas', 'map-marker-smile']" />
+        <div class="flex items-center mx-4 my-2 px-2">
+          <fa-icon class="mr-4 text-xl" :icon="['fas', 'map-marker-smile']" />
           <p>Miguel Hidalgo, CDMX</p>
         </div>
       </div>
