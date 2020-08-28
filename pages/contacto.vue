@@ -15,7 +15,14 @@
             <img src="../assets/images/svg-draws/email-me.svg" alt />
           </div>
           <div>
-            <form class="px-8" name="contact" method="POST" data-netlify="true">
+            <form
+              class="px-8"
+              name="contact-form"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact-form" />
               <div class="mb-4 block w-full">
                 <label for="lead-name" class="block text-white">Nombre:</label>
                 <input
