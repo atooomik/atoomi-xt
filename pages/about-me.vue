@@ -7,7 +7,7 @@
         >
           <img
             class="absolute w-full h-full object-cover"
-            src="../assets/images/selfie.jpg"
+            src="~/assets/images/profile-picture.jpg"
             alt
           />
         </div>
@@ -87,11 +87,11 @@
         <div class="contain flex flex-col items-start lg:flex-row">
           <div class="hidden lg:block lg:h-full lg:w-1/4">
             <div
-              class="traslate-shadow-entrance overflow-hidden h-72 lg:mt-40 rounded-lg"
+              class="traslate-shadow-entrance relative overflow-hidden h-72 lg:mt-40 rounded-lg"
             >
               <img
-                class="object-cover rounded-lg shadow-lg"
-                src="../assets/images/lateral1.jpg"
+                class="absolute w-full h-full object-cover rounded-lg shadow-lg"
+                src="~/assets/images/profile-picture.jpg"
                 alt="profile picture"
               />
             </div>
