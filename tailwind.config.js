@@ -1,9 +1,4 @@
 module.exports = {
-  purge: false,
-  target: "relaxed",
-  prefix: "",
-  important: false,
-  separator: ":",
   theme: {
     screens: {
       sm: "640px",
@@ -763,8 +758,19 @@ module.exports = {
     transitionDuration: ["responsive"],
     transitionDelay: ["responsive"]
   },
-  corePlugins: {
-    container: false
-  },
-  plugins: [require("@tailwindcss/custom-forms")]
+  plugins: [require("@tailwindcss/custom-forms")],
+  purge: {
+    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+    enabled: process.env.NODE_ENV === "production",
+    content: [
+      "components/**/*.vue",
+      "layouts/**/*.vue",
+      "pages/**/*.vue",
+      "plugins/**/*.js",
+      "nuxt.config.js"
+    ],
+    options: {
+      whitelist: []
+    }
+  }
 };

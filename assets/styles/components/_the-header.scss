@@ -1,14 +1,14 @@
 .the-header {
   position: fixed;
-  width: theme("width.full");
-  display: flex;
-  align-items: center;
   z-index: 10;
+  display: flex;
+  width: theme("width.full");
+  align-items: center;
 
   &__brand {
     width: max-content;
-    margin-left: theme("margin.4");
     margin-right: theme("margin.auto");
+    margin-left: theme("margin.4");
   }
 
   &__btn-ghost {
@@ -19,11 +19,13 @@
     border-radius: theme("borderRadius.lg");
     box-shadow: none;
     transition: all 0.5s ease-in-out;
+
     &:hover {
       background-color: rgba(226, 232, 240, 0.4);
       box-shadow: -5px 5px 2px 2px rgba(226, 232, 240, 0.2);
     }
   }
+
   &__btn-solid {
     padding: theme("padding.2");
     font-size: theme("fontSize.lg");
@@ -32,6 +34,7 @@
     border-radius: theme("borderRadius.lg");
     box-shadow: none;
     transition: all 0.5s ease-in-out;
+
     &:hover {
       background-color: rgba(47, 47, 47, 0.8);
       box-shadow: -5px 5px 2px 2px rgba(47, 47, 47, 0.3);
@@ -54,22 +57,23 @@
   }
 
   &__collapse {
-    display: flex;
-    justify-content: center;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    height: 100vh;
     flex-direction: column;
     background: theme("colors.atoom.dk");
     transition: transform 0.7s ease-in-out 0s;
     transform: translateX(-100%);
     transform-origin: left;
+
     &.is-expanded {
       &.the-header__collapse {
-        transform: translateX(0%);
+        transform: translateX(0);
       }
     }
   }
@@ -81,12 +85,13 @@
     display: flex;
     align-items: center;
     width: max-content;
-    background: theme("colors.atoom.semiGray");
-    color: theme("colors.white");
     padding: theme("padding.4");
+    color: theme("colors.white");
+    background: theme("colors.atoom.semiGray");
     border-radius: 5px;
     transform: translateX(-100%);
     transform-origin: left;
+
     &.is-expanded {
       &.the-header__collapse-el1,
       &.the-header__collapse-el2,
@@ -100,12 +105,15 @@
   &__collapse-el1 {
     transition: transform 0.4s ease-in-out 0.4s;
   }
+
   &__collapse-el2 {
     transition: transform 0.4s ease-in-out 0.5s;
   }
+
   &__collapse-el3 {
     transition: transform 0.4s ease-in-out 0.6s;
   }
+
   &__collapse-el4 {
     transition: transform 0.4s ease-in-out 0.7s;
   }

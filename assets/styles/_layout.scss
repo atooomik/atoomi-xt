@@ -6,9 +6,11 @@ $click: url(../images/svg-icons/simple-click-white.svg);
 html {
   cursor: $arrow, default;
 }
+
 a {
   cursor: $click, default;
 }
+
 button {
   cursor: $click, default;
 }
@@ -16,10 +18,10 @@ button {
 .contain {
   width: 100%;
   max-width: theme("screens.xl");
+  padding-right: theme("padding.8");
+  padding-left: theme("padding.8");
   margin-right: auto;
   margin-left: auto;
-  padding-left: theme("padding.8");
-  padding-right: theme("padding.8");
 }
 
 .justify-items-center {
