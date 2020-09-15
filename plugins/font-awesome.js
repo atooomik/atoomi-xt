@@ -9,7 +9,8 @@ import {
   faMountain,
   faAngleDoubleDown,
   faChevronDoubleRight,
-  faChevronDoubleLeft
+  faChevronDoubleLeft,
+  faTimesCircle
 } from "@fortawesome/pro-duotone-svg-icons";
 
 import {
@@ -65,7 +66,8 @@ library.add(
   faPhp,
   faWordpress,
   faGitAlt,
-  faLaptopCode
+  faLaptopCode,
+  faTimesCircle
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

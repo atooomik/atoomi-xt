@@ -1,0 +1,48 @@
+{
+  "portafolio": [
+    {
+      "name": "Chefs carnivoros",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenge": "Creacion de un layout dinamico que se animara con el cambio de categoria.",
+      "tecnologies": [
+        { "icon": "html5" },
+        { "icon": "html5" },
+        { "icon": "html5" }
+      ],
+      "img": "chefs-carnivoros1.png",
+      "galery": [
+        { "img": "chefs-carnivoros1.png" },
+        { "img": "chefs-carnivoros2.png" },
+        { "img": "chefs-carnivoros3.png" }
+      ]
+    },
+    {
+      "name": "Cadefi v2",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenge": "Creación de toda una nueva plataforma",
+      "img": "beta-cadefi1.png",
+      "galery": [
+        { "img": "beta-cadefi1.png" },
+        { "img": "beta-cadefi2.png" },
+        { "img": "beta-cadefi3.png" }
+      ]
+    },
+    {
+      "name": "atoomik",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenge": "Construcción del sitio desde una refactorización.",
+      "img": "atoomik1.png",
+      "galery": [
+        { "img": "atoomik1.png" },
+        { "img": "atoomik2.png" },
+        { "img": "atoomik3.png" }
+      ]
+    },
+    {
+      "name": "El reto de los 5 ingredientes",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "img": "kiwilimon1.png",
+      "galery": [{ "img": "kiwilimon1.png" }]
+    }
+  ]
+}
