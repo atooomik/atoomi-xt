@@ -1,19 +1,18 @@
 <template>
   <div>
-    <div
-      class="w-68 rounded-lg overflow-hidden bg-atoom-semiGray"
-      @click="showModal()"
-    >
+    <div class="modal-card" @click="showModal()">
       <img :src="imgSrc" alt="" />
-      <p v-text="proyectTitle" class="text-white"></p>
+      <p v-text="proyectTitle" class="text-white px-4 py-2"></p>
     </div>
     <!--Modal con detalles del proyecto-->
     <transition name="traslate">
       <div v-if="openOverlay">
         <div
-          class="w-full h-screen bg-atoom-dkOverlay fixed top-0 right-0 bottom-0 left-0"
+          class="w-full h-screen p-4 bg-atoom-dkOverlay fixed top-0 right-0 bottom-0 left-0"
         >
-          <div class="relative max-w-4xl mx-auto mt-24 rounded-lg">
+          <div
+            class="relative max-w-4xl mx-auto mt-24 rounded-lg cursor-default"
+          >
             <button
               class="absolute z-10 right-0 bottom-0 left-0 mx-auto -mb-4 px-1 pt-1 bg-white rounded-full"
               @click="showModal()"
@@ -27,22 +26,32 @@
               <div class="w-full">
                 <slot name="carousel"></slot>
               </div>
-              <div class="w-full p-4">
-                <div>
-                  <p>Nombre del proyecto:</p>
-                  <p
-                    v-text="proyectTitle"
-                    class="text-3xl font-thin text-black"
-                  ></p>
+              <div class="w-full p-4 ">
+                <div class="mb-4">
+                  <p class="font-normal">Nombre del proyecto:</p>
+                  <p v-text="proyectTitle"></p>
                 </div>
-                <div>
-                  <p>Responsabilidades en el proyecto:</p>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    Participación:
+                  </p>
                   <p v-text="proyectTasks"></p>
                 </div>
-                <div
-                  class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
-                >
-                  <slot name="tecnologies"></slot>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    Retos:
+                  </p>
+                  <p v-text="proyectChallenges"></p>
+                </div>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    Principales tecnologias utilizadas en el proyecto:
+                  </p>
+                  <div
+                    class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
+                  >
+                    <slot name="tecnologies"></slot>
+                  </div>
                 </div>
               </div>
             </div>
@@ -66,6 +75,10 @@ export default {
       default: ""
     },
     proyectTasks: {
+      type: String,
+      default: ""
+    },
+    proyectChallenges: {
       type: String,
       default: ""
     }

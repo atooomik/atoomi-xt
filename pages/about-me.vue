@@ -2,9 +2,9 @@
   <section class="sln-gp-grad">
     <div class="contain">
       <div class="flex flex-col lg:flex-row">
-        <div class="w-7/10 pt-24 mx-auto md:w-2/5 lg:w-1/4 lg:pt-0 lg:mx-0">
+        <div class="w-4/5 pt-24 mx-auto md:w-2/5 lg:w-1/4 lg:pt-0 lg:mx-0">
           <div
-            class="relative traslate-shadow-entrance  h-72 mx-auto overflow-hidden rounded-lg  lg:mt-40"
+            class="relative traslate-shadow-entrance h-72 mx-auto overflow-hidden rounded-lg  lg:mt-40"
           >
             <img
               class="absolute w-full h-full object-cover"
@@ -49,9 +49,11 @@
         <p
           class="pb-8 text-2xl text-center text-white lg:text-left lg:text-3xl"
         >
-          Algunos de mis proyectos:
+          Proyectos en los que he trabajado:
         </p>
-        <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-c">
+        <div
+          class=" grid grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center"
+        >
           <modalcards
             v-for="(item, i) in portafolio"
             :key="i"

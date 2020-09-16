@@ -24,7 +24,9 @@ import {
   faReact,
   faPhp,
   faWordpress,
-  faGitAlt
+  faGitAlt,
+  faLaravel,
+  faNpm
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCommentDots,
@@ -67,7 +69,9 @@ library.add(
   faWordpress,
   faGitAlt,
   faLaptopCode,
-  faTimesCircle
+  faTimesCircle,
+  faLaravel,
+  faNpm
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

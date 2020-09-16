@@ -22,6 +22,10 @@ button {
   padding-right: theme("padding.8");
 }
 
+.modal-card {
+  cursor: $click, default;
+}
+
 .justify-items-center {
   justify-items: center;
 }
