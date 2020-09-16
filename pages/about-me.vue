@@ -1,26 +1,28 @@
 <template>
   <section class="sln-gp-grad">
-    <div class="contain pb-8 lg:pb-8">
+    <div class="contain">
       <div class="flex flex-col lg:flex-row">
-        <div
-          class="relative traslate-shadow-entrance w-7/10 h-72 mx-auto overflow-hidden rounded-lg md:w-2/5 lg:w-1/4 lg:mt-40"
-        >
-          <img
-            class="absolute w-full h-full object-cover"
-            src="~/assets/images/profile-picture.jpg"
-            alt
-          />
-        </div>
-        <div class=" w-3/4">
+        <div class="w-7/10 pt-24 mx-auto md:w-2/5 lg:w-1/4 lg:pt-0 lg:mx-0">
           <div
-            class="opacity-entrance px-8 pb-8 lg:pl-16 lg:mt-20 text-white text-left"
+            class="relative traslate-shadow-entrance  h-72 mx-auto overflow-hidden rounded-lg  lg:mt-40"
+          >
+            <img
+              class="absolute w-full h-full object-cover"
+              src="~/assets/images/profile-picture.jpg"
+              alt="Fotografia de perfil"
+            />
+          </div>
+        </div>
+        <div class="lg:w-3/4">
+          <div
+            class="opacity-entrance pb-8 lg:pl-20 lg:mt-20 text-white text-left"
           >
             <p
-              class="pb-8 mt-4 text-4xl text-center lg:text-left lg:font-thin lg:text-xxl lg:text-atoom-semiGray lg:pl-4  "
+              class="mt-4 text-4xl text-center lg:text-left lg:font-thin lg:text-xxl lg:text-atoom-semiGray lg:pl-4  "
             >
               About me
             </p>
-            <div class="px-8 lg:mt-20">
+            <div class="lg:pr-8 lg:pl-16 lg:mt-20">
               <p class="mb-4">
                 Isacc Núñez, apasionado por la tecnología y el diseño web,
                 egresado de BEDU Tech donde inicie mi formación como
@@ -49,13 +51,15 @@
         >
           Algunos de mis proyectos:
         </p>
-        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-c">
+        <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-c">
           <modalcards
             v-for="(item, i) in portafolio"
             :key="i"
+            :imgSrc="`images/portafolio/${item.cover}`"
             :proyect-title="item.name"
             :proyect-tasks="item.tasks"
-            :imgSrc="`images/portafolio/${item.img}`"
+            :proyect-challenges="item.challenges"
+            :proyect-theme="item.theme"
           >
             <template v-slot:carousel>
               <vue-carousel :per-page="1" :loop="true" :autoplay="true">
@@ -73,10 +77,27 @@
                 :key="'value' + index"
               >
                 <fa-icon
-                  class="m-4 mb-2 text-black"
+                  class="m-4 mb-2 text-atoom-dkOverlay"
                   :icon="['fab', `${value.icon}`]"
                 />
-                <p class="text-xs text-center text-black">html 5</p>
+                <p
+                  v-text="value.name"
+                  class="text-xs text-center text-black"
+                ></p>
+              </div>
+              <div
+                v-for="(value, index) in item.specialItems"
+                :key="'value' + index"
+              >
+                <img
+                  class="w-8 h-8 m-4 mb-2"
+                  :src="`images/aux-icons/${value.icon}`"
+                  alt=""
+                />
+                <p
+                  v-text="value.name"
+                  class="text-xs text-center text-black"
+                ></p>
               </div>
             </template>
           </modalcards>
