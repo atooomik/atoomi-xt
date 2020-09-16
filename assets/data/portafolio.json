@@ -1,0 +1,124 @@
+{
+  "portafolio": [
+    {
+      "name": "Chefs carnivoros",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenges": "El reto de este sitio era lograr el layout de manera fiel al estilo 'Masonry' con que fue diseñado, y darle animaciones fluidas que aprovecharan la elegante paleta de colores. ",
+      "tecnologies": [
+        { "icon": "html5", "name": "HTML" },
+        { "icon": "css3-alt", "name": "CSS" },
+        { "icon": "sass", "name": "Sass" },
+        { "icon": "js-square", "name": "javaScript" },
+        { "icon": "vuejs", "name": "Vue" }
+      ],
+      "specialItems": [
+        { "icon": "tailwind.png", "name": "TailwindCSS" },
+        { "icon": "nuxt.png", "name": "NuxtJS" }
+      ],
+      "cover": "chefs-carnivoros1.png",
+      "galery": [
+        { "img": "chefs-carnivoros1.png" },
+        { "img": "chefs-carnivoros2.png" },
+        { "img": "chefs-carnivoros3.png" },
+        { "img": "chefs-carnivoros4.png" }
+      ]
+    },
+    {
+      "name": "El reto de los 5 ingredientes",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenges": "",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "php",
+          "name": "php"
+        },
+        {
+          "icon": "laravel",
+          "name": "Laravel 7"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        }
+      ],
+      "cover": "kiwilimon1.png",
+      "galery": [
+        {
+          "img": "kiwilimon1.png"
+        }
+      ]
+    },
+    {
+      "name": "Cadefi v2",
+      "tasks": "Propuesta de identidad (colores, iconos, fuentes) y creación del del frontend del sitio, vistas publicas y panel de de usuario. Diseño de flujo de navegación.",
+      "challenges": "Este proyecto se planeo para ofrecerle a los clientes de CADEFI una plataforma moderna y con mayores capacidades de interacción: Pasarela de pagos, notificaciones de usuario, historial de cursos, calendario de eventos.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "php",
+          "name": "php"
+        },
+        {
+          "icon": "laravel",
+          "name": "Laravel 7"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        }
+      ],
+      "cover": "beta-cadefi1.png",
+      "galery": [
+        { "img": "beta-cadefi1.png" },
+        { "img": "beta-cadefi2.png" },
+        { "img": "beta-cadefi3.png" },
+        { "img": "beta-cadefi4.png" },
+        { "img": "beta-cadefi5.png" }
+      ]
+    },
+    {
+      "name": "atoomik",
+      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
+      "challenges": "Construcción del sitio desde una refactorización.",
+      "cover": "atoomik1.png",
+      "galery": [
+        {
+          "img": "atoomik1.png"
+        },
+        {
+          "img": "atoomik2.png"
+        },
+        {
+          "img": "atoomik3.png"
+        }
+      ]
+    }
+  ]
+}
