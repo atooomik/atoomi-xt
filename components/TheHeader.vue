@@ -26,8 +26,8 @@
               'the-header__btn-solid': scrollState === 'isFarFromTop'
             }"
           >
-            <nuxt-link class="font-light" to="/about-me">
-              About me
+            <nuxt-link class="font-light" to="/portafolio">
+              Portafolio
             </nuxt-link>
           </button>
         </li>
@@ -78,10 +78,10 @@
             <nuxt-link
               class="the-header__collapse-el1"
               :class="{ 'is-expanded': isExpanded }"
-              to="/about-me"
+              to="/portafolio"
             >
-              <fa-icon class="mx-4" :icon="['fas', 'user-astronaut']" />
-              <p class="text-3xl">About me</p>
+              <fa-icon class="mx-4" :icon="['fas', 'briefcase']" />
+              <p class="text-3xl">Portafolio</p>
             </nuxt-link>
           </li>
           <li class="my-4">
