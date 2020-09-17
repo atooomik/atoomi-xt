@@ -1,9 +1,9 @@
 {
   "portafolio": [
     {
-      "name": "Chefs carnivoros",
-      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
-      "challenges": "El reto de este sitio era lograr el layout de manera fiel al estilo 'Masonry' con que fue diseñado, y darle animaciones fluidas que aprovecharan la elegante paleta de colores. ",
+      "name": "Chefs carnivoros.",
+      "tasks": "Construcción del sitio a nivel código, considerando presentación del sitio dependiendo de los diferentes breakpoints.",
+      "challenges": "El reto de este sitio era lograr el layout de manera fiel al estilo 'Masonry' con que fue diseñado, para así darle animaciones fluidas que aprovecharan la elegante paleta de colores.",
       "tecnologies": [
         { "icon": "html5", "name": "HTML" },
         { "icon": "css3-alt", "name": "CSS" },
@@ -24,9 +24,9 @@
       ]
     },
     {
-      "name": "El reto de los 5 ingredientes",
-      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
-      "challenges": "",
+      "name": "El reto de los 5 ingredientes.",
+      "tasks": "Construcción del frontend a nivel código, considerando presentación del sitio dependiendo de los diferentes breakpoints.",
+      "challenges": "Mi principal reto en este sitio fue que se pensó como una landing page para anunciar y funcionar como plataforma de registro en un concurso que llevó el mismo nombre. Debía ser claro y conciso en la información y al mismo tiempo en la interfaz de usuario, ya que esta buscaba guiar al usuario en el proceso de registro y participación.",
       "tecnologies": [
         {
           "icon": "js-square",
@@ -57,15 +57,16 @@
       ],
       "cover": "kiwilimon1.png",
       "galery": [
-        {
-          "img": "kiwilimon1.png"
-        }
+        { "img": "kiwilimon1.png" },
+        { "img": "kiwilimon2.png" },
+        { "img": "kiwilimon3.png" },
+        { "img": "kiwilimon4.png" }
       ]
     },
     {
-      "name": "Cadefi v2",
-      "tasks": "Propuesta de identidad (colores, iconos, fuentes) y creación del del frontend del sitio, vistas publicas y panel de de usuario. Diseño de flujo de navegación.",
-      "challenges": "Este proyecto se planeo para ofrecerle a los clientes de CADEFI una plataforma moderna y con mayores capacidades de interacción: Pasarela de pagos, notificaciones de usuario, historial de cursos, calendario de eventos.",
+      "name": "Beta Cadefi v2",
+      "tasks": "Propuesta de la nueva identidad del sitio (vistas, componentes, colores, iconos y fuentes) y creación del frontend del sitio, vistas publicas, panel de usuario y diseño de flujo de navegación.",
+      "challenges": "Este es el proyecto más grande en el que he participado hasta ahora, fue planeado para ofrecerle a los clientes de CADEFI una plataforma moderna y con mayores capacidades de interacción. Fui responsable de todo el diseño de interfaz y su posterior ejecución en código, unicamente por parte del frontend.",
       "tecnologies": [
         {
           "icon": "js-square",
@@ -104,9 +105,70 @@
       ]
     },
     {
+      "name": "Landing Tennis",
+      "tasks": "Construccion del codigo y propuesta de la versión responsive a partir de un diseño proporcionado.",
+      "challenges": "Este sitio fue para una prueba de frontend que hace algun tiempo tomé, el reto era lograr la construcción del sitio sin frameworks de estilos y crear un carousel de productos sin el uso de ningun framework de componentes.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "nuxt.png",
+          "name": "NuxtJS"
+        }
+      ],
+      "cover": "tennis1.jpg",
+      "galery": [
+        {
+          "img": "tennis1.jpg"
+        },
+        {
+          "img": "tennis2.png"
+        },
+        {
+          "img": "tennis3.png"
+        }
+      ]
+    },
+    {
       "name": "atoomik",
-      "tasks": "Construccion del codigo a partir de un diseño proporcionado.",
-      "challenges": "Construcción del sitio desde una refactorización.",
+      "tasks": "Este es mi propio sitio, por lo que yo he sido el responsable del diseño, código & UX.",
+      "challenges": "Este sitio sufrió una gran cantidad de re-factorizaciónes, cada una provocada por nuevos conocimientos adquiridos, y mi gusto por aplicarlos de forma real, pase muchísimas horas diseñando hasta lograr reflejar un sitio que también reflejara un poco de mi personalidad y mi reto personal fue lograr un estilo de gradientes combinado con 'Flat Style'.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        },
+        {
+          "icon": "nuxt.png",
+          "name": "NuxtJS"
+        }
+      ],
       "cover": "atoomik1.png",
       "galery": [
         {
@@ -117,6 +179,12 @@
         },
         {
           "img": "atoomik3.png"
+        },
+        {
+          "img": "atoomik4.png"
+        },
+        {
+          "img": "atoomik5.png"
         }
       ]
     }

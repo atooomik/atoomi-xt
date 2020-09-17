@@ -8,10 +8,10 @@
     <transition name="traslate">
       <div v-if="openOverlay">
         <div
-          class="w-full h-screen p-4 bg-atoom-dkOverlay fixed top-0 right-0 bottom-0 left-0"
+          class="fixed top-0 right-0 bottom-0 left-0 flex items-center w-full h-screen p-4 bg-atoom-dkOverlay"
         >
           <div
-            class="relative max-w-4xl mx-auto mt-24 rounded-lg cursor-default"
+            class="relative max-w-4xl mx-auto lg:mt-16 rounded-lg cursor-default"
           >
             <button
               class="absolute z-10 right-0 bottom-0 left-0 mx-auto -mb-4 px-1 pt-1 bg-white rounded-full"
@@ -22,7 +22,9 @@
                 :icon="['fad', 'times-circle']"
               />
             </button>
-            <div class="w-full h-84 rounded-lg bg-white overflow-y-scroll">
+            <div
+              class="w-full h-80 rounded-lg lg:h-84 bg-white overflow-y-scroll"
+            >
               <div class="w-full">
                 <slot name="carousel"></slot>
               </div>

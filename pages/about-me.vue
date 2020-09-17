@@ -52,7 +52,7 @@
           Proyectos en los que he trabajado:
         </p>
         <div
-          class=" grid grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center"
+          class="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-8 justify-items-center"
         >
           <modalcards
             v-for="(item, i) in portafolio"
@@ -127,18 +127,7 @@ export default {
     VueSlide
   },
   data: () => ({
-    isMobile: false,
     portafolio: []
-  }),
-  mounted() {
-    this.mobileScreen();
-    window.addEventListener("resize", this.mobileScreen);
-  },
-  methods: {
-    mobileScreen() {
-      this.isMobile = window.innerWidth < 1024;
-      console.log(this.isMobile);
-    }
-  }
+  })
 };
 </script>
