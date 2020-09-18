@@ -1,0 +1,192 @@
+{
+  "portfolio": [
+    {
+      "name": "Chefs carnivoros.",
+      "tasks": "Construction of the site at the code level, considering site presentation depending on the different breakpoints.",
+      "challenges": "The challenge of this site was to achieve the 'Masonry' style layout with which it was designed, in order to give it fluid animations that take advantage of the elegant color palette.",
+      "tecnologies": [
+        { "icon": "html5", "name": "HTML" },
+        { "icon": "css3-alt", "name": "CSS" },
+        { "icon": "sass", "name": "Sass" },
+        { "icon": "js-square", "name": "javaScript" },
+        { "icon": "vuejs", "name": "Vue" }
+      ],
+      "specialItems": [
+        { "icon": "tailwind.png", "name": "TailwindCSS" },
+        { "icon": "nuxt.png", "name": "NuxtJS" }
+      ],
+      "cover": "chefs-carnivoros1.png",
+      "galery": [
+        { "img": "chefs-carnivoros1.png" },
+        { "img": "chefs-carnivoros2.png" },
+        { "img": "chefs-carnivoros3.png" },
+        { "img": "chefs-carnivoros4.png" }
+      ]
+    },
+    {
+      "name": "El reto de los 5 ingredientes eng.",
+      "tasks": "Construction of the code at the frontend level, considering the client's branding and the responsiveness of the site.",
+      "challenges": "My main challenge on this site was that it was thought of as a landing page to advertise and function as a registration platform for a contest with the same name. It had to be clear and concise in the information and the user interface, since it was intended to guide the user through the registration and participation process step by step.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "php",
+          "name": "php"
+        },
+        {
+          "icon": "laravel",
+          "name": "Laravel 7"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        }
+      ],
+      "cover": "kiwilimon1.png",
+      "galery": [
+        { "img": "kiwilimon1.png" },
+        { "img": "kiwilimon2.png" },
+        { "img": "kiwilimon3.png" },
+        { "img": "kiwilimon4.png" }
+      ]
+    },
+    {
+      "name": "Beta Cadefi v2",
+      "tasks": "Proposal of the new identity of the site (views, components, colors, icons and fonts) and creation of the frontend of the site, public views, user panel and navigation flow design.",
+      "challenges": "This is the largest project I have participated in so far, it was planned to offer CADEFI clients a modern platform with greater interaction capabilities. I was responsible for all the interface design and its subsequent execution in code, only by the frontend.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "php",
+          "name": "php"
+        },
+        {
+          "icon": "laravel",
+          "name": "Laravel 7"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        }
+      ],
+      "cover": "beta-cadefi1.png",
+      "galery": [
+        { "img": "beta-cadefi1.png" },
+        { "img": "beta-cadefi2.png" },
+        { "img": "beta-cadefi3.png" },
+        { "img": "beta-cadefi4.png" },
+        { "img": "beta-cadefi5.png" }
+      ]
+    },
+    {
+      "name": "Landing Tennis",
+      "tasks": "Construction of the code and proposal of the responsive version from a provided design.",
+      "challenges": "This site was for a frontend test that I took some time ago, the challenge was to achieve the construction of the site without style frameworks and create a carousel of products without the use of any component framework.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "nuxt.png",
+          "name": "NuxtJS"
+        }
+      ],
+      "cover": "tennis1.jpg",
+      "galery": [
+        {
+          "img": "tennis1.jpg"
+        },
+        {
+          "img": "tennis2.png"
+        },
+        {
+          "img": "tennis3.png"
+        }
+      ]
+    },
+    {
+      "name": "atoomik",
+      "tasks": "This is my own site, so I have been responsible for the design, code & UX, metatags and performance.",
+      "challenges": "This site underwent a great amount of re-factoring, each one caused by my new acquired knowledge and my need to apply it in a project, I spent many hours designing until I managed to create a site that also reflected a bit of my personality. My personal goal was combining a 'gradient & flat style'.",
+      "tecnologies": [
+        {
+          "icon": "js-square",
+          "name": "javaScript"
+        },
+        {
+          "icon": "vuejs",
+          "name": "Vue"
+        },
+        {
+          "icon": "sass",
+          "name": "Sass"
+        }
+      ],
+      "specialItems": [
+        {
+          "icon": "tailwind.png",
+          "name": "TailwindCSS"
+        },
+        {
+          "icon": "nuxt.png",
+          "name": "NuxtJS"
+        }
+      ],
+      "cover": "atoomik1.png",
+      "galery": [
+        {
+          "img": "atoomik1.png"
+        },
+        {
+          "img": "atoomik2.png"
+        },
+        {
+          "img": "atoomik3.png"
+        },
+        {
+          "img": "atoomik4.png"
+        },
+        {
+          "img": "atoomik5.png"
+        }
+      ]
+    }
+  ]
+}

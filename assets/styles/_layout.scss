@@ -24,6 +24,14 @@ button {
   margin-left: auto;
 }
 
+.active-link {
+  font-weight: theme("fontWeight.bold");
+}
+
+.non-active-link {
+  font-weight: theme("fontWeight.thin");
+}
+
 .modal-card {
   cursor: $click, default;
 }

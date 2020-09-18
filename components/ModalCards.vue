@@ -28,7 +28,7 @@
               <div class="w-full">
                 <slot name="carousel"></slot>
               </div>
-              <div class="w-full p-4 ">
+              <div v-if="cardLang === 'español'" class="w-full p-4">
                 <div class="mb-4">
                   <p class="font-normal">Nombre del proyecto:</p>
                   <p v-text="proyectTitle"></p>
@@ -56,6 +56,34 @@
                   </div>
                 </div>
               </div>
+              <div v-if="cardLang === 'english'" class="w-full p-4">
+                <div class="mb-4">
+                  <p class="font-normal">Name of the project:</p>
+                  <p v-text="proyectTitle"></p>
+                </div>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    My participation:
+                  </p>
+                  <p v-text="proyectTasks"></p>
+                </div>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    The challenges:
+                  </p>
+                  <p v-text="proyectChallenges"></p>
+                </div>
+                <div class="mb-4">
+                  <p class="font-normal">
+                    Main technologies used on the project:
+                  </p>
+                  <div
+                    class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
+                  >
+                    <slot name="tecnologies"></slot>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -68,6 +96,10 @@
 export default {
   name: "ModalCards",
   props: {
+    cardLang: {
+      type: String,
+      default: "Español"
+    },
     imgSrc: {
       type: String,
       default: ""
