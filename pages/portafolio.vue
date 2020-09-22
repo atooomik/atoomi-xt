@@ -73,7 +73,7 @@
                 v-for="(item, i) in portafolio"
                 :key="i"
                 :cardLang="lang"
-                :imgSrc="`images/portafolio/${item.cover}`"
+                :imgSrc="`/images/portafolio/${item.cover}`"
                 :proyect-title="item.name"
                 :proyect-tasks="item.tasks"
                 :proyect-challenges="item.challenges"
@@ -85,7 +85,7 @@
                       v-for="(value, index) in item.galery"
                       :key="index"
                     >
-                      <img :src="`images/portafolio/${value.img}`" alt />
+                      <img :src="`/images/portafolio/${value.img}`" alt />
                     </vue-slide>
                   </vue-carousel>
                 </template>
@@ -106,7 +106,7 @@
                   >
                     <img
                       class="w-8 h-8 m-4 mb-2"
-                      :src="`images/aux-icons/${value.icon}`"
+                      :src="`/images/aux-icons/${value.icon}`"
                       alt
                     />
                     <p
@@ -163,7 +163,7 @@
                 v-for="(item, i) in portfolio"
                 :key="i"
                 :cardLang="lang"
-                :imgSrc="`images/portafolio/${item.cover}`"
+                :imgSrc="`/images/portafolio/${item.cover}`"
                 :proyect-title="item.name"
                 :proyect-tasks="item.tasks"
                 :proyect-challenges="item.challenges"
@@ -175,7 +175,7 @@
                       v-for="(value, index) in item.galery"
                       :key="index"
                     >
-                      <img :src="`images/portafolio/${value.img}`" alt />
+                      <img :src="`/images/portafolio/${value.img}`" alt />
                     </vue-slide>
                   </vue-carousel>
                 </template>
@@ -196,7 +196,7 @@
                   >
                     <img
                       class="w-8 h-8 m-4 mb-2"
-                      :src="`images/aux-icons/${value.icon}`"
+                      :src="`/images/aux-icons/${value.icon}`"
                       alt
                     />
                     <p
