@@ -11,7 +11,7 @@
       <nuxt-link class="flex items-center" to="/">
         <img
           class="w-12 h-12 lg:w-16 lg:h-16"
-          src="../assets/images/svg-icons/atoomik-logo.svg"
+          src="~/assets/images/svg-icons/atoomik-logo.svg"
           alt=""
         />
         <p class="text-lg text-white">atoomik</p>

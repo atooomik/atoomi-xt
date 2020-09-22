@@ -20,7 +20,7 @@
         <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">
           <img
             class="max-w-xl w-full mx-auto"
-            src="../assets/images/svg-draws/product-plan.svg"
+            src="~/assets/images/svg-draws/product-plan.svg"
             alt="services asset"
           />
         </div>
@@ -76,7 +76,7 @@
                   >
                     <img
                       class="absolute w-full h-full object-contain object-bottom lg:object-center"
-                      :src="`images/svg-draws/${item.img}`"
+                      :src="`/images/svg-draws/${item.img}`"
                       alt="people on a meeting"
                     />
                   </div>
@@ -101,7 +101,7 @@
 <script>
 import VueCarousel from "vue-carousel/src/Carousel.vue";
 import VueSlide from "vue-carousel/src/Slide.vue";
-import { process } from "../assets/data/proceso.json";
+import { process } from "~/assets/data/proceso.json";
 
 export default {
   name: "Estrategia",

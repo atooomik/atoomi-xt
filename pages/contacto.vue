@@ -12,7 +12,7 @@
           class="max-w-xs flex flex-col mx-auto mt-8 p-4 bg-atoom-semiGray rounded-lg md:max-w-md lg:flex-row lg:max-w-2xl"
         >
           <div class="w-48 mx-auto lg:w-64 lg:flex lg:items-center">
-            <img src="../assets/images/svg-draws/email-me.svg" alt />
+            <img src="~/assets/images/svg-draws/email-me.svg" alt />
           </div>
           <div>
             <form

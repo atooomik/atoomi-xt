@@ -18,7 +18,7 @@
         <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">
           <img
             class="max-w-xl w-full mx-auto"
-            src="../assets/images/svg-draws/feeling-proud.svg"
+            src="~/assets/images/svg-draws/feeling-proud.svg"
             alt="services asset"
           />
         </div>
@@ -55,7 +55,7 @@
             >
               <vue-slide v-for="(item, i) in services" :key="i" class="p-4">
                 <services
-                  :imgSrc="`images/svg-draws/${item.image}`"
+                  :imgSrc="`/images/svg-draws/${item.image}`"
                   :title="item.name"
                   :description="item.desc"
                 />
@@ -67,7 +67,7 @@
               <hover-sides
                 v-for="(card, i) in services"
                 :key="i"
-                :imgAsset="`images/svg-draws/${card.image}`"
+                :imgAsset="`/images/svg-draws/${card.image}`"
                 :title="card.name"
                 :resume="card.desc"
               />
@@ -92,7 +92,7 @@ import VueSlide from "vue-carousel/src/Slide.vue";
 
 import Services from "../components/HoverCards.vue";
 import HoverSides from "../components/HoverSideCards.vue";
-import { services } from "../assets/data/servicios.json";
+import { services } from "~/assets/data/servicios.json";
 
 export default {
   name: "Servicios",

@@ -11,7 +11,7 @@
           class="flex flex-col mx-auto mt-8 p-4 rounded-lg lg:mt-8 lg:max-w-2xl xl:max-w-4xl"
         >
           <div class="w-48 mx-auto md:w-64 lg:w-1/3 lg:flex lg:items-center">
-            <img src="../assets/images/svg-draws/thankfull-cat.svg" alt />
+            <img src="~/assets/images/svg-draws/thankfull-cat.svg" alt />
           </div>
           <div class="">
             <p class="mt-12 text-lg text-white text-center lg:text-3xl">

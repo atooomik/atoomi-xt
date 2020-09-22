@@ -26,7 +26,7 @@
       >
         <img
           class="h-16 mx-auto"
-          src="../assets/images/svg-icons/atoomik-logo.svg"
+          src="~/assets/images/svg-icons/atoomik-logo.svg"
           alt="logo brand"
         />
         <p>2020 atoomik Consultoria Web</p>

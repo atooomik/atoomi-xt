@@ -24,7 +24,7 @@
       <div class="w-full md:w-3/4 p-4 lg:w-1/2 lg:p-8 my-8">
         <img
           class="mx-auto"
-          src="../assets/images/svg-draws/invest.svg"
+          src="~/assets/images/svg-draws/invest.svg"
           alt="benefits"
         />
       </div>
