@@ -17,7 +17,7 @@
           <p>atoomik.dd@hotmail.com</p>
         </div>
         <div class="flex items-center mx-4 my-2 px-2">
-          <fa-icon class="mr-4 text-xl" :icon="['fas', 'map-marker-smile']" />
+          <fa-icon class="mr-4 text-xl" :icon="['fas', 'map-marker-alt']" />
           <p>Miguel Hidalgo, CDMX</p>
         </div>
       </div>

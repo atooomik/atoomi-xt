@@ -4,16 +4,6 @@ import { library, config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import {
-  faBars,
-  faCatSpace,
-  faMountain,
-  faAngleDoubleDown,
-  faChevronDoubleRight,
-  faChevronDoubleLeft,
-  faTimesCircle
-} from "@fortawesome/pro-duotone-svg-icons";
-
-import {
   faWhatsapp,
   faHtml5,
   faCss3Alt,
@@ -33,12 +23,14 @@ import {
   faHandshake,
   faPenNib,
   faBriefcase,
-  faLightbulbOn,
-  faGameConsoleHandheld,
+  faCogs,
   faEnvelope,
-  faMapMarkerSmile,
-  faLaptopCode
-} from "@fortawesome/pro-solid-svg-icons";
+  faMapMarkerAlt,
+  faLaptopCode,
+  faTimesCircle,
+  faAngleDoubleDown,
+  faBars
+} from "@fortawesome/free-solid-svg-icons";
 
 config.showMissingIcons = true;
 
@@ -48,16 +40,9 @@ library.add(
   faHandshake,
   faPenNib,
   faBriefcase,
-  faLightbulbOn,
-  faCatSpace,
-  faGameConsoleHandheld,
-  faMountain,
   faWhatsapp,
   faEnvelope,
-  faMapMarkerSmile,
-  faAngleDoubleDown,
-  faChevronDoubleRight,
-  faChevronDoubleLeft,
+  faMapMarkerAlt,
   faHtml5,
   faCss3Alt,
   faSass,
@@ -71,7 +56,9 @@ library.add(
   faLaptopCode,
   faTimesCircle,
   faLaravel,
-  faNpm
+  faNpm,
+  faAngleDoubleDown,
+  faCogs
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

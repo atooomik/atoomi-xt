@@ -12,7 +12,7 @@
             </p>
           </div>
           <span class="hidden lg:flex lg:justify-center">
-            <fa-icon class="down-arrow" :icon="['fad', 'angle-double-down']" />
+            <fa-icon class="down-arrow" :icon="['fas', 'angle-double-down']" />
           </span>
         </div>
         <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">

@@ -71,7 +71,7 @@
     </nav>
 
     <button @click="openMenu()" class="the-header__menu-mb text-4xl">
-      <fa-icon class="text-white mx-4 z-15 relative" :icon="['fad', 'bars']" />
+      <fa-icon class="text-white mx-4 z-15 relative" :icon="['fas', 'bars']" />
       <nav>
         <ul class="the-header__collapse" :class="{ 'is-expanded': isExpanded }">
           <li class="my-4">
@@ -100,7 +100,7 @@
               :class="{ 'is-expanded': isExpanded }"
               to="/metodologia"
             >
-              <fa-icon class="mx-4" :icon="['fas', 'lightbulb-on']" />
+              <fa-icon class="mx-4" :icon="['fas', 'cogs']" />
               <p class="text-3xl">Metodología</p>
             </nuxt-link>
           </li>
