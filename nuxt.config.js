@@ -48,12 +48,12 @@ const head = {
     {
       hid: "og:image:width",
       property: "og:image:width",
-      content: "1500"
+      content: "1440"
     },
     {
       hid: "og:image:height",
       property: "og:image:height",
-      content: "785"
+      content: "732"
     },
     {
       hid: "og:image:alt",
