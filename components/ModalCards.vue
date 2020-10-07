@@ -10,14 +10,21 @@
         <div
           class="fixed top-0 right-0 bottom-0 left-0 flex items-center w-full h-screen p-4 bg-atoom-dkOverlay"
         >
-          <div class="relative max-w-4xl mx-auto lg:mt-16 rounded-lg cursor-default">
+          <div
+            class="relative max-w-4xl mx-auto lg:mt-16 rounded-lg cursor-default"
+          >
             <button
               class="absolute z-10 right-0 bottom-0 left-0 mx-auto -mb-4 px-1 pt-1 bg-white rounded-full"
               @click="showModal()"
             >
-              <fa-icon class="text-black text-2xl" :icon="['fad', 'times-circle']" />
+              <fa-icon
+                class="text-black text-2xl"
+                :icon="['fas', 'times-circle']"
+              />
             </button>
-            <div class="w-full h-80 rounded-lg lg:h-84 bg-white overflow-y-scroll">
+            <div
+              class="w-full h-80 rounded-lg lg:h-84 bg-white overflow-y-scroll"
+            >
               <div class="w-full">
                 <slot name="carousel"></slot>
               </div>
@@ -35,8 +42,12 @@
                   <p v-text="proyectChallenges"></p>
                 </div>
                 <div class="mb-4">
-                  <p class="font-normal">Principales tecnologias utilizadas en el proyecto:</p>
-                  <div class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray">
+                  <p class="font-normal">
+                    Principales tecnologias utilizadas en el proyecto:
+                  </p>
+                  <div
+                    class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
+                  >
                     <slot name="tecnologies"></slot>
                   </div>
                 </div>
@@ -55,8 +66,12 @@
                   <p v-text="proyectChallenges"></p>
                 </div>
                 <div class="mb-4">
-                  <p class="font-normal">Main technologies used on the project:</p>
-                  <div class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray">
+                  <p class="font-normal">
+                    Main technologies used on the project:
+                  </p>
+                  <div
+                    class="grid grid-cols-4 justify-items-center text-3xl text-atoom-semiGray"
+                  >
                     <slot name="tecnologies"></slot>
                   </div>
                 </div>
@@ -75,33 +90,33 @@ export default {
   props: {
     cardLang: {
       type: String,
-      default: "Español",
+      default: "Español"
     },
     imgSrc: {
       type: String,
-      default: "",
+      default: ""
     },
     proyectTitle: {
       type: String,
-      default: "",
+      default: ""
     },
     proyectTasks: {
       type: String,
-      default: "",
+      default: ""
     },
     proyectChallenges: {
       type: String,
-      default: "",
-    },
+      default: ""
+    }
   },
   data: () => ({
-    openOverlay: false,
+    openOverlay: false
   }),
   methods: {
     showModal() {
       this.openOverlay = !this.openOverlay;
       console.log(this.openOverlay);
-    },
-  },
+    }
+  }
 };
 </script>

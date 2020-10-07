@@ -38,7 +38,7 @@ const head = {
     {
       hid: "og:image:url",
       property: "og:image:url",
-      content: "https://www.atoomikdev.com/files/images/facebook-banner.png"
+      content: "https://www.atoomikdev.com/files/images/metainfo-banner.png"
     },
     {
       hid: "og:image:type",
