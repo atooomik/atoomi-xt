@@ -1,7 +1,7 @@
 {
   "portfolio": [
     {
-      "name": "Chefs carnivoros.",
+      "name": "Chefs carnivoros",
       "tasks": "Construction of the site at the code level, considering site presentation depending on the different breakpoints.",
       "challenges": "The challenge of this site was to achieve the 'Masonry' style layout with which it was designed, in order to give it fluid animations that take advantage of the elegant color palette.",
       "tecnologies": [
@@ -24,9 +24,9 @@
       ]
     },
     {
-      "name": "El reto de los 5 ingredientes eng.",
+      "name": "El reto de los 5 ingredientes",
       "tasks": "Construction of the code at the frontend level, considering the client's branding and the responsiveness of the site.",
-      "challenges": "My main challenge on this site was that it was thought of as a landing page to advertise and function as a registration platform for a contest with the same name. It had to be clear and concise in the information and the user interface, since it was intended to guide the user through the registration and participation process step by step.",
+      "challenges": "My main challenge on this site was that it was thought as a landing page to advertise and function as a registration platform for a contest with the same name. It had to be clear and concise in the information and the user interface, since it was intended to guide the user through the registration and participation process step by step.",
       "tecnologies": [
         {
           "icon": "js-square",

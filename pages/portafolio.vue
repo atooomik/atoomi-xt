@@ -53,10 +53,9 @@
                 en el que me involucro.
               </p>
               <p class="mb-4">
-                Actualmente trabajo como Frontend Developer en "dinamo Agencia
-                de comunicación y diseño" y estoy en constante aprendizaje para
-                especializarme como uno de los mejores diseñadores y animadores
-                del desarrollo web.
+                Actualmente trabajo como Frontend Developer en "Kuntica" y estoy
+                en constante aprendizaje, también busco especializarme como
+                animador web con JavaScript.
               </p>
             </div>
           </div>
@@ -143,10 +142,9 @@
                 involved.
               </p>
               <p class="mb-4">
-                Currently I work as a Frontend Developer at "Dinamo
-                Communication and Design Agency" and I am constantly learning to
-                specialize as one of the best designers and animators of web
-                development.
+                Currently I'm working as a Frontend Developer at "Kuntica" and
+                I'm in constantly learning, also I want to specialize as a cool
+                JavaScript web animator.
               </p>
             </div>
           </div>
