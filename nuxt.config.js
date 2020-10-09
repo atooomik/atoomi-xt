@@ -38,7 +38,8 @@ const head = {
     {
       hid: "og:image:url",
       property: "og:image:url",
-      content: "https://www.atoomikdev.com/files/images/metainfo-banner.png"
+      content:
+        "https://www.atoomikdev.com/files/images/meta/facebook-banner.png"
     },
     {
       hid: "og:image:type",
@@ -48,12 +49,12 @@ const head = {
     {
       hid: "og:image:width",
       property: "og:image:width",
-      content: "1440"
+      content: "1500"
     },
     {
       hid: "og:image:height",
       property: "og:image:height",
-      content: "732"
+      content: "785"
     },
     {
       hid: "og:image:alt",
