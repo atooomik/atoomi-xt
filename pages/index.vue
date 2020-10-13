@@ -1,5 +1,5 @@
 <template>
-  <div class="ylw-gp-grad">
+  <div>
     <the-hero />
     <offer />
   </div>
@@ -15,6 +15,7 @@ export default {
     Logo,
     TheHero,
     Offer
-  }
+  },
+  transition: "slide-fade"
 };
 </script>

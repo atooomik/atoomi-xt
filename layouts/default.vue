@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sln-gp-grad">
     <the-header />
     <nuxt />
     <the-footer />
@@ -14,7 +14,7 @@ export default {
   name: "DefaultLayout",
   components: {
     TheHeader,
-    TheFooter,
-  },
+    TheFooter
+  }
 };
 </script>

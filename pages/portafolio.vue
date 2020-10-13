@@ -1,5 +1,5 @@
 <template>
-  <section class="sln-gp-grad">
+  <section>
     <div class="contain">
       <div class="relative flex flex-col lg:flex-row">
         <div class="absolute right-0 mt-20 text-white">
@@ -236,6 +236,7 @@ export default {
       titleChunk: "Portafolio"
     };
   },
+  transition: "slide-fade",
   data: () => ({
     portafolio: [],
     portfolio: [],
