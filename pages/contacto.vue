@@ -87,7 +87,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      titleChunk: "Contacto"
+    };
+  }
+};
 </script>
 
 <style></style>

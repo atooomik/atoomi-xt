@@ -63,10 +63,11 @@ const head = {
     }
   ],
   link: [],
-  titleTemplate: (titleChunk = "") =>
-    titleChunk
+  titleTemplate: titleChunk => {
+    return titleChunk
       ? `${titleChunk} - atoomik Consultoría web independiente`
-      : "atoomik Consultoría web independiente"
+      : "atoomik Consultoría web independiente";
+  }
 };
 
 /*
@@ -99,7 +100,8 @@ const nuxtConfig = {
   head,
   css,
   loading: {
-    color: "3B8070"
+    color: "3B8070",
+    height: "25px"
   },
   plugins: ["~/plugins/font-awesome.js"],
   watch: ["./tailwind.config.js"],

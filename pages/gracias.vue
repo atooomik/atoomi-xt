@@ -26,7 +26,12 @@
 
 <script>
 export default {
-  name: "contactSuccess"
+  name: "contactSuccess",
+  head() {
+    return {
+      titleChunk: "Formulario exitoso"
+    };
+  }
 };
 </script>
 

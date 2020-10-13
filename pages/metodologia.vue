@@ -110,6 +110,11 @@ export default {
       process
     };
   },
+  head() {
+    return {
+      titleChunk: "Metodología"
+    };
+  },
   data() {
     return {
       process: []

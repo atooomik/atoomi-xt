@@ -101,6 +101,11 @@ export default {
       services
     };
   },
+  head() {
+    return {
+      titleChunk: "Servicios"
+    };
+  },
   data: () => ({
     services: [],
     isMobile: false

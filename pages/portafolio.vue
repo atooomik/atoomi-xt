@@ -231,6 +231,11 @@ export default {
     VueCarousel,
     VueSlide
   },
+  head() {
+    return {
+      titleChunk: "Portafolio"
+    };
+  },
   data: () => ({
     portafolio: [],
     portfolio: [],
