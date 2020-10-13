@@ -17,7 +17,7 @@
       <div
         class="w-full flex justify-between mt-16 mb-8 md:mt-20 md:mb-12 lg:h-1/5 lg:items-center lg:my-0"
       >
-        <figure class="w-40 text-center opacity-icon-entrance--home">
+        <figure class="w-40 text-center opacity-icon-entrance">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="~/assets/images/svg-icons/webDevelopment.svg"
@@ -27,7 +27,7 @@
             <p class="md:text-2xl text-white font-normal">Desarrollo</p>
           </figcaption>
         </figure>
-        <figure class="w-40 text-center opacity-icon-entrance--home">
+        <figure class="w-40 text-center opacity-icon-entrance">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="~/assets/images/svg-icons/webDesign.svg"
@@ -37,7 +37,7 @@
             <p class="md:text-2xl text-white font-normal">Diseño</p>
           </figcaption>
         </figure>
-        <figure class="w-40 text-center opacity-icon-entrance--home">
+        <figure class="w-40 text-center opacity-icon-entrance">
           <img
             class="h-12 w-12 md:h-20 md:w-20 m-auto"
             src="~/assets/images/svg-icons/userXperience.svg"

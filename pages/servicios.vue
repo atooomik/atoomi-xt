@@ -4,9 +4,9 @@
       class="flex flex-col justify-between lg:flex-row lg:items-center lg:min-h-screen"
     >
       <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
-        <div class="entrance px-8 text-center">
-          <p class="font-thin text-4xl text-white lg:text-7xl">Servicios</p>
-          <p class="text-lg text-white">
+        <div class="entrance px-8 text-center text-white">
+          <p class="font-thin text-4xl lg:text-7xl">Servicios</p>
+          <p class="text-lg">
             Más que el desarrollo de un sitio web.
           </p>
         </div>

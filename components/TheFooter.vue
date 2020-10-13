@@ -45,7 +45,7 @@
           <p>Metodología</p>
         </nuxt-link>
         <nuxt-link class="mx-8 my-2" to="/contacto">
-          <p>Trabajemos juntos</p>
+          <p>Contáctame</p>
         </nuxt-link>
       </div>
     </div>

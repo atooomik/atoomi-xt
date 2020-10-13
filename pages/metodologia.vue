@@ -4,8 +4,8 @@
       class="flex flex-col justify-center lg:flex-row-reverse lg:items-center lg:min-h-screen"
     >
       <div class="w-full mt-24 overflow-hidden lg:w-1/2 lg:my-8">
-        <div class="entrance px-8 text-center lg:text-left text-white">
-          <p class="font-thin text-4xl text-atoom-salmn lg:text-7xl">
+        <div class="entrance px-8 text-center text-white">
+          <p class="font-thin text-4xl lg:text-7xl">
             Metodología
           </p>
           <p class="text-lg">
@@ -19,7 +19,7 @@
       <div class="flex mt-8 p-8 h-80 lg:w-1/2 lg:min-h-adjust">
         <img
           class="max-w-xl w-full mx-auto"
-          src="~/assets/images/svg-draws/product-plan.svg"
+          src="~/assets/images/svg-draws/thought-process.svg"
           alt="services asset"
         />
       </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="px-4">
           <p
-            class="mt-16 mb-4 mx-auto text-4xl lg:text-6xl font-thin text-center text-atoom-salmn lg:my-8"
+            class="mt-16 mb-4 mx-auto text-4xl lg:text-6xl font-thin text-center text-white lg:my-8"
           >
             Proceso
           </p>
@@ -58,7 +58,7 @@
                 <div class="lg:w-3/5">
                   <div class="lg:flex lg:items-baseline">
                     <p
-                      class="text-center text-4xl font-bold text-atoom-salmnSoft lg:text-xxl"
+                      class="text-center text-4xl font-bold text-atoom-semiGray lg:text-xxl"
                     >
                       {{ item.step }}
                     </p>
