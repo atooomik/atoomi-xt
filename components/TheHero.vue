@@ -4,12 +4,12 @@
       <div class="opacity-entrance lg:h-4/5">
         <div class="flex flex-col justify-center items-center w-full h-full">
           <img
-            class="w-40 mt-40 mb-8 md:mt-48 md:mb-16 lg:my-8"
+            class="w-40 mt-48 mb-8 md:mt-40 md:mb-16 lg:my-8"
             src="~/assets/images/svg-icons/atoomik-logo.svg"
             alt="brand logo"
           />
           <p class="text-5xl text-white">atoomik</p>
-          <p class="text-3xl text-white text-center leading-tight">
+          <p class="text-xl text-white text-center leading-tight">
             Consultoría web independiente
           </p>
         </div>

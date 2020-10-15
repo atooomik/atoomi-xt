@@ -29,7 +29,8 @@ import {
   faLaptopCode,
   faTimesCircle,
   faAngleDoubleDown,
-  faBars
+  faBars,
+  faHome
 } from "@fortawesome/free-solid-svg-icons";
 
 config.showMissingIcons = true;
@@ -58,7 +59,8 @@ library.add(
   faLaravel,
   faNpm,
   faAngleDoubleDown,
-  faCogs
+  faCogs,
+  faHome
 );
 
 Vue.component("fa-icon", FontAwesomeIcon);

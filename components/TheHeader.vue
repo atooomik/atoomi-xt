@@ -7,7 +7,7 @@
       'bg-atoom-dk': scrollState === 'isFarFromTop'
     }"
   >
-    <div class="the-header__brand z-15">
+    <div class="the-header__brand">
       <nuxt-link class="flex items-center" to="/">
         <img
           class="w-12 h-12 lg:w-16 lg:h-16"
@@ -17,6 +17,7 @@
         <p class="text-lg text-white">atoomik</p>
       </nuxt-link>
     </div>
+    <!--Menu desktop-->
     <nav>
       <ul class="the-header__menu-dk">
         <li class="mx-2">
@@ -69,51 +70,61 @@
         </li>
       </ul>
     </nav>
-
+    <!--Menu mobil-->
     <button @click="openMenu()" class="the-header__menu-mb text-4xl">
       <fa-icon class="text-white mx-4 z-15 relative" :icon="['fas', 'bars']" />
       <nav>
         <ul class="the-header__collapse" :class="{ 'is-expanded': isExpanded }">
-          <li class="my-4">
-            <nuxt-link
-              class="the-header__collapse-el1"
-              :class="{ 'is-expanded': isExpanded }"
-              to="/portafolio"
-            >
+          <nuxt-link
+            class="the-header__collapse-item my-4"
+            :class="{ 'is-expanded': isExpanded }"
+            to="/"
+          >
+            <li class="flex items-baseline">
+              <fa-icon class="mx-4" :icon="['fas', 'home']" />
+              <p class="text-lg text-white">Inicio</p>
+            </li>
+          </nuxt-link>
+          <nuxt-link
+            class="the-header__collapse-item my-4"
+            :class="{ 'is-expanded': isExpanded }"
+            to="/portafolio"
+          >
+            <li class="flex items-baseline">
               <fa-icon class="mx-4" :icon="['fas', 'briefcase']" />
-              <p class="text-3xl">Portafolio</p>
-            </nuxt-link>
-          </li>
-          <li class="my-4">
-            <nuxt-link
-              class="the-header__collapse-el2"
-              :class="{ 'is-expanded': isExpanded }"
-              to="/servicios"
-            >
+              <p>Portafolio</p>
+            </li>
+          </nuxt-link>
+          <nuxt-link
+            class="the-header__collapse-item my-4"
+            :class="{ 'is-expanded': isExpanded }"
+            to="/servicios"
+          >
+            <li class="flex items-baseline">
               <fa-icon class="mx-4" :icon="['fas', 'laptop-code']" />
-              <p class="text-3xl">Servicios</p>
-            </nuxt-link>
-          </li>
-          <li class="my-4">
-            <nuxt-link
-              class="the-header__collapse-el3"
-              :class="{ 'is-expanded': isExpanded }"
-              to="/metodologia"
-            >
+              <p>Servicios</p>
+            </li>
+          </nuxt-link>
+          <nuxt-link
+            class="the-header__collapse-item my-4"
+            :class="{ 'is-expanded': isExpanded }"
+            to="/metodologia"
+          >
+            <li class="flex items-baseline">
               <fa-icon class="mx-4" :icon="['fas', 'cogs']" />
-              <p class="text-3xl">Metodología</p>
-            </nuxt-link>
-          </li>
-          <li class="my-4">
-            <nuxt-link
-              class="the-header__collapse-el4"
-              :class="{ 'is-expanded': isExpanded }"
-              to="/contacto"
-            >
+              <p>Metodología</p>
+            </li>
+          </nuxt-link>
+          <nuxt-link
+            class="the-header__collapse-item my-4"
+            :class="{ 'is-expanded': isExpanded }"
+            to="/contacto"
+          >
+            <li class="flex items-baseline">
               <fa-icon class="mx-4" :icon="['fas', 'handshake']" />
-              <p class="text-3xl">Contáctame</p>
-            </nuxt-link>
-          </li>
+              <p>Contáctame</p>
+            </li>
+          </nuxt-link>
         </ul>
       </nav>
     </button>
