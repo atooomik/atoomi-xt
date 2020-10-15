@@ -95,7 +95,6 @@ let modules = [
 ];
 
 const nuxtConfig = {
-  mode: "universal",
   buildModules: modules,
   head,
   css,
