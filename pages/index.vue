@@ -7,8 +7,8 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import TheHero from "../components/TheHero.vue";
-import Offer from "../components/MainOffer.vue";
+import TheHero from "~/components/TheHero.vue";
+import Offer from "~/components/MainOffer.vue";
 
 export default {
   components: {

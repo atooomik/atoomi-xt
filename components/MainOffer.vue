@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="contain min-h-adjust flex flex-col items-center lg:flex-row">
-      <div class="w-full lg:w-1/2 text-white text-center px-4 lg:text-left">
+      <div class="w-full lg:w-1/2 text-white text-left">
         <div class="my-8 text-4xl md:font-light md:text-5xl leading-tight">
           <p class="mb-4">Desarrollo</p>
           <p class="mb-4">estratégico</p>
